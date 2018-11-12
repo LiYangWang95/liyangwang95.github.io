@@ -44,7 +44,7 @@ ul.posts li {
     list-style: none;
 }
 
-div {
+div.container {
     font-family: monospace;
     color: #333;
     font-size: 1.5em;
