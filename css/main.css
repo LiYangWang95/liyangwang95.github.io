@@ -31,7 +31,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #999999;
+    border-top: 1px solid grey;
     font-size: .8em;
 }
 
@@ -48,5 +48,9 @@ ul.posts li {
     font-family: monospace;
     color: #333;
     font-size: 1.5em;
-    padding-top: 30px;
+    padding-top: 10px;
+}
+
+hr {
+    color: grey;
 }
