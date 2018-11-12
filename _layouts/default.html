@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+        <nav style ="text-align: right">
+            <ul>
+                <li><a style="float: left" href="/">HCI :: Li-Yang Wang</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/cv">CV</a></li>
+                <li><a href="/projects">Projects</a></li>
+            </ul>
+        </nav>
+              <hr>
+        <div class="container">
+              {{ content }}
+        </div><!-- /.container -->
+        <footer id = "footer">
+            <ul>
+                <li><a href="mailto:liyangwang95@gmail.com">Email</a></li>
+                <li><a href="https://www.facebook.com/wang.l.yang">FaceBook</a></li>
+          </ul>
+        </footer>
+      </body>
+    </html>
+  </html>
