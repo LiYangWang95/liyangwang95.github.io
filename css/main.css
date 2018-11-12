@@ -4,11 +4,11 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: monospace;
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 300%;
 }
 nav ul li, footer ul li {
     display: inline;
