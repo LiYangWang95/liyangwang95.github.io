@@ -1,0 +1,14 @@
+---
+layout: default
+title: About | HCI::Li-Yang Wang
+---
+# About
+## Li-Yang Wang                                                                                                                                         
+## Keywords: 
+CS, NCTU, Taiwan / HCI / Computer Engineering / Food
+## Bio:
+I'm a master student enrolled in the **Institute of Multimedia Engineering** of National Chiao-Tung University, Taiwan. My research area is **Human-Computer Interaction(HCI)**, mainly focused on exploring possible interaction between real world and the virtual world.
+
+I persued my bachelor's degree in the department of **Electrical Engineering and Computer Science** of NCTU, from which I gained EE-related knowledge such as circuit design. Since I switched to the area of Computer Science for my master's degree, I therefore consider myself more like a **computer engineer** rather than a software engineer or a computer scientist.
+
+Beside research, what I enjoy in my free time are reading and 
