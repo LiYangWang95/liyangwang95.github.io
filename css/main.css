@@ -63,11 +63,12 @@ hr {
 #footer {
     border-top: 1px solid #999;
     box-shadow: inset 0 15px 3px -16px #999;
-	width: 70%;
+	width: 100%;
     font-size: 70%;
 	position: fixed;
     height: 40px;
     bottom: 0px;
+    left: 0px;
     text-align: center;
     background-color: black;
     font-weight: bold;

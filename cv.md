@@ -31,7 +31,7 @@ Introduction to Computers and Programming, Dept. of Computer Science, NCTU
 
 # Skills
 ## Programming Language
-> C / C++ / C#
+> C, C++, Unity(C#)
 
 ## Knowledge & Skills
 > Arduino development<br>
