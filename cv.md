@@ -16,6 +16,10 @@ University of Illinois Urbana-Champaign, USA
 National Chiao-Tung University, Taiwan 
 
 # Experiences
+## 2019/3-present
+> **Field Application Engineer Intern**<br>
+Delta EMEA, Eindhoven, Netherlands
+
 ## 2018 Fall
 > **Teaching Assistant**<br>
 Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU
