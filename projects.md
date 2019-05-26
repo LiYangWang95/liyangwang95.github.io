@@ -9,7 +9,7 @@ boundless desert, and hunt down the preys. The player plays as the Khubilai Khan
 and experience the intense and fun of hunting by sitting on the horse-riding machine,
 and a bow-simulating hand-held device.
 <br>
-# VR in National Palace Musuem: Fisherman's Delight
+# [VR in National Palace Musuem: Fisherman's Delight](hunting.md)
 <br>
 This creation takes place at the Jinming Pool in the Song Dynasty. Back then it was a
 huge pool in the royal garden of Kaifeng; the royal family used to enjoy the beauty and
