@@ -16,7 +16,7 @@ University of Illinois Urbana-Champaign, USA
 National Chiao-Tung University, Taiwan 
 
 # Experiences
-## 2019/3-present
+## 2019/3-2019/7
 > **Field Application Engineer Intern**<br>
 Delta EMEA, Eindhoven, Netherlands
 
