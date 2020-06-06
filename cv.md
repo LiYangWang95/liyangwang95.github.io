@@ -7,22 +7,21 @@ title: CV |
 
 ## Master's Degree
 
-> **National Chiao-Tung University/  
-Institute of Multimedia Engineering**  
-  
-2017/9-present
+> **Institute of Multimedia Engineering**  
+National Chiao-Tung University  
+2017-present
 
 ## Bachelor's Degree
 
 > **EECS Undergraduate Honors Program**  
-National Chiao-Tung University, Taiwan  
-2013/9-2017/6  
+National Chiao-Tung University  
+2013-2017  
 
 ## Exchange Student Program
 
 > **Electrical and Computer Engineering**  
-University of Illinois Urbana-Champaign, USA  
-2016/8-2017/1  
+University of Illinois Urbana-Champaign  
+2016-2017  
 
 # Work Experiences
 
@@ -54,7 +53,8 @@ Introduction to Computers and Programming, Dept. of Computer Science, NCTU
 
 ## Knowledge & Skills
 
-> Arduino development  
+> Unity development  
+Arduino development  
 Basic use of Processing  
 3D modeling / printing
 
