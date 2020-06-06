@@ -44,18 +44,24 @@ OpenHCI Workshop 2018
 
 # Skills
 
-## Programming Language
+## Programming Languages
 
 > C, C++, Unity(C#)
 
 ## Knowledge & Skills
 
-> Unity development  
+> Interaction design
+Unity development  
 Arduino development  
-Basic use of Processing  
 3D modeling / printing
+Basic use of Processing  
 
-## Languages
+## Speaking Languages
 
 > English  
 Chinese
+
+## Certificates
+
+> TOEFL iBT 108/120  
+TOEIC 960/990  
