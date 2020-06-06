@@ -34,7 +34,7 @@ University of Illinois Urbana-Champaign
 
 > **2018 Fall**  
 Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU  
-> **2017 Fall, 2019 Fall**
+> **2017 Fall, 2019 Fall**  
 Introduction to Computers and Programming, Dept. of Computer Science, NCTU
 
 ## Chief Coordinator

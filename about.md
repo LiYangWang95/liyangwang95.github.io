@@ -8,7 +8,7 @@ title: About |
     height:80%;
     float: center;
     padding-right: 50px;
-    padding-top: 15px"
+    padding-top: 15px">
 
 # About
 
