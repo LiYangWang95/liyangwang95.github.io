@@ -3,13 +3,11 @@ layout: default
 title: About | 
 ---
 
-![Test](/images/IMG_2586_crop.jpg)
-
 <img src="/images/IMG_2586_crop.jpg"
     style="width:80%;
     height:80%;
     float: center;
-    padding-right: 50px;
+    padding-right: 100px;
     padding-top: 15px">
 
 # About
