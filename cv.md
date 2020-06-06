@@ -25,10 +25,10 @@ University of Illinois Urbana-Champaign
 
 # Work Experiences
 
-## 2019/3-2019/7
+## Field Application Engineer Intern
 
-> **Field Application Engineer Intern**  
-Delta EMEA, Eindhoven, Netherlands
+> **Delta EMEA, Eindhoven, Netherlands**  
+2019/3-2019/7
 
 ## 2018 Fall
 
