@@ -30,20 +30,17 @@ University of Illinois Urbana-Champaign
 > **Delta EMEA, Eindhoven, Netherlands**  
 2019/3-2019/7
 
-## 2018 Fall
+## Teaching Assistant
 
-> **Teaching Assistant**  
-Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU
-
-## 2018/1-2018/8
-
-> **Chief Coordinator**  
-OpenHCI Workshop 2018
-
-## 2017 Fall, 2019 Fall
-
-> **Teaching Assistant**  
+> **2018 Fall**  
+Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU  
+> **2017 Fall, 2019 Fall**
 Introduction to Computers and Programming, Dept. of Computer Science, NCTU
+
+## Chief Coordinator
+
+> **2018/1-2018/8**  
+OpenHCI Workshop 2018
 
 # Skills
 
