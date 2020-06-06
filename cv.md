@@ -7,43 +7,43 @@ title: CV |
 
 ## Master's Degree
 
-> **Institute of Multimedia Engineering**
-National Chiao-Tung University, Taiwan
+> **Institute of Multimedia Engineering**<br \>
+National Chiao-Tung University, Taiwan<br \>
 2017/9-present
 
 ## Bachelor's Degree
 
-> **EECS Undergraduate Honors Program**
+> **EECS Undergraduate Honors Program**<br \>
 
-National Chiao-Tung University, Taiwan
-2013/9-2017/6
+National Chiao-Tung University, Taiwan<br \>
+2013/9-2017/6  
 
 ## Exchange Student Program
 
-> **Electrical and Computer Engineering**
-University of Illinois Urbana-Champaign, USA
-2016/8-2017/1
+> **Electrical and Computer Engineering**<br \>
+University of Illinois Urbana-Champaign, USA<br \>
+2016/8-2017/1  
 
 # Work Experiences
 
 ## 2019/3-2019/7
 
-> **Field Application Engineer Intern**
+> **Field Application Engineer Intern**<br \>
 Delta EMEA, Eindhoven, Netherlands
 
 ## 2018 Fall
 
-> **Teaching Assistant**
+> **Teaching Assistant**<br \>
 Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU
 
 ## 2018/1-2018/8
 
-> **Chief Coordinator**
+> **Chief Coordinator**<br \>
 OpenHCI Workshop 2018
 
 ## 2017 Fall, 2019 Fall
 
-> **Teaching Assistant**
+> **Teaching Assistant**<br \>
 Introduction to Computers and Programming, Dept. of Computer Science, NCTU
 
 # Skills
@@ -54,11 +54,11 @@ Introduction to Computers and Programming, Dept. of Computer Science, NCTU
 
 ## Knowledge & Skills
 
-> Arduino development
-Basic use of Processing
-Basic 3D modeling / printing
+> Arduino development<br \>
+Basic use of Processing<br \>
+3D modeling / printing
 
 ## Languages
 
-> English
+> English<br \>
 Chinese
