@@ -7,14 +7,14 @@ title: CV |
 
 ## Master's Degree
 
-> **Institute of Multimedia Engineering**  
-National Chiao-Tung University, Taiwan  
+> **National Chiao-Tung University/  
+Institute of Multimedia Engineering**  
+  
 2017/9-present
 
 ## Bachelor's Degree
 
 > **EECS Undergraduate Honors Program**  
-
 National Chiao-Tung University, Taiwan  
 2013/9-2017/6  
 
