@@ -3,6 +3,9 @@ layout: default
 title: About | 
 ---
 
+![Test](IMG_2586_crop.jpg)
+Test
+
 <img src="/images/IMG_2586_crop.jpg"
     style="width:80%;
     height:80%;

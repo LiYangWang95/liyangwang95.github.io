@@ -8,19 +8,19 @@ title: CV |
 ## Master's Degree
 
 > **Institute of Multimedia Engineering**  
-National Chiao-Tung University  
+National Chiao-Tung University, Taiwan  
 2017-present
 
 ## Bachelor's Degree
 
 > **EECS Undergraduate Honors Program**  
-National Chiao-Tung University  
+National Chiao-Tung University, Taiwan  
 2013-2017  
 
 ## Exchange Student Program
 
 > **Electrical and Computer Engineering**  
-University of Illinois Urbana-Champaign  
+University of Illinois Urbana-Champaign, USA  
 2016-2017  
 
 # Work Experiences
@@ -50,7 +50,7 @@ OpenHCI Workshop 2018
 
 ## Knowledge & Skills
 
-> Interaction design
+> Interaction design  
 Unity development  
 Arduino development  
 3D modeling / printing
@@ -58,7 +58,7 @@ Basic use of Processing
 
 ## Speaking Languages
 
-> English  
+> English (Fluent)
 Chinese
 
 ## Certificates
