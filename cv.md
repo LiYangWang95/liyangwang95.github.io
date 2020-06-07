@@ -10,21 +10,30 @@ title: CV |
 > **Institute of Multimedia Engineering**  
 National Chiao-Tung University, Taiwan  
 2017-present  
->> Key Courses: User-Centered Interaction Design, Interaction Design and Virtual Reality, Computer Graphics  
+> **Key Courses:**  
+User-Centered Interaction Design  
+Interaction Design and Virtual Reality  
+Computer Graphics  
 
 ## Bachelor's Degree
 
 > **EECS Undergraduate Honors Program**  
 National Chiao-Tung University, Taiwan  
 2013-2017  
->> Key Courses: Computer Organization, Digital Signal Processing, Digital Image Processing, Database System
+> **Key Courses:**  
+Computer Organization  
+Digital Signal Processing  
+Digital Image Processing  
+Database System  
 
 ## Exchange Student Program
 
 > **Electrical and Computer Engineering**  
 University of Illinois Urbana-Champaign, USA  
 2016-2017  
->> Key Courses: Senior Design Project Lab, Logic Synthesis
+> **Key Courses:**  
+Senior Design Project Lab  
+Logic Synthesis  
 
 # Work Experiences
 
@@ -49,7 +58,7 @@ University of Illinois Urbana-Champaign, USA
 
 > **OpenHCI Workshop 2018**  
 2018/1-2018/8  
->> \- [OpenHCI 2018](https:www.openhci.com/2018/index.html)  
+>> \- Intro page: [OpenHCI 2018](https:www.openhci.com/2018/index.html)  
 
 # Skills
 
