@@ -27,22 +27,23 @@ University of Illinois Urbana-Champaign, USA
 
 ## Field Application Engineer Intern
 
+> -Refinement of pumping system regarding end-user interface  
+-
+
 > **Delta EMEA, Eindhoven, Netherlands**  
 2019/3-2019/7  
 
-- Refinement of pumping system regarding end-user interface
-
 ## Teaching Assistant
 
-> **2018 Fall**  
-Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU  
-> **2017 Fall, 2019 Fall**  
-Introduction to Computers and Programming, Dept. of Computer Science, NCTU
+> **Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU**  
+2018 Fall  
+> **Introduction to Computers and Programming, Dept. of Computer Science, NCTU**  
+2017 Fall, 2019 Fall
 
 ## Chief Coordinator
 
-> **2018/1-2018/8**  
-OpenHCI Workshop 2018
+> **OpenHCI Workshop 2018**
+2018/1-2018/8
 
 # Skills
 
