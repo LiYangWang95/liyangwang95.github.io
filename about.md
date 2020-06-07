@@ -7,7 +7,7 @@ title: About |
     style="width:80%;
     height:80%;
     float: center;
-    padding-right: 100px;
+    padding-left: 100px;
     padding-top: 15px">
 
 # About
