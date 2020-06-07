@@ -20,7 +20,7 @@ Computer Graphics
 > **EECS Undergraduate Honors Program**  
 National Chiao-Tung University, Taiwan  
 2013-2017  
-> **Key Courses:**  
+>> ***Key Courses:***  
 Computer Organization  
 Digital Signal Processing  
 Digital Image Processing  
@@ -31,7 +31,7 @@ Database System
 > **Electrical and Computer Engineering**  
 University of Illinois Urbana-Champaign, USA  
 2016-2017  
-> **Key Courses:**  
+>> ***Key Courses:***  
 Senior Design Project Lab  
 Logic Synthesis  
 
