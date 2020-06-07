@@ -25,13 +25,15 @@ University of Illinois Urbana-Champaign, USA
 
 # Work Experiences
 
-## Field Application Engineer Intern  
-
-> -Refinement of pumping system regarding end-user interface  
--
+## Field Application Engineer Intern
 
 > **Delta EMEA, Eindhoven, Netherlands**  
 2019/3-2019/7  
+
+*Refined the end-user interface of a intelligent pumping system solution*  
+*Attended the GreenTech 2019 as exhibitor @Amsterdam RAI*  
+*Technical customer support -firmware update*  
+*Creating and translating technical documents within the field*  
 
 ## Teaching Assistant
 
