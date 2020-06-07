@@ -4,10 +4,9 @@ title: About |
 ---
 
 <img src="/images/IMG_2586_crop.jpg"
-    style="width:80%;
-    height:80%;
-    float: center;
-    padding-left: 100px;
+    style="width: 80%;
+    height: 80%;
+    left: 50%;
     padding-top: 15px">
 
 # About
