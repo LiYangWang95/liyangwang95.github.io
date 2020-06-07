@@ -10,7 +10,7 @@ title: CV |
 > **Institute of Multimedia Engineering**  
 National Chiao-Tung University, Taiwan  
 2017-present  
-\\  
+&nbsp;
 > *Key Courses: User-Centered Interaction Design, Interaction Design and Virtual Reality, Computer Graphics*  
 
 ## Bachelor's Degree
