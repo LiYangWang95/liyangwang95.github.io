@@ -25,7 +25,7 @@ University of Illinois Urbana-Champaign, USA
 
 # Work Experiences
 
-## Field Application Engineer Intern
+## Field Application Engineer Intern  
 
 > -Refinement of pumping system regarding end-user interface  
 -
@@ -37,12 +37,14 @@ University of Illinois Urbana-Champaign, USA
 
 > **Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU**  
 2018 Fall  
+
 > **Introduction to Computers and Programming, Dept. of Computer Science, NCTU**  
-2017 Fall, 2019 Fall
+2017 Fall, 2019 Fall  
+
 
 ## Chief Coordinator
 
-> **OpenHCI Workshop 2018**
+> **OpenHCI Workshop 2018**  
 2018/1-2018/8
 
 # Skills
