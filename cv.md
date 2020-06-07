@@ -28,7 +28,9 @@ University of Illinois Urbana-Champaign, USA
 ## Field Application Engineer Intern
 
 > **Delta EMEA, Eindhoven, Netherlands**  
-2019/3-2019/7
+2019/3-2019/7  
+
+- Refinement of pumping system regarding end-user interface
 
 ## Teaching Assistant
 
