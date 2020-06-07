@@ -5,9 +5,8 @@ title: About |
 
 <img src="/images/IMG_2586_crop.jpg"
     style="width: 80%;
-    position: absolute;
     height: 80%;
-    left: 50%;
+    padding-left: 100px;
     padding-top: 15px">
 
 # About
