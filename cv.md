@@ -30,20 +30,17 @@ University of Illinois Urbana-Champaign, USA
 > **Delta EMEA, Eindhoven, Netherlands**  
 2019/3-2019/7  
 
->*Refined the end-user interface of a intelligent pumping system solution*  
-*Attended the GreenTech 2019 as exhibitor @Amsterdam RAI*  
-*Technical customer support -firmware update*  
-*Creating and translating technical documents within the field*  
-
+>* Refined the end-user interface of a intelligent pumping system solution  
+* Attended the GreenTech 2019 as exhibitor @Amsterdam RAI  
+* Technical customer support -firmware update  
+* Creating and translating technical documents within the field  
 
 ## Teaching Assistant
 
 > **Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU**  
 2018 Fall  
-
 > **Introduction to Computers and Programming, Dept. of Computer Science, NCTU**  
 2017 Fall, 2019 Fall  
-
 
 ## Chief Coordinator
 
@@ -68,7 +65,6 @@ Basic use of Processing
 
 > English (Fluent)  
 Chinese (Native)  
-
 
 ## Certificates
 
