@@ -49,6 +49,15 @@ University of Illinois Urbana-Champaign, USA
 > **Introduction to Computers and Programming, Dept. of Computer Science, NCTU**  
 2017 Fall, 2019 Fall  
 
+# Extracurricular Activities
+
+## Exhibitor
+
+> **SIGGRAPH ASIA 2019**
+2019/11  
+&nbsp;  
+> \- Best Demo Voted By Attendees: Enhancing Suspension Activities in Virtual Reality with Body-Scale Kinesthetic Force Feedbacks  
+
 ## Chief Coordinator
 
 > **OpenHCI Workshop 2018**  
