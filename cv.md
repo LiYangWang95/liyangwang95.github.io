@@ -53,7 +53,7 @@ University of Illinois Urbana-Champaign, USA
 
 ## Exhibitor
 
-> **SIGGRAPH ASIA 2019**
+> **SIGGRAPH ASIA 2019**  
 2019/11  
 &nbsp;  
 > \- Best Demo Voted By Attendees: Enhancing Suspension Activities in Virtual Reality with Body-Scale Kinesthetic Force Feedbacks  
