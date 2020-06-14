@@ -19,8 +19,6 @@ title: Project |
         >
     </iframe>
 </div>  
-&nbsp;  
-&nbsp;  
 We present FaceWidgets, a device integrated with the backside of a head-mounted display (HMD) that enables tangible interactions using physical controls. To allow for near range-to-eye interactions, our first study suggested displaying the virtual widgets at 20 cm from the eye positions, which is 9 cm from the HMD backside.  
 &nbsp;  
 We propose two novel interactions, widget canvas and palm-facing gesture, that can help users avoid double vision and allow them to access the interface as needed. Our second study showed that displaying a hand reference improved performance of face widgets interactions. We developed two applications of FaceWidgets, a fixed-layout 360 video player and a contextual input for smart home control.  

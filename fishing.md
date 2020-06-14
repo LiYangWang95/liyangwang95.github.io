@@ -19,8 +19,6 @@ title: Projects |
         >
     </iframe>
 </div>
-&nbsp;  
-&nbsp;  
 This creation takes place at the Jinming Pool in the Song Dynasty. Back then it was a
 huge pool in the royal garden of Kaifeng; the royal family used to enjoy the beauty and
 fish by the pool bank. In our showcase the player becomes a member of the imperial family,
