@@ -2,13 +2,14 @@
 layout: default
 title: Projects | 
 ---
-
-<img src = "/images/huntingCover.jpg"
+<a href="/hunting.md">
+    <img src = "/images/huntingCover.jpg"
         style = "float: left;
                 overflow: auto;
                 width: 20%;
                 height: 20%;
                 padding-right: 10px">
+</a>
 
 # [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
 
