@@ -100,7 +100,6 @@ hr {
     padding: 2%;
     overflow: auto;
     font-size: 1.5em;
-    vertical-align: middle;
 }
 .projectBox .projectImg{
     float: left;
@@ -108,5 +107,4 @@ hr {
     width: 35%;
     height: 35%;
     padding-right: 3%;
-    padding-top: 2%;
 }
