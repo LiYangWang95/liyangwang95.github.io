@@ -3,7 +3,7 @@ layout: default
 title: Projects | 
 ---
 
-## [FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays]
+## [FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays](faceWidget.md)
 
 <div
     class = "projectBox">
