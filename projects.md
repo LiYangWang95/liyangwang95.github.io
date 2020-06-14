@@ -6,15 +6,17 @@ title: Projects |
     style = "border: 3px solid #333;
             padding: 5px;
             overflow: auto;
-            font-size: 3em;">
+            font-size: 3em;
+            font-weight: bold;">
     <img src = "/images/huntingCover.jpg"
         style = "float: left;
                 overflow: auto;
                 width: 50%;
                 height: 50%;
-                padding-right: 5%">
+                padding-right: 3%;">
 
-VR in National Palace Musuem: Hunting for Khubilai Khan  
+VR in National Palace Musuem:  
+Hunting for Khubilai Khan  
 
 </div>
 
