@@ -106,7 +106,6 @@ hr {
     text-align: justify;
 }
 .projectBox .projectImg{
-    width: 35%;
-    height: 35%;
+    max-width: 100%;
     vertical-align: middle;
 }
