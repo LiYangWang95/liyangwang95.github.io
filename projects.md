@@ -3,6 +3,18 @@ layout: default
 title: Projects | 
 ---
 
+## [FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays]
+
+<div
+    class = "projectBox">
+    <img
+        src = "/images/faceWidgets/faceWidgetsCover.jpg"
+        class = "projectImg">
+
+[UIST '19 @ New Orleans] FaceWidgets is a novel HMD that integrates physical controls with a lift extender on the backside allowing for the direct manipulation for the VR interaction. We designed two novel interactions to enhance direct manipulation and conducted three user studies to inform the design on the HMD backside.  
+
+</div>
+
 ## [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
 
 <div
