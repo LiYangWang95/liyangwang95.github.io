@@ -6,10 +6,9 @@ title: Projects |
 ## [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
 
 <div
-    class = "projectBox text">
+    class = "projectBox text projectImg">
     <img
-        src = "/images/hunting/huntingCover.jpg"
-        class = "projectImg">
+        src = "/images/hunting/huntingCover.jpg">
 
 The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the
  boundless desert, and hunt down the preys. The player plays as the Khubilai Khan,
@@ -21,14 +20,13 @@ The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the
 ## [VR in National Palace Musuem: Fisherman's Delight](fishing.md)
 
 <div
-    class = "projectBox text">
+    class = "projectBox text projectImg">
     <img
-        src = "/images/fishing/fishingCover.png"
-        class = "projectImg">
+        src = "/images/fishing/fishingCover.png">
 
 This creation takes place at the Jinming Pool in the Song Dynasty. Back then it was a
 huge pool in the royal garden of Kaifeng; the royal family used to enjoy the beauty and
 fish by the pool bank. In our showcase the player becomes a member of the imperial family,
-and fish leisurely with actually feeling of the fishes' struggle.  
+and fish leisurely with actually feeling of the fish's struggle.  
 
 </div>
