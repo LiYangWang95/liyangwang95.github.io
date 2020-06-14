@@ -2,6 +2,9 @@
 layout: default
 title: Projects | 
 ---
+
+<div>
+
 <img src = "/images/huntingCover.jpg"
         style = "float: left;
                 overflow: auto;
@@ -14,6 +17,8 @@ title: Projects |
 boundless desert, and hunt down the preys. The player plays as the Khubilai Khan,
 and experience the intense and fun of hunting by sitting on the horse-riding machine,
 and a bow-simulating hand-held device.  
+
+</div>
 
 # [VR in National Palace Musuem: Fisherman's Delight](fishing.md)
 
