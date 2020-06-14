@@ -17,8 +17,38 @@ title: Projects |
         margin-right = "auto"
         >
     </iframe>
-</div>
-This creation takes place at the Jinming Pool in the Song Dynasty. Back then it was a
-huge pool in the royal garden of Kaifeng; the royal family used to enjoy the beauty and
-fish by the pool bank. In our showcase the player becomes a member of the imperial family,
-and fish leisurely with actually feeling of the fishes' struggle.  
+</div>  
+&nbsp;  
+"Fishermen’s Delights VR Installation" is a game that builds bridges between the collections of National Palace Museum and people. We hope that everyone have a chance to learn about the collections by providing this game. Different from other angling competition games, "Fishermen's Delights VR Installation" is a redesigned VR somatosensory device that allows players to enjoy fishing and the scene in the royal garden. It gives another way for people to enjoy the time in museum, to appreciate the collection in National Palace Museum and to discover its specialty of through this “real” participation.  
+&nbsp;  
+<div
+    class = "projectBox">
+  <table>
+    <tr>
+        <th
+        class = "textColumn">
+            The fishing rod has direction sensors, which correspond to the player's hand position in the game. Above the fishing rod, the turntable, which stimulates swings of different weights, gives somatosensory feedback through distributing weight and varying the rotational speed of the turntable.  
+      </th>
+      <th
+        class = "imageColumn">
+        <img
+            src = "/images/fishing/fishingPlaying.jpg"
+            class = "projectImg">
+      </th>
+    </tr>
+  </table>
+</div>  
+&nbsp;  
+As the fish is on the hook, the player immediately turns the handle grip clockwise to reel back in. It is the stage to pull the fish. The swimming direction and distance of fish gives the player corresponding swing feedback.  
+&nbsp;  
+When the player takes a line for a while, the fish will be caught and cooked into a delectable dish. The games allows the player to experience that how people in Sung dynasty go fishing in Jin Ming Pool. The ending shows the hospitality of serving the fish dish.  
+&nbsp;  
+&nbsp;  
+
+## Creators  
+
+Chun-Cheng Hsu (Professor, Institute of Applied Arts, NCTU), Liwei Chan (Associate Professor, Institute of Computer Science, NCTU), Cheng-Chieh Tsai, Hsin-Ju Chen, Yi-Tzu Hsiao, Hsin-Yu Yao, Wen-Jie Tseng, Yi-Chen Lee, Li-Yang Wang  
+
+## Exhibition Website  
+
+[Techathon - NPM x NCTU](https://theme.npm.edu.tw/exh107/NPMxNCTU/en/page-2.html#main)  
