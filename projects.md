@@ -10,6 +10,7 @@ title: Projects |
     <img
         src = "/images/huntingCover.jpg"
         class = "projectImg">
+    </img>
 
 The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the
 boundless desert, and hunt down the preys. The player plays as the Khubilai Khan,
