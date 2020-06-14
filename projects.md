@@ -3,19 +3,13 @@ layout: default
 title: Projects | 
 ---
 
-# VR in National Palace Musuem: Hunting for Khubilai Khan(hunting.md)
+# [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
 
 <div
-    style = "border: 3px solid #333;
-            padding: 5px;
-            overflow: auto;
-            font-size: 1.5em;">
-    <img src = "/images/huntingCover.jpg"
-        style = "float: left;
-                overflow: auto;
-                width: 30%;
-                height: 30%;
-                padding: 3%;">
+    class = "projectBox">
+    <img
+        src = "/images/huntingCover.jpg"
+        class = "projectImg">
 
 The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the
 boundless desert, and hunt down the preys. The player plays as the Khubilai Khan,
