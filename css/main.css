@@ -98,10 +98,10 @@ hr {
 
 .projectBox{
     display: inline-block;
-    width: 100%;
     padding: 2%;
     overflow: auto;
     font-size: 1.5em;
+    font-weight: normal;
     line-height: 1.5em;
     vertical-align: middle;
     text-align: justify;
