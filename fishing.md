@@ -30,8 +30,9 @@ title: Projects |
                 height: 25%;"
         src = "/images/fishing/fishingPlaying.jpg"
         >
+    The fishing rod has direction sensors, which correspond to the player's hand position in the game. Above the fishing rod, the turntable, which stimulates swings of different weights, gives somatosensory feedback through distributing weight and varying the rotational speed of the turntable.  
 </div>
-The fishing rod has direction sensors, which correspond to the player's hand position in the game. Above the fishing rod, the turntable, which stimulates swings of different weights, gives somatosensory feedback through distributing weight and varying the rotational speed of the turntable.  
+  
 
 &nbsp;  
 As the fish is on the hook, the player immediately turns the handle grip clockwise to reel back in. It is the stage to pull the fish. The swimming direction and distance of fish gives the player corresponding swing feedback.  
