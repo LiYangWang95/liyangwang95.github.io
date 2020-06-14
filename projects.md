@@ -10,11 +10,12 @@ title: Projects |
         <img
             src = "/images/faceWidgets/faceWidgetsCover.jpg"
             class = "projectImg">
+        <td width="750px" valigh="middle" >
+            [UIST '19 @ New Orleans] FaceWidgets is a novel HMD that integrates physical controls with a lift extender on the backside allowing for the direct manipulation for the VR interaction. We designed two novel interactions to enhance direct manipulation and conducted three user studies to inform the design on the HMD backside.  
+        </td>
     </div>
 </td>
-<td width="750px" valigh="middle" >
-    [UIST '19 @ New Orleans] FaceWidgets is a novel HMD that integrates physical controls with a lift extender on the backside allowing for the direct manipulation for the VR interaction. We designed two novel interactions to enhance direct manipulation and conducted three user studies to inform the design on the HMD backside.  
-</td>
+
 
 <div
     class = "projectBox">
