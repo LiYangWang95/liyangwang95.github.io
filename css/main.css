@@ -98,6 +98,8 @@ hr {
 
 .projectBox{
     display: inline-block;
+    width: 100%;
+    height: 30%;
     padding: 2%;
     overflow: auto;
     font-size: 1.5em;
