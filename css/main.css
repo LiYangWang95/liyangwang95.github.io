@@ -103,6 +103,7 @@ hr {
 }
 .projectBox .projectImg{
     max-width: 80%;
+    max-height: 80%;
     vertical-align: middle;
     padding: 1%;
 }
