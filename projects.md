@@ -2,12 +2,9 @@
 layout: default
 title: Projects | 
 ---
-<div
-    style = "border: 3px solid #333;
-            padding: 5px;
-            overflow: auto">
-    <img src = "/images/huntingCover.jpg"
-        style = "float: left;">
+<img src = "/images/huntingCover.jpg"
+        style = "float: left;
+                overflow: auto">
 
 # [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
 
@@ -15,8 +12,6 @@ title: Projects |
 boundless desert, and hunt down the preys. The player plays as the Khubilai Khan,
 and experience the intense and fun of hunting by sitting on the horse-riding machine,
 and a bow-simulating hand-held device.  
-
-</div>
 
 # [VR in National Palace Musuem: Fisherman's Delight](fishing.md)
 
