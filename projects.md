@@ -5,7 +5,7 @@ title: Projects |
 <div
     style = "border: 3px solid #333;
             padding: 5px;
-            overflow: auto
+            overflow: auto;
             font-size: 3em;">
     <img src = "/images/huntingCover.jpg"
         style = "float: left;
