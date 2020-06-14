@@ -5,7 +5,6 @@ title: Project |
 
 # FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays
 &nbsp;  
-&nbsp;  
 <div class="video-container">
     <iframe
         width="640"

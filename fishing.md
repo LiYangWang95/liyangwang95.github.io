@@ -5,7 +5,6 @@ title: Projects |
 
 # VR in National Palace Musuem: Fisherman's Delight
 &nbsp;  
-&nbsp;  
 <div class="video-container">
     <iframe
         width="640"
