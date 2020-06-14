@@ -21,7 +21,7 @@ The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the
 ## [VR in National Palace Musuem: Fisherman's Delight](fishing.md)
 
 <div
-    class = "projectBox">
+    class = "projectBox text">
     <img
         src = "/images/fishing/fishingCover.png"
         class = "projectImg">
