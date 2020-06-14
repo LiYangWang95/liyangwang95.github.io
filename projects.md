@@ -3,6 +3,8 @@ layout: default
 title: Projects | 
 ---
 
+# Projects  
+
 ## [Push-Ups: Enhancing Kinesthetic Experience with Shape-Forming Devices on the Feet Soles](pushUps.md)
 
 <div
