@@ -3,7 +3,7 @@ layout: default
 title: Projects | 
 ---
 
-# [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
+## [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
 
 <div
     class = "projectBox">
