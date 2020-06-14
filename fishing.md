@@ -22,22 +22,17 @@ title: Projects |
 "Fishermen’s Delights VR Installation" is a game that builds bridges between the collections of National Palace Museum and people. We hope that everyone have a chance to learn about the collections by providing this game. Different from other angling competition games, "Fishermen's Delights VR Installation" is a redesigned VR somatosensory device that allows players to enjoy fishing and the scene in the royal garden. It gives another way for people to enjoy the time in museum, to appreciate the collection in National Palace Museum and to discover its specialty of through this “real” participation.  
 &nbsp;  
 <div
-    class = "projectBox">
-  <table>
-    <tr>
-        <th
-        class = "textColumn">
-            The fishing rod has direction sensors, which correspond to the player's hand position in the game. Above the fishing rod, the turntable, which stimulates swings of different weights, gives somatosensory feedback through distributing weight and varying the rotational speed of the turntable.  
-      </th>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/fishing/fishingPlaying.jpg"
-            class = "projectImg">
-      </th>
-    </tr>
-  </table>
-</div>  
+    style = "overflow: auto;"
+    >
+    <img
+        style = "float: right;
+                width: 25%;
+                height: 25%;"
+        src = "/images/fishing/fishingPlaying.jpg"
+        >
+</div>
+The fishing rod has direction sensors, which correspond to the player's hand position in the game. Above the fishing rod, the turntable, which stimulates swings of different weights, gives somatosensory feedback through distributing weight and varying the rotational speed of the turntable.  
+
 &nbsp;  
 As the fish is on the hook, the player immediately turns the handle grip clockwise to reel back in. It is the stage to pull the fish. The swimming direction and distance of fish gives the player corresponding swing feedback.  
 &nbsp;  
