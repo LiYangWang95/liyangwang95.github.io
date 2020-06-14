@@ -27,7 +27,7 @@ h1 {
 }
 p {
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.4em;
     color: #333;
 }
 
@@ -113,8 +113,8 @@ hr {
 .projectBox .textColumn{
     width: 75%;
     text-align: justify;
-    font-size: 2em;
-    line-height: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.4em;
     font-weight: normal;
     padding-left: 10px;
 }
