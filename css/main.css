@@ -104,9 +104,11 @@ hr {
 }
 .projectBox .projectImg{
     float: left;
+    position: relative;
     overflow: auto;
     width: 35%;
     height: 35%;
     padding-right: 3%;
-    vertical-align: middle;
+    top: 1%;
+    bottom: 1%;
 }

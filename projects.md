@@ -23,7 +23,7 @@ The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the
 <div
     class = "projectBox">
     <img
-        src = "/images/fishing/fishingCover.jpg"
+        src = "/images/fishing/fishingCover.png"
         class = "projectImg">
 
 This creation takes place at the Jinming Pool in the Song Dynasty. Back then it was a
