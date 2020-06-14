@@ -2,7 +2,7 @@
 layout: default
 title: Projects | 
 ---
-<a href="/hunting.md">
+<a href="/hunting.html">
     <img src = "/images/huntingCover.jpg"
         style = "float: left;
                 overflow: auto;
