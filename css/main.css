@@ -99,19 +99,20 @@ hr {
 .projectBox{
     padding: 2%;
     overflow: auto;
-    line-height: 1.5em;
     vertical-align: middle;
 }
 .projectBox .projectImg{
     max-width: 100%;
     vertical-align: middle;
+    padding: 2%;
 }
 .projectBox .imageColumn{
-    width: 35%;
+    width: 25%;
 }
 .projectBox .textColumn{
-    width: 65%;
+    width: 75%;
     text-align: justify;
     font-size: 1.5em;
+    line-height: 1.5em;
     font-weight: normal;
 }
