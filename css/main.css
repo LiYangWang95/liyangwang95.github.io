@@ -101,7 +101,6 @@ hr {
     overflow: auto;
 }
 .projectBox .text{
-    display: inline-block;
     font-size: 1.5em;
     text-align: justify;
     vertical-align: middle;
