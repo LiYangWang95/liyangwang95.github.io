@@ -101,6 +101,7 @@ hr {
     overflow: auto;
     font-size: 1.5em;
     vertical-align: middle;
+    text-align: justify;
 }
 .projectBox .projectImg{
     float: left;
