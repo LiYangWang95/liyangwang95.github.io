@@ -8,7 +8,7 @@ title: Projects |
 <div
     class = "projectBox">
     <img
-        src = "/images/huntingCover.jpg"
+        src = "/images/hunting/huntingCover.jpg"
         class = "projectImg">
 
 The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the
