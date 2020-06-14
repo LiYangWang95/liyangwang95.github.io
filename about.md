@@ -3,7 +3,7 @@ layout: default
 title: About | 
 ---
 
-<img src="/images/IMG_2586_crop.jpg"
+<img src="/images/about/IMG_2586_crop.jpg"
     style="width: 80%;
     height: 80%;
     display: block;
