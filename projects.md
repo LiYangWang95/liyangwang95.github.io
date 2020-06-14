@@ -6,7 +6,7 @@ title: Projects |
 ## [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
 
 <div
-    class = "projectBox">
+    class = "projectBox text">
     <img
         src = "/images/hunting/huntingCover.jpg"
         class = "projectImg">
