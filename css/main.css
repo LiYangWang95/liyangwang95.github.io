@@ -80,9 +80,6 @@ hr {
 /* Credit: jaicab @github */
 .video-container {
     position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 56.25%; /*16:9*/
     padding-top: 30px; 
     height: 0; 
@@ -94,6 +91,9 @@ hr {
 .video-container object,
 .video-container embed {
     position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     top: 0;
     left: 0;
     width: 80%;
