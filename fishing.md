@@ -29,14 +29,27 @@ title: Projects |
             margin-left: auto;
             margin-right: auto"
     src = "/images/fishing/fishingPlaying.jpg">
-
 <div
-    class="gallery">
-    <img
-        src="/images/fishing/fishingPlaying.jpg"
-        style = "width: 48%;
-                height: auto;"
-        >
+    style = "display: block;
+            margin-left: auto;
+            margin-right: auto;"
+            >
+    <div
+        class="gallery">
+        <img
+            src="/images/fishing/fishingPlaying.jpg"
+            style = "width: 48%;
+                    height: auto;"
+            >
+    </div>
+    <div
+        class="gallery">
+        <img
+            src="/images/fishing/fishingRod.png"
+            style = "width: 48%;
+                    height: auto;"
+            >
+    </div>
 </div>
 
 &nbsp;  
