@@ -8,8 +8,8 @@ title: Projects |
 &nbsp;  
 <img
     src = "/images/intern/IPCMachine.png"
-    style = "width = 60%;
-            height = auto;"
+    style = "width = 30%;
+            height = 30%;"
     >
 &nbsp;  
 
@@ -19,7 +19,7 @@ The intention is to create a user-friendly interface for end users. The system i
 &nbsp;  
 This user-friendly version will be simple for the user to operate; with the knowledge that the ultimate goal of the multi-pump system is providing a stable output flow, the user can simply walk up to the control panel and enter the target flow. The system can immediately start to operate and be adjusted to the desired value within a short time interval, no additional controls are needed. Beside that, the system also provides live monitoring of working pumps and the output time chart for the user to quickly understand how the system is working at the moment.  
 &nbsp;  
-The multi-pump system comprises 4 pumps, 2 VFDs CP2000, and 1 HMI DOP-W127B. It is installed with a water tube, and tested inside the laboratory of Delta Electronics Eindhoven office.
+The multi-pump system comprises 4 pumps, 2 VFDs CP2000, and 1 HMI DOP-W127B. It is installed with a water tube, and tested inside the laboratory of Delta Electronics Eindhoven office.  
 &nbsp;  
 
 ## Identifying Key Elements
@@ -29,7 +29,6 @@ When it comes to motor controls, there are a number of parameters that affects t
 Considering the tasks that will be assigned to the system, measuring the flow in the pipe is necessary. Thus the key parameters I identified are a) the RPM values of each motor, and b) the current output flow rate.  
 &nbsp;  
 Judging from the research, the parameters and controls I put in the menu bar are:  
-&nbsp;  
 > a) Operation status  
 b) Motor working frequency  
 c) Operation mode  
@@ -77,6 +76,6 @@ f) Run/stop button
 
 Kevin Lu, Victor Ogedegbe, Ufuk Ozer, Vladimir Pana
 
-## Cooperating Company Website  
+## Company Website  
 
-[ZappaWheels](https://www.zappawheels.com)  
+[Delta EMEA](http://www.delta-emea.com)  
