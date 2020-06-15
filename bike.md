@@ -32,18 +32,13 @@ Although wearing safety gear such as helmets can reduce these fatalities, an aut
 
 Our proposed design will be different from current available designs in several aspects. The design will include automatic brake light control and automatic turn light shutoff. The system will also be very power efficient allowing for extremely long run times between recharge. The design should be compact to facilitate quick and easy removal for battery recharge.  
 &nbsp;  
-First of all, the mentioned features are currently not available in other solutions on the market. Secondly, the cost of all the components used in our design must be low. This low production cost combined with our unique features will make our design extremely marketable.
+First of all, the mentioned features are currently not available in other solutions on the market. Secondly, the cost of all the components used in our design must be low. This low production cost combined with our unique features will make our design extremely marketable.  
 &nbsp;  
 
 ## Operaing Footage  
 
 <div
     class = "projectBox"
-    style = "font-weight: normal;
-            text-align: justify;
-            padding-top: 3px;
-            padding-left: 2px;
-            padding-right: 10px;"
     >
     <table>
         <tr>
@@ -85,19 +80,31 @@ First of all, the mentioned features are currently not available in other soluti
         <th
             style = "width: 39%;
                     height: auto;
-                    ">
+                    font-weight: normal;
+                    text-align: justify;
+                    padding-top: 3px;
+                    padding-left: 2px;
+                    padding-right: 10px;">
             Light altomatically turned off after turn and return to probe mode.  
         </th>
         <th
             style = "width: 39%;
                     height: auto;
-                    ">
+                    font-weight: normal;
+                    text-align: justify;
+                    padding-top: 3px;
+                    padding-left: 2px;
+                    padding-right: 10px;">
             Light altomatically turned off after completing the turn.  
         </th>
         <th
             style = "width: 22%;
                     height: auto;
-                    ">
+                    font-weight: normal;
+                    text-align: justify;
+                    padding-top: 3px;
+                    padding-left: 2px;
+                    padding-right: 10px;">
             Light altomatically turned on when braking.  
         </th>
         </tr>
