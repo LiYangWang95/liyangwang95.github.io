@@ -32,7 +32,7 @@ title: Projects |
             <th
                 class = "imageColumn">
                 <img
-                    src = "/images/pushUps/pushUpsCover.png"
+                    src = "/images/fishing/fishingPlaying.jpg"
                     class = "img">
             </th>
         </tr>
