@@ -24,7 +24,6 @@ title: Projects |
 
 <div
     class = "projectBox"
-    style = "display: flex"
     >
     <table>
         <tr>
@@ -35,9 +34,7 @@ title: Projects |
                 src = "/images/fishing/fishingPlaying.jpg"
                 style = "max-width: 100%;
                         max-height: 100%;
-                        vertical-align: middle;
-                        overflow: hidden;
-                        flex: calc(3520/5820); "
+                        vertical-align: middle;"
                 >
         </th>
         <th
@@ -47,9 +44,7 @@ title: Projects |
                 src = "/images/fishing/fishingRod.png"
                 style = "max-width: 100%;
                         max-height: 100%;
-                        vertical-align: middle;
-                        overflow: hidden;
-                        flex: calc(878/1170);"
+                        vertical-align: middle;"
                 >
         </th>
         </tr>
