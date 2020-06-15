@@ -30,37 +30,23 @@ title: Projects |
             style = "width: 50%;">
             <img
                 src = "/images/fishing/fishingPlaying.jpg"
-                class = "projectImg">
+                style = "max-width: 100%;
+                        max-height: 100%;
+                        vertical-align: middle;"
+                >
         </th>
         <th
             style = "width: 50%;">
             <img
                 src = "/images/fishing/fishingRod.png"
-                class = "projectImg">
+                style = "max-width: 100%;
+                        max-height: 100%;
+                        vertical-align: middle;"
+                >
         </th>
         </tr>
     </table>
 </div>
-
-<img
-    style = "width: 48%;
-            height: 48%;
-            display: block;
-            float: left;
-            margin-left: auto;
-            margin-right: auto"
-    src = "/images/fishing/fishingPlaying.jpg"
-    >
-
-<img
-    style = "width: 48%;
-            height: 48%;
-            display: block;
-            float: right;
-            margin-left: auto;
-            margin-right: auto"
-    src = "/images/fishing/fishingRod.png"
-    >
 
 &nbsp;  
 The fishing rod has direction sensors, which correspond to the player's hand position in the game. Above the fishing rod, the turntable, which stimulates swings of different weights, gives somatosensory feedback through distributing weight and varying the rotational speed of the turntable.  
