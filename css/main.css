@@ -122,28 +122,3 @@ hr {
     font-weight: normal;
     padding-left: 10px;
 }
-
-.projectIntroBox{
-    overflow: auto;
-    vertical-align: middle;
-}
-.projectIntroBox .img{
-    max-width: 80%;
-    max-height: 80%;
-    vertical-align: middle;
-}
-.projectIntroBox .imageColumn{
-    width: 40%;
-}
-.projectIntroBox .sideColumn{
-    width: 60%;
-}
-.projectIntroBox .singleColumn{
-    width: 100%;
-}
-.projectIntroBox .introText{
-    text-align: justify;
-    font-size: 1.2em;
-    line-height: 1.4em;
-    font-weight: normal;
-}
