@@ -47,7 +47,7 @@ First of all, the mentioned features are currently not available in other soluti
                     height: 33%;">
             <img
                 src = "/images/bike/turnProbe.gif"
-                alt = "Light altomatically turned off after turn and return to probe mode."
+                alt = "Light automatically turned off after turn and return to probe mode."
                 style = "max-width: 95%;
                         max-height: 95%;
                         vertical-align: middle;"
@@ -58,7 +58,7 @@ First of all, the mentioned features are currently not available in other soluti
                     height: 33%;">
             <img
                 src = "/images/bike/turn.gif"
-                alt = "Light altomatically turned off after turn."
+                alt = "Light automatically turned off after turn."
                 style = "max-width: 95%;
                         max-height: 95%;
                         vertical-align: middle;"
@@ -69,7 +69,7 @@ First of all, the mentioned features are currently not available in other soluti
                     height: 33%;">
             <img
                 src = "/images/bike/brake.gif"
-                alt = "Light altomatically turned on when braking."
+                alt = "Light automatically turned on when braking."
                 style = "max-width: 95%;
                         max-height: 95%;
                         vertical-align: middle;"
@@ -87,7 +87,7 @@ First of all, the mentioned features are currently not available in other soluti
                     font-size: 1.2em;
                     line-height: 1.4em;
                     padding-right: 8px;">
-            Light altomatically turned off after turn and return to probe mode.  
+            Light automatically turns off after turn and return to probe mode.  
         </th>
         <th
             style = "width: 39%;
@@ -99,7 +99,7 @@ First of all, the mentioned features are currently not available in other soluti
                     font-size: 1.2em;
                     line-height: 1.4em;
                     padding-right: 8px;">
-            Light altomatically turned off after completing the turn.  
+            Light automatically turns off after completing the turn.  
         </th>
         <th
             style = "width: 22%;
@@ -111,7 +111,7 @@ First of all, the mentioned features are currently not available in other soluti
                     padding-right: 8px;
                     font-size: 1.2em;
                     line-height: 1.4em;">
-            Light altomatically turned on when braking.  
+            Light automatically turns on when braking.  
         </th>
         </tr>
     </table>
