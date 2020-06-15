@@ -22,6 +22,26 @@ title: Projects |
 "Fishermen’s Delights VR Installation" is a game that builds bridges between the collections of National Palace Museum and people. We hope that everyone have a chance to learn about the collections by providing this game. Different from other angling competition games, "Fishermen's Delights VR Installation" is a redesigned VR somatosensory device that allows players to enjoy fishing and the scene in the royal garden. It gives another way for people to enjoy the time in museum, to appreciate the collection in National Palace Museum and to discover its specialty of through this “real” participation.  
 &nbsp;  
 
+<div
+    class = "projectBox">
+    <table>
+        <tr>
+        <th
+            style = "width: 50%;">
+            <img
+                src = "/images/fishing/fishingPlaying.jpg"
+                class = "projectImg">
+        </th>
+        <th
+            style = "width: 50%;">
+            <img
+                src = "/images/fishing/fishingRod.png"
+                class = "projectImg">
+        </th>
+        </tr>
+    </table>
+</div>
+
 <img
     style = "width: 48%;
             height: 48%;
