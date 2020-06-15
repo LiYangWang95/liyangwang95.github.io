@@ -65,7 +65,7 @@ title: Projects |
   </table>
 </div>
 
-## [VR in National Palace Musuem: Hunting for Khubilai Khan](hunting.md)
+## [NCTU Museum-School Collaboration Showcase—VR Creative Exhibition: Hunting for Khubilai Khan](hunting.md)
 
 <div
     class = "projectBox">
@@ -85,7 +85,7 @@ title: Projects |
   </table>
 </div>
 
-## [VR in National Palace Musuem: Fisherman's Delight](fishing.md)
+## [NCTU Museum-School Collaboration Showcase—VR Creative Exhibition: Fisherman's Delight](fishing.md)
 
 <div
     class = "projectBox">

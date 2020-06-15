@@ -3,7 +3,8 @@ layout: default
 title: Projects | 
 ---
 
-# VR in National Palace Musuem: Fisherman's Delight
+# NCTU Museum-School Collaboration Showcase—VR Creative Exhibition: Fisherman's Delight
+
 &nbsp;  
 <div class="video-container">
     <iframe
@@ -32,6 +33,7 @@ title: Projects |
                     height: 50%">
             <img
                 src = "/images/fishing/fishingPlaying.jpg"
+                alt = "An user is experiencing our demonstration."
                 style = "max-width: 95%;
                         max-height: 95%;
                         vertical-align: middle;"
@@ -42,6 +44,7 @@ title: Projects |
                     height: 50%">
             <img
                 src = "/images/fishing/fishingRod.png"
+                alt = "Decomposed fishing rod."
                 style = "max-width: 95%;
                         max-height: 95%;
                         vertical-align: middle;"
@@ -60,7 +63,7 @@ When the player takes a line for a while, the fish will be caught and cooked int
 &nbsp;  
 &nbsp;  
 
-## Creators  
+## Creative Team  
 
 Chun-Cheng Hsu (Professor, Institute of Applied Arts, NCTU), Liwei Chan (Associate Professor, Institute of Computer Science, NCTU), Cheng-Chieh Tsai, Hsin-Ju Chen, Yi-Tzu Hsiao, Hsin-Yu Yao, Wen-Jie Tseng, Yi-Chen Lee, Li-Yang Wang  
 
