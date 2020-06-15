@@ -61,7 +61,7 @@ The bow contains a string device that provides pull-back force to the user's han
 &nbsp;  
 We also included a horseback riding machine to imitate the movement of riding a real horse; at the same time, we put pressure sensor on either side of the horseback riding machine to allow players to control the speed of the horseback riding machine by squeezing the sensor with their thighs.  
 &nbsp;  
-After experience the hunting part of the game, players would be lead to the yurt of Khubilai Khan. They would get the rewards from Khubilai Khan according to their hunting points, all the rewards are historical and cultural relics. Players could find out more introduction about the relics by flipping cards.  
+After experiencing the hunting part of the game, players would be lead to the yurt of Khubilai Khan. They would get the rewards from Khubilai Khan according to their hunting points, all the rewards are historical and cultural relics. Players could find out more introduction about the relics by flipping cards.  
 &nbsp;  
 "Hunting for Khubilai Khan” is a game that makes the effort to build bridges between the collection and the players, it is a reinterpretation of “Khubilai Khan Hunting”. We sincerely hope the players can build connections with this historical and cultural collection, and to realize the value of these artworks by providing them a seamless experience.  
 &nbsp;  
