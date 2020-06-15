@@ -27,21 +27,25 @@ title: Projects |
     <table>
         <tr>
         <th
-            style = "width: 50%;">
+            style = "width: 50%;
+                    height: 50%">
             <img
                 src = "/images/fishing/fishingPlaying.jpg"
                 style = "max-width: 100%;
                         max-height: 100%;
-                        vertical-align: middle;"
+                        vertical-align: middle;
+                        overflow: hidden;"
                 >
         </th>
         <th
-            style = "width: 50%;">
+            style = "width: 50%;
+                    height: 50%">
             <img
                 src = "/images/fishing/fishingRod.png"
                 style = "max-width: 100%;
                         max-height: 100%;
-                        vertical-align: middle;"
+                        vertical-align: middle;
+                        overflow: hidden;"
                 >
         </th>
         </tr>
