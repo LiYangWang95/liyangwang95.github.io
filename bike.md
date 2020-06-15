@@ -84,7 +84,7 @@ First of all, the mentioned features are currently not available in other soluti
                     text-align: justify;
                     padding-top: 3px;
                     padding-left: 2px;
-                    padding-right: 10px;">
+                    padding-right: 8px;">
             Light altomatically turned off after turn and return to probe mode.  
         </th>
         <th
@@ -94,7 +94,7 @@ First of all, the mentioned features are currently not available in other soluti
                     text-align: justify;
                     padding-top: 3px;
                     padding-left: 2px;
-                    padding-right: 10px;">
+                    padding-right: 8px;">
             Light altomatically turned off after completing the turn.  
         </th>
         <th
@@ -104,7 +104,7 @@ First of all, the mentioned features are currently not available in other soluti
                     text-align: justify;
                     padding-top: 3px;
                     padding-left: 2px;
-                    padding-right: 10px;">
+                    padding-right: 8px;">
             Light altomatically turned on when braking.  
         </th>
         </tr>
