@@ -5,14 +5,6 @@ title: Projects |
 
 # Intelligent Pump Control System
 
-&nbsp;  
-<img
-    src = "/images/intern/IPCMachine.png"
-    style = "width = 30%;
-            height = 30%;"
-    >
-&nbsp;  
-
 While I started working with my colleague on the IPC pump demo unit, I noticed the complexity of the system structure. It is well suitable for demonstrating the complete functions of the multi-pump system; there are various parameters can be adjusted to fit in different situations, however it takes a lot of time for a new user to know which should he adjust when operating. Take myself as example, I spend almost a month just to know all the controllable parameters and their effects. Since my major is human-computer interaction, I think it’s a good chance to apply everything I’ve learned to the project.  
 &nbsp;  
 The intention is to create a user-friendly interface for end users. The system is originally designed for engineers, so a new user have to pay some effort before giving the desired commands. Considering that the pump system might be exhibited to potential customers, even end users, it is necessary to build an easier version.  
