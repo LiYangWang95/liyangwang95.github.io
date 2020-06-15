@@ -44,7 +44,7 @@ First of all, the mentioned features are currently not available in other soluti
         <tr>
         <th
             style = "width: auto;
-                    height: 180px;
+                    height: 33%;
                     font-weight: normal;">
             <img
                 src = "/images/bike/turnProbe.gif"
@@ -56,7 +56,7 @@ First of all, the mentioned features are currently not available in other soluti
         </th>
         <th
             style = "width: auto;
-                    height: 180px;
+                    height: 33%;
                     font-weight: normal;">
             <img
                 src = "/images/bike/turn.gif"
@@ -68,7 +68,7 @@ First of all, the mentioned features are currently not available in other soluti
         </th>
         <th
             style = "width: auto;
-                    height: 180px;
+                    height: 33%;
                     font-weight: normal;">
             <img
                 src = "/images/bike/brake.gif"
@@ -81,7 +81,7 @@ First of all, the mentioned features are currently not available in other soluti
         </tr>
         <tr>
         <th
-            style = "width: 240px;
+            style = "width: 39%;
                     height: auto;
                     font-weight: normal;
                     text-align: left;
@@ -89,7 +89,7 @@ First of all, the mentioned features are currently not available in other soluti
             Light altomatically turned off after turn and return to probe mode.  
         </th>
         <th
-            style = "width: 240px;
+            style = "width: 39%;
                     height: auto;
                     font-weight: normal;
                     text-align: left;
@@ -97,7 +97,7 @@ First of all, the mentioned features are currently not available in other soluti
             Light altomatically turned off after completing the turn.  
         </th>
         <th
-            style = "width: 135px;
+            style = "width: 22%;
                     height: auto;
                     font-weight: normal;
                     text-align: left;
