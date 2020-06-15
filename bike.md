@@ -39,6 +39,11 @@ First of all, the mentioned features are currently not available in other soluti
 
 <div
     class = "projectBox"
+    style = "font-weight: normal;
+            text-align: justify;
+            padding-top: 3px;
+            padding-left: 2px;
+            padding-right: 2px;"
     >
     <table>
         <tr>
@@ -83,25 +88,19 @@ First of all, the mentioned features are currently not available in other soluti
         <th
             style = "width: 39%;
                     height: auto;
-                    font-weight: normal;
-                    text-align: justify;
-                    padding-top: 3px;">
+                    ">
             Light altomatically turned off after turn and return to probe mode.  
         </th>
         <th
             style = "width: 39%;
                     height: auto;
-                    font-weight: normal;
-                    text-align: justify;
-                    padding-top: 3px;">
+                    ">
             Light altomatically turned off after completing the turn.  
         </th>
         <th
             style = "width: 22%;
                     height: auto;
-                    font-weight: normal;
-                    text-align: justify;
-                    padding-top: 3px;">
+                    ">
             Light altomatically turned on when braking.  
         </th>
         </tr>
