@@ -21,24 +21,19 @@ title: Projects |
 &nbsp;  
 "Fishermen’s Delights VR Installation" is a game that builds bridges between the collections of National Palace Museum and people. We hope that everyone have a chance to learn about the collections by providing this game. Different from other angling competition games, "Fishermen's Delights VR Installation" is a redesigned VR somatosensory device that allows players to enjoy fishing and the scene in the royal garden. It gives another way for people to enjoy the time in museum, to appreciate the collection in National Palace Museum and to discover its specialty of through this “real” participation.  
 &nbsp;  
-<table>
+<table
+    class = "projectPageTable"
+    >
     <tr>
-        <th
-            style = "text-weight: normal;
-            padding-left: 0px;
-            text-align: left;
-            ">
+        <th>
                 Push-Ups is an active haptic device installed beneath feet soles that provides feedback to the wearer's feet. The device targets to enhance the realism and immersion of stand-pose virtual reality experiences, and change the wearer's perception of ground surface.  
         </th>
         <th
-            style = "width: 25%;"
+            class = "picColumn"
             >
         <img
             src = "/images/pushUps/pushUpsCover.png"
-            style = "max-width: 100%;
-                    max-height: 100%;
-                    vertical-align: middle;"
-                    >
+            >
         </th>
     </tr>
   </table>

@@ -122,3 +122,17 @@ hr {
     font-weight: normal;
     padding-left: 10px;
 }
+
+.projectPageTable{
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.projectPageTable .picColumn{
+    width: 25%;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
