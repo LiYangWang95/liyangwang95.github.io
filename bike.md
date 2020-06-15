@@ -50,7 +50,8 @@ First of all, the mentioned features are currently not available in other soluti
                 alt = "Light altomatically turned off after turn and return to probe mode."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;"
+                        vertical-align: middle;
+                        font-weight: normal;"
                 >
                 Light altomatically turned off after turn and return to probe mode.  
         </th>
@@ -62,9 +63,10 @@ First of all, the mentioned features are currently not available in other soluti
                 alt = "Light altomatically turned off after turn."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;"
+                        vertical-align: middle;
+                        font-weight: normal;"
                 >
-                Light altomatically turned off after turn.  
+                Light altomatically turned off after completing the turn.  
         </th>
         <th
             style = "width: auto;
@@ -74,7 +76,8 @@ First of all, the mentioned features are currently not available in other soluti
                 alt = "Light altomatically turned on when braking."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;"
+                        vertical-align: middle;
+                        font-weight: normal;"
                 >
                 Light altomatically turned on when braking.  
         </th>
