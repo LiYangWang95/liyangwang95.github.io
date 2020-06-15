@@ -20,7 +20,7 @@ title: Projects |
     </iframe>
 </div>  
 &nbsp;  
-"Hunting for Khubilai Khan” is a horseback archery virtual reality game, a creation based on a collection called “Khubilai Khan Hunting” from National Palace Museum. It is not only a game that brings fresh energy to the collection, but create more innovative haptic devices for the players.
+"Hunting for Khubilai Khan” is a horseback archery virtual reality game, a creation based on a collection called “Khubilai Khan Hunting” from National Palace Museum. It is not only a game that brings fresh energy to the collection, but create more innovative haptic devices for the players.  
 &nbsp;  
 The visual design of the game is also based on “Khubilai Khan Hunting”. This collection is a master piece from Yuan Dynasty painted by Liu Kuan-tao. By this painting, we can tell how the surroundings and the figures are like during Khubilai Khan's hunting, this painting is impressive and famous for the vividness and realism of the figures.  
 &nbsp;  
@@ -57,9 +57,10 @@ The visual design of the game is also based on “Khubilai Khan Hunting”. This
 </div>
 
 &nbsp;  
-The bow contains a string device that provides pull-back force to the user's hand, and create the feeling of pulling a bow string. Ａ rotary-encoder is placed in the bow device to measure how long the string is pulled. The data is then interpreted as the pulling force, allowing for controlling the power of shooting when hunting animals during the game.
+The bow contains a string device that provides pull-back force to the user's hand, and create the feeling of pulling a bow string. Ａ rotary-encoder is placed in the bow device to measure how long the string is pulled. The data is then interpreted as the pulling force, allowing for controlling the power of shooting when hunting animals during the game.  
 &nbsp;  
-We also included a horseback riding machine to imitate the movement of riding a real horse; at the same time, we put pressure sensor on either side of the horseback riding machine to allow players to control the speed of the horseback riding machine by squeezing the sensor with their thighs.
+
+We also included a horseback riding machine to imitate the movement of riding a real horse; at the same time, we put pressure sensor on either side of the horseback riding machine to allow players to control the speed of the horseback riding machine by squeezing the sensor with their thighs.  
 &nbsp;  
 After experience the hunting part of the game, players would be lead to the yurt of Khubilai Khan. They would get the rewards from Khubilai Khan according to their hunting points, all the rewards are historical and cultural relics. Players could find out more introduction about the relics by flipping cards.  
 &nbsp;  
