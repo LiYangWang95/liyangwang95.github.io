@@ -43,14 +43,13 @@ First of all, the mentioned features are currently not available in other soluti
             text-align: justify;
             padding-top: 3px;
             padding-left: 2px;
-            padding-right: 2px;"
+            padding-right: 10px;"
     >
     <table>
         <tr>
         <th
             style = "width: auto;
-                    height: 33%;
-                    font-weight: normal;">
+                    height: 33%;">
             <img
                 src = "/images/bike/turnProbe.gif"
                 alt = "Light altomatically turned off after turn and return to probe mode."
@@ -61,8 +60,7 @@ First of all, the mentioned features are currently not available in other soluti
         </th>
         <th
             style = "width: auto;
-                    height: 33%;
-                    font-weight: normal;">
+                    height: 33%;">
             <img
                 src = "/images/bike/turn.gif"
                 alt = "Light altomatically turned off after turn."
@@ -73,8 +71,7 @@ First of all, the mentioned features are currently not available in other soluti
         </th>
         <th
             style = "width: auto;
-                    height: 33%;
-                    font-weight: normal;">
+                    height: 33%;">
             <img
                 src = "/images/bike/brake.gif"
                 alt = "Light altomatically turned on when braking."
