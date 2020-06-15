@@ -53,7 +53,6 @@ First of all, the mentioned features are currently not available in other soluti
                         max-height: 95%;
                         vertical-align: middle;"
                 >
-                Light altomatically turned off after turn and return to probe mode.  
         </th>
         <th
             style = "width: auto;
@@ -66,7 +65,6 @@ First of all, the mentioned features are currently not available in other soluti
                         max-height: 95%;
                         vertical-align: middle;"
                 >
-                Light altomatically turned off after completing the turn.  
         </th>
         <th
             style = "width: auto;
@@ -79,26 +77,31 @@ First of all, the mentioned features are currently not available in other soluti
                         max-height: 95%;
                         vertical-align: middle;"
                 >
-                Light altomatically turned on when braking.  
         </th>
         </tr>
         <tr>
         <th
-            style = "width: auto;
+            style = "width: 240px;
                     height: auto;
-                    font-weight: normal;">
+                    font-weight: normal;
+                    text-align: left;
+                    padding-top: 3px;">
             Light altomatically turned off after turn and return to probe mode.  
         </th>
         <th
-            style = "width: auto;
+            style = "width: 240px;
                     height: auto;
-                    font-weight: normal;">
+                    font-weight: normal;
+                    text-align: left;
+                    padding-top: 3px;">
             Light altomatically turned off after completing the turn.  
         </th>
         <th
-            style = "width: auto;
+            style = "width: 135px;
                     height: auto;
-                    font-weight: normal;">
+                    font-weight: normal;
+                    text-align: left;
+                    padding-top: 3px;">
             Light altomatically turned on when braking.  
         </th>
         </tr>
