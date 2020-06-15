@@ -23,16 +23,21 @@ title: Projects |
 &nbsp;  
 <table>
     <tr>
-      <th
-        class = "imageColumn">
+        <th>
+            <p>
+                Push-Ups is an active haptic device installed beneath feet soles that provides feedback to the wearer's feet. The device targets to enhance the realism and immersion of stand-pose virtual reality experiences, and change the wearer's perception of ground surface.
+            </p>  
+        </th>
+        <th
+            style = "width: 25%;"
+            >
         <img
             src = "/images/pushUps/pushUpsCover.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            Push-Ups is an active haptic device installed beneath feet soles that provides feedback to the wearer's feet. The device targets to enhance the realism and immersion of stand-pose virtual reality experiences, and change the wearer's perception of ground surface.  
-      </th>
+            style = "max-width: 100%;
+                    max-height: 100%;
+                    vertical-align: middle;"
+                    >
+        </th>
     </tr>
   </table>
 <div
