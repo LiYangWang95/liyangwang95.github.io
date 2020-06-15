@@ -82,6 +82,26 @@ First of all, the mentioned features are currently not available in other soluti
                 Light altomatically turned on when braking.  
         </th>
         </tr>
+        <tr>
+        <th
+            style = "width: auto;
+                    height: auto;
+                    font-weight: normal;">
+            Light altomatically turned off after turn and return to probe mode.  
+        </th>
+        <th
+            style = "width: auto;
+                    height: auto;
+                    font-weight: normal;">
+            Light altomatically turned off after completing the turn.  
+        </th>
+        <th
+            style = "width: auto;
+                    height: auto;
+                    font-weight: normal;">
+            Light altomatically turned on when braking.  
+        </th>
+        </tr>
     </table>
 </div>
 &nbsp;  
