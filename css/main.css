@@ -141,7 +141,7 @@ hr {
 .projectIntroBox .singleColumn{
     width: 100%;
 }
-.projectIntroBox .text{
+.projectIntroBox .introText{
     text-align: justify;
     font-size: 1.2em;
     line-height: 1.4em;
