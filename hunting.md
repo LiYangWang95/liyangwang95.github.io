@@ -3,7 +3,7 @@ layout: default
 title: Projects | 
 ---
 
-# NCTU Museum-School Collaboration Showcase—VR Creative Exhibition: Hunting for Khubilai Khan
+# NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Hunting for Khubilai Khan
 
 &nbsp;  
 <div class="video-container">

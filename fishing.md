@@ -3,7 +3,7 @@ layout: default
 title: Projects | 
 ---
 
-# NCTU Museum-School Collaboration Showcase—VR Creative Exhibition: Fisherman's Delight
+# NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Fisherman's Delight
 
 &nbsp;  
 <div class="video-container">
