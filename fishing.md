@@ -32,8 +32,8 @@ title: Projects |
                     height: 50%">
             <img
                 src = "/images/fishing/fishingPlaying.jpg"
-                style = "max-width: 90%;
-                        max-height: 90%;
+                style = "max-width: 95%;
+                        max-height: 95%;
                         vertical-align: middle;"
                 >
         </th>
@@ -42,8 +42,8 @@ title: Projects |
                     height: 50%">
             <img
                 src = "/images/fishing/fishingRod.png"
-                style = "max-width: 90%;
-                        max-height: 90%;
+                style = "max-width: 95%;
+                        max-height: 95%;
                         vertical-align: middle;"
                 >
         </th>
