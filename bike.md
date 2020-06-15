@@ -10,7 +10,7 @@ title: Projects |
     <iframe
         width="640"
         height="360"
-        src="//https://www.youtube.com/embed/IYT_-YktLtQ"
+        src="https://www.youtube.com/embed/IYT_-YktLtQ"
         frameborder="0"
         allowfullscreen
         display = "block"
@@ -44,40 +44,40 @@ First of all, the mentioned features are currently not available in other soluti
         <tr>
         <th
             style = "width: auto;
-                    height: 33%">
+                    height: 180px;
+                    font-weight: normal;">
             <img
                 src = "/images/bike/turnProbe.gif"
                 alt = "Light altomatically turned off after turn and return to probe mode."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;
-                        font-weight: normal;"
+                        vertical-align: middle;"
                 >
                 Light altomatically turned off after turn and return to probe mode.  
         </th>
         <th
             style = "width: auto;
-                    height: 33%">
+                    height: 180px;
+                    font-weight: normal;">
             <img
                 src = "/images/bike/turn.gif"
                 alt = "Light altomatically turned off after turn."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;
-                        font-weight: normal;"
+                        vertical-align: middle;"
                 >
                 Light altomatically turned off after completing the turn.  
         </th>
         <th
             style = "width: auto;
-                    height: 33%">
+                    height: 180px;
+                    font-weight: normal;">
             <img
                 src = "/images/bike/brake.gif"
                 alt = "Light altomatically turned on when braking."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;
-                        font-weight: normal;"
+                        vertical-align: middle;"
                 >
                 Light altomatically turned on when braking.  
         </th>
