@@ -38,16 +38,12 @@ title: Projects |
         class="gallery">
         <img
             src="/images/fishing/fishingPlaying.jpg"
-            style = "width: 48%;
-                    height: auto;"
             >
     </div>
     <div
         class="gallery">
         <img
             src="/images/fishing/fishingRod.png"
-            style = "width: 48%;
-                    height: auto;"
             >
     </div>
 </div>
