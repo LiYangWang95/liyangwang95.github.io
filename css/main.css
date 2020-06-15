@@ -135,8 +135,13 @@ hr {
 .projectIntroBox .imageColumn{
     width: 40%;
 }
-.projectIntroBox .textColumn{
+.projectIntroBox .sideColumn{
     width: 60%;
+}
+.projectIntroBox .singleColumn{
+    width: 100%;
+}
+.projectIntroBox .text{
     text-align: justify;
     font-size: 1.2em;
     line-height: 1.4em;
