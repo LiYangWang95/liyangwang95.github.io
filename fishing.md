@@ -23,7 +23,9 @@ title: Projects |
 &nbsp;  
 
 <div
-    class = "projectBox">
+    class = "projectBox"
+    style = "display: flex"
+    >
     <table>
         <tr>
         <th
@@ -34,7 +36,8 @@ title: Projects |
                 style = "max-width: 100%;
                         max-height: 100%;
                         vertical-align: middle;
-                        overflow: hidden;"
+                        overflow: hidden;
+                        flex: calc(3520/5820); "
                 >
         </th>
         <th
@@ -45,7 +48,8 @@ title: Projects |
                 style = "max-width: 100%;
                         max-height: 100%;
                         vertical-align: middle;
-                        overflow: hidden;"
+                        overflow: hidden;
+                        flex: calc(878/1170);"
                 >
         </th>
         </tr>
