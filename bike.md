@@ -43,13 +43,7 @@ First of all, the mentioned features are currently not available in other soluti
     <table>
         <tr>
         <th
-            style = "width: auto;
-                    height: 33%;
-                    font-weight: normal;
-                    text-align: justify;
-                    padding-top: 3px;
-                    font-size: 1.2em;
-                    line-height: 1.4em;">
+            class = "p">
             <img
                 src = "/images/bike/turnProbe.gif"
                 alt = "Light automatically turned off after turn and return to probe mode."
@@ -67,7 +61,8 @@ First of all, the mentioned features are currently not available in other soluti
                     text-align: justify;
                     padding-top: 3px;
                     font-size: 1.2em;
-                    line-height: 1.4em;">
+                    line-height: 1.4em;
+                    color: #333;">
             <img
                 src = "/images/bike/turn.gif"
                 alt = "Light automatically turned off after turn."
@@ -85,7 +80,8 @@ First of all, the mentioned features are currently not available in other soluti
                     text-align: justify;
                     padding-top: 3px;
                     font-size: 1.2em;
-                    line-height: 1.4em;">
+                    line-height: 1.4em;
+                    color: #333;">
             <img
                 src = "/images/bike/brake.gif"
                 alt = "Light automatically turned on when braking."
@@ -95,44 +91,6 @@ First of all, the mentioned features are currently not available in other soluti
                 >
                 &nbsp;  
                 Light turns on when braking.  
-        </th>
-        </tr>
-        <tr>
-        <th
-            style = "width: 39%;
-                    height: auto;
-                    font-weight: normal;
-                    text-align: justify;
-                    padding-top: 3px;
-                    padding-left: 3px;
-                    font-size: 1.2em;
-                    line-height: 1.4em;
-                    padding-right: 8px;">
-            Light automatically turns off after turn and return to probe mode.  
-        </th>
-        <th
-            style = "width: 39%;
-                    height: auto;
-                    font-weight: normal;
-                    text-align: justify;
-                    padding-top: 3px;
-                    padding-left: 3px;
-                    font-size: 1.2em;
-                    line-height: 1.4em;
-                    padding-right: 8px;">
-            Light automatically turns off after completing the turn.  
-        </th>
-        <th
-            style = "width: 22%;
-                    height: auto;
-                    font-weight: normal;
-                    text-align: justify;
-                    padding-top: 3px;
-                    padding-left: 3px;
-                    padding-right: 8px;
-                    font-size: 1.2em;
-                    line-height: 1.4em;">
-            Light automatically turns on when braking.  
         </th>
         </tr>
     </table>
