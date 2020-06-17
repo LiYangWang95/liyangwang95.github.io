@@ -44,38 +44,63 @@ First of all, the mentioned features are currently not available in other soluti
         <tr>
         <th
             style = "width: auto;
-                    height: 33%;">
+                    height: 33%;
+                    font-weight: normal;
+                    text-align: justify;
+                    padding-top: 3px;
+                    font-size: 1.2em;
+                    line-height: 1.4em;">
             <img
                 src = "/images/bike/turnProbe.gif"
                 alt = "Light automatically turned off after turn and return to probe mode."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;"
+                        vertical-align: middle;
+                        margin-left: auto;
+                        margin-right: auto;"
                 >
+                &nbsp;  
+                Light automatically turns off after turn and return to probe mode.  
         </th>
         <th
             style = "width: auto;
-                    height: 33%;">
+                    height: 33%;
+                    font-weight: normal;
+                    text-align: justify;
+                    padding-top: 3px;
+                    font-size: 1.2em;
+                    line-height: 1.4em;">
             <img
                 src = "/images/bike/turn.gif"
                 alt = "Light automatically turned off after turn."
                 style = "max-width: 95%;
                         max-height: 95%;
-                        vertical-align: middle;"
+                        vertical-align: middle;
+                        margin-left: auto;
+                        margin-right: auto;"
                 >
+                &nbsp;  
+                Light automatically turns off after completing the turn.  
         </th>
         <th
             style = "width: auto;
-                    height: 33%;">
+                    height: 33%;
+                    font-weight: normal;
+                    text-align: justify;
+                    padding-top: 3px;
+                    font-size: 1.2em;
+                    line-height: 1.4em;">
             <img
                 src = "/images/bike/brake.gif"
                 alt = "Light automatically turned on when braking."
                 style = "max-width: 95%;
-                        max-height: 95%;
+                        max-height: 95%
+                        margin-left: auto;
+                        margin-right: auto;
                         vertical-align: middle;"
                 >
                 &nbsp;  
-                Light automatically turns off after turn and return to probe mode.  
+                Light automatically turns on when braking.  
         </th>
         </tr>
         <tr>
