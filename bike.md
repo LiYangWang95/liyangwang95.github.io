@@ -43,7 +43,13 @@ First of all, the mentioned features are currently not available in other soluti
     <table>
         <tr>
         <th
-            class = "p">
+            style = "width: auto;
+                    height: 33%;
+                    font-weight: normal;
+                    padding-top: 3px;
+                    font-size: 1.2em;
+                    line-height: 1.4em;
+                    color: #333;">
             <img
                 src = "/images/bike/turnProbe.gif"
                 alt = "Light automatically turned off after turn and return to probe mode."
@@ -58,7 +64,6 @@ First of all, the mentioned features are currently not available in other soluti
             style = "width: auto;
                     height: 33%;
                     font-weight: normal;
-                    text-align: justify;
                     padding-top: 3px;
                     font-size: 1.2em;
                     line-height: 1.4em;
@@ -77,7 +82,6 @@ First of all, the mentioned features are currently not available in other soluti
             style = "width: auto;
                     height: 33%;
                     font-weight: normal;
-                    text-align: justify;
                     padding-top: 3px;
                     font-size: 1.2em;
                     line-height: 1.4em;
