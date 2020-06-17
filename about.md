@@ -15,10 +15,10 @@ I persued my bachelor's degree in the department of **Electrical Engineering and
 
 Beside working, what I enjoy in my free time are reading and all the good food. I also like to cook, and love to spend plenty of time on discussing what's the recipe of a cusine with others. In my opinion, food is the best common language that all human kind share, and the best way to make friends.  
 
-<img src="/images/about/IMG_2586_crop.jpg"
+<!-- <img src="/images/about/IMG_2586_crop.jpg"
     style="width: 80%;
     height: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto"
-    >
+    > -->
