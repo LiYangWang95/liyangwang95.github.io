@@ -44,7 +44,7 @@ First of all, the mentioned features are currently not available in other soluti
         <tr>
         <th
             style = "width: auto;
-                    height: 33%;
+                    height: 33.34%;
                     font-weight: normal;
                     padding-top: 3px;
                     font-size: 1.2em;
@@ -53,8 +53,8 @@ First of all, the mentioned features are currently not available in other soluti
             <img
                 src = "/images/bike/turnProbe.gif"
                 alt = "Light automatically turned off after turn and return to probe mode."
-                style = "max-width: 95%;
-                        max-height: 95%;
+                style = "max-width: 100%;
+                        max-height: 100%;
                         vertical-align: middle;"
                 >
                 &nbsp;  
@@ -62,7 +62,7 @@ First of all, the mentioned features are currently not available in other soluti
         </th>
         <th
             style = "width: auto;
-                    height: 33%;
+                    height: 33.34%;
                     font-weight: normal;
                     padding-top: 3px;
                     font-size: 1.2em;
@@ -71,8 +71,8 @@ First of all, the mentioned features are currently not available in other soluti
             <img
                 src = "/images/bike/turn.gif"
                 alt = "Light automatically turned off after turn."
-                style = "max-width: 95%;
-                        max-height: 95%;
+                style = "max-width: 100%;
+                        max-height: 100%;
                         vertical-align: middle;"
                 >
                 &nbsp;  
@@ -80,7 +80,7 @@ First of all, the mentioned features are currently not available in other soluti
         </th>
         <th
             style = "width: auto;
-                    height: 33%;
+                    height: 33.34%;
                     font-weight: normal;
                     padding-top: 3px;
                     font-size: 1.2em;
@@ -89,8 +89,8 @@ First of all, the mentioned features are currently not available in other soluti
             <img
                 src = "/images/bike/brake.gif"
                 alt = "Light automatically turned on when braking."
-                style = "max-width: 95%;
-                        max-height: 95%;
+                style = "max-width: 100%;
+                        max-height: 100%;
                         vertical-align: middle;"
                 >
                 &nbsp;  
