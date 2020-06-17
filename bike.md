@@ -74,6 +74,8 @@ First of all, the mentioned features are currently not available in other soluti
                         max-height: 95%;
                         vertical-align: middle;"
                 >
+                &nbsp;  
+                Light automatically turns off after turn and return to probe mode.  
         </th>
         </tr>
         <tr>
