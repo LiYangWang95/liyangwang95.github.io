@@ -80,7 +80,7 @@ First of all, the mentioned features are currently not available in other soluti
         </th>
         <th
             style = "width: auto;
-                    height: 33.34%;
+                    height: 33.5%;
                     font-weight: normal;
                     padding-top: 3px;
                     font-size: 1.2em;
