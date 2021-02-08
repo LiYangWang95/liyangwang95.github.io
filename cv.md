@@ -5,7 +5,13 @@ title: CV |
 
 # Educational Background
 
-## Master's Degree
+## EngD
+
+> **Software Technology**
+Technische Universiteit Eindhoven, Netherlands
+2020-Present
+
+## MSc
 
 > **Institute of Multimedia Engineering**  
 National Chiao-Tung University, Taiwan  
@@ -13,7 +19,7 @@ National Chiao-Tung University, Taiwan
 &nbsp;  
 > *Key Courses: User-Centered Interaction Design, Interaction Design and Virtual Reality, Computer Graphics*  
 
-## Bachelor's Degree
+## BSc
 
 > **EECS Undergraduate Honors Program**  
 National Chiao-Tung University, Taiwan  
