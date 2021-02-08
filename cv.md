@@ -7,9 +7,9 @@ title: CV |
 
 ## EngD
 
-> **Software Technology**
-Technische Universiteit Eindhoven, Netherlands
-2020-Present
+> **Software Technology**  
+Technische Universiteit Eindhoven, Netherlands  
+2020-Present  
 
 ## MSc
 
