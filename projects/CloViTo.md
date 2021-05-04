@@ -24,23 +24,23 @@ I was majorly involved in the research stage and the final integration. To figur
 
 To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests. The result obtained is put in the table below.  
 &nbsp;  
-| Functionality                                           | Result                                       |
-|---------------------------------------------------------|----------------------------------------------|
-| Support for Zoom                                        | Yes                                          |
-| Max number of points                                    | 100K is possible                             |
-| Chart Type                                              | No 3d chart                                  |
-| Accessibility                                           | Yes                                          |
-| Support for Panning                                     | Yes                                          |
-| Support for Tooltip                                     | Yes                                          |
-| License                                                 | Apache 2.0 (Free)                            |
-| Performance - init time of chart                        | 7ms                                          |
-| Performance - draw time of chart (ms)                   | 320                                          |
-| Performance - span 5 sec (ms)                           | 840                                          |
-| Performance - zoom 30s - 10s (ms)                       | 139                                          |
-| Summed performance (ms)                                 | 1299                                         |
+| Functionality | Result |
+|-|-|
+| Support for Zoom | Yes |
+| Max number of points | 100K is possible |
+| Chart Type | No 3d chart |
+| Accessibility | Yes |
+| Support for Panning | Yes |
+| Support for Tooltip | Yes |
+| License | Apache 2.0 (Free) |
+| Performance - init time of chart | 7ms |
+| Performance - draw time of chart (ms) | 320 |
+| Performance - span 5 sec (ms) | 840 |
+| Performance - zoom 30s - 10s (ms) | 139 |
+| Summed performance (ms) | 1299 |
 | Support for range annotations / highlighting time range | Supports specific model (lineWithFocusChart) |
-| Multiple Y values per X                                 | Yes                                          |
-| Support for synchronisation                             | -                                            |  
+| Multiple Y values per X | Yes |
+| Support for synchronisation | - |  
 &nbsp;  
 
 ## The Refined Interface
