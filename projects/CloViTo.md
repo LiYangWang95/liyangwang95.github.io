@@ -43,6 +43,7 @@ To decide which library suits our visualization needs the best, the team conveye
 | Support for range annotations / highlighting time range | Supports specific model (lineWithFocusChart) |
 | Multiple Y values per X | Yes |
 | Support for synchronisation | - |  
+
 &nbsp;  
 
 ### Major Contribution 2: Implement Required Functions with nvd3  
