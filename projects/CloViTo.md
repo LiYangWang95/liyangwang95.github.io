@@ -23,7 +23,6 @@ I was majorly involved in the research stage and the final integration. To figur
 ### Major Contribution 1: Functionality Test for JavaScript Library *nvd3*
 
 To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests. The result obtained is put in the table below.  
-&nbsp;  
 
 | Functionality | Result |
 |-|-|
@@ -43,8 +42,6 @@ To decide which library suits our visualization needs the best, the team conveye
 | Multiple Y values per X | Yes |
 | Support for synchronisation | - |  
 
-&nbsp;  
-
 ### Major Contribution 2: Implement Required Functions with nvd3  
 
 Using the library nvd3 I implemented functions of *a) zoom in along x axis* and *b) panning* with the test data for further analysis of candidate libraries.  
@@ -54,6 +51,9 @@ Using the library nvd3 I implemented functions of *a) zoom in along x axis* and 
 
 Upon deciding the connection method, one of the candidates is the WebSocket connection. I implemented the method and created an easy-use API for the team to incorporate with their code. Below is the code snippet.  
 
+<div style = "background-color: rgb(50, 50, 50);">
+
+>
 ```javascript
 class connection {
   constructor(url, actionOnReceiving) {
@@ -117,6 +117,8 @@ function waitForSocketConnection(socket, callback) {
  
 export default connection;
 ```
+
+</div>
 
 ## The Refined Interface
 
