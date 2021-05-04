@@ -9,7 +9,7 @@ title: About |
 
 ## Bio:
 
-Hi, I'm LiYang, just call me Leon. Pronouciation? Well, think of **Leon**ardo DiCaprio, then you get it :) I've been a PDEng Trainee in Software Technology at Eindhoven University of Technology, the Netherlands since November 2020 till now.
+Hi, I'm LiYang, just call me Leon. Pronouciation? Well, think of **Leon**ardo DiCaprio, then you get it :) I've been a PDEng Trainee in Software Technology at Eindhoven University of Technology, the Netherlands since November 2020.
 
 I graduated from the **Institute of Multimedia Engineering** of National Chiao-Tung University, Taiwan. My research area was **Human-Computer Interaction(HCI)**, and focused on exploring possible interaction between real world and the virtual world.  
 
