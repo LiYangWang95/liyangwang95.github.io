@@ -13,7 +13,8 @@ b) Be able to extract and convert raw data into plottable files
 c) Be able to display a chart the user can interact with by allowing the user  
 >> i) to zoom in/out  
 ii) to scroll horizontally/vertically through the chart(panning)  
-iii) to make marks/annotations
+iii) to make marks/annotations  
+&nbsp;  
 
 ## Personal Contributions
 
@@ -23,6 +24,7 @@ I was majorly involved in the research stage and the final integration. To figur
 ### Major Contribution 1: Functionality Test for JavaScript Library *nvd3*
 
 To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests. The result obtained is put in the table below.  
+&nbsp;  
 
 | Functionality | Result |
 |-|-|
@@ -41,6 +43,7 @@ To decide which library suits our visualization needs the best, the team conveye
 | Support for range annotations / highlighting time range | Supports specific model (lineWithFocusChart) |
 | Multiple Y values per X | Yes |
 | Support for synchronisation | - |  
+&nbsp;  
 
 ### Major Contribution 2: Implement Required Functions with nvd3  
 
@@ -114,56 +117,35 @@ function waitForSocketConnection(socket, callback) {
  
 export default connection;
 </code></pre></div>
+&nbsp;  
 
 ### Major Contribution 4: Integrating and Refactoring Code
 
 Upon delivering the result to the whole team, I participated in integrating the codes from my colleagues in the front end team. The major contribution was modularizing the functions and packaging them into different files.  
+&nbsp;  
 
 ### Additional Contributions
 
-- Fulfilled responsibility by completing all user stories assigned  
-- First integration with the back end team  
-- Provide some suggestions to the back end team in regard of making and sending remarks on the data  
-
-## The Refined Interface
-
-<div
-    class = "projectBox"
-    >
-    <table>
-        <tr>
-        <th
-            style = "width: 50%;
-                    height: 50%">
-            <img
-                src = "/images/intern/interface.png"
-                alt = "The refined user interface(off)."
-                style = "max-width: 95%;
-                        max-height: 95%;
-                        vertical-align: middle;"
-                >
-        </th>
-        <th
-            style = "width: 50%;
-                    height: 50%">
-            <img
-                src = "/images/intern/running.png"
-                alt = "The refined user interface(on)."
-                style = "max-width: 95%;
-                        max-height: 95%;
-                        vertical-align: middle;"
-                >
-        </th>
-        </tr>
-    </table>
-</div>  
+a) Fulfilled responsibility by completing all user stories assigned  
+b) First integration with the back end team  
+c) Provide some suggestions to the back end team in regard of making and sending remarks on the data  
 &nbsp;  
+
+## The Interface
+
+<img
+    src = "/images/onera/interface.png"
+    alt = "The screenshot of CloViTo."
+    style = "max-width: 95%;
+            max-height: 95%;
+            vertical-align: middle;"
+    >  
 &nbsp;  
 
 ## Acknowledgement  
 
-Kevin Lu, Victor Ogedegbe, Ufuk Ozer, Vladimir Pana
+Janice Conquet, Niki Saleki, Dan Chirascu, Lkham Nyambuu, Hasan Kaplan, Christian Degott, Sedihgeh Arasteh, Abolfazl Saravani, Akash Arora, Respa Putra, Lamisha Rawshan, Ankith Bale, Shubham Rawal, Nastaran Bajalan, William Jawad, Mohammad Ibrahim
 
-## Company Website  
+## Related Links  
 
-[Delta EMEA](http://www.delta-emea.com)  
+[Onera Health](https://www.onerahealth.com)  
