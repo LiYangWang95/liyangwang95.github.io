@@ -51,7 +51,7 @@ Using the library nvd3 I implemented functions of *a) zoom in along x axis* and 
 
 Upon deciding the connection method, one of the candidates is the WebSocket connection. I implemented the method and created an easy-use API for the team to incorporate with their code. Below is the code snippet.  
 
-<div style = "background-color: rgb(50, 50, 50);"><pre><code>
+<div style = "background-color: rgb(50, 50, 50);"><pre><code class = "language-css">
 
 >
 ```javascript
@@ -119,6 +119,16 @@ export default connection;
 ```
 
 </code></pre></div>
+
+### Major Contribution 4: Integrating and Refactoring Code
+
+Upon delivering the result to the whole team, I participated in integrating the codes from my colleagues in the front end team. The major contribution was modularizing the functions and packaging them into different files.  
+
+### Additional Contributions
+
+- Fulfilled responsibility by completing all user stories assigned  
+- First integration with the back end team  
+- Provide some suggestions to the back end team in regard of making and sending remarks on the data  
 
 ## The Refined Interface
 
