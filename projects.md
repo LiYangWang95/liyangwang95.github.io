@@ -5,6 +5,26 @@ title: Projects |
 
 # Projects  
 
+## [Cloud-Native Sleep Data Visualization Tool](./projects/CloViTo.md)
+
+<div
+    class = "projectBox">
+  <table>
+    <tr>
+      <th
+        class = "imageColumn">
+        <img
+            src = "/images/onera/oneraCover.png"
+            class = "projectImg">
+      </th>
+      <th
+        class = "textColumn">
+            “Cloud Native Sleep Data Visualization Tool” is a tool aimed to visualize sleep data and provide a user-friendly interface for data manipulation. The tool can be further used in the field of diagnosing diseases that caused sleeping disorders, and assisting medical professions to solve the patients' symptoms.
+      </th>
+    </tr>
+  </table>
+</div>
+
 ## [Push-Ups: Enhancing Kinesthetic Experience with Shape-Forming Devices on the Feet Soles](./projects/pushUps.md)
 
 <div
@@ -120,26 +140,6 @@ title: Projects |
       <th
         class = "textColumn">
             When bikers are cycling on road, it is often there's no bycycle lanes on the side. This forces the bikers to face a huge risk of getting struck by the vehicles rushing by. To reduce the amount of fatal accidents those bikers may encounter, we developed a power efficient bicycle signal system that shows various lighting patterns when bikers make turns and brakes.
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [Cloud-Native Sleep Data Visualization Tool](./projects/CloViTo.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/onera/oneraCover.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            The project “Cloud Native Sleep Data Visualization Tool” is a training project involving the Software Technology PDEng Program of TU/e and Onera Health. Onera health has been dedicated in the field of improving quality of sleep. In order to diagnose the symptoms causing sleeping problems, an analyzing supporting tool is needed.
       </th>
     </tr>
   </table>
