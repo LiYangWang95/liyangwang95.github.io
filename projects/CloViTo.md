@@ -45,6 +45,79 @@ To decide which library suits our visualization needs the best, the team conveye
 
 &nbsp;  
 
+### Major Contribution 2: Implement Required Functions with nvd3  
+
+Using the library nvd3 I implemented functions of *a) zoom in along x axis* and *b) panning* with the test data for further analysis of candidate libraries.  
+&nbsp;  
+
+### Major Contribution 3: Implement WebSocket API for the Team  
+
+Upon deciding the connection method, one of the candidates is the WebSocket connection. I implemented the method and created an easy-use API for the team to incorporate with their code. Below is the code snippet.  
+
+```javascript
+class connection {
+  constructor(url, actionOnReceiving) {
+    // Set up connection
+    try {
+      this.ws = new WebSocket(url);
+      setSocketBehavior(this.ws, actionOnReceiving);
+    } catch (exception) {
+      console.error(exception);
+    }
+  }
+ 
+  // Send request to server
+  sendRequest(req) {
+    waitForSocketConnection(this.ws, () => {
+      console.log("Send request: " + req);
+      this.ws.send(req);
+    });
+  }
+}
+ 
+function setSocketBehavior(ws, actionOnReceiving) {
+  // Set behavior on opening socket
+  ws.onopen = () => {
+    console.log("Start connection");
+  };
+ 
+  // Set behavior on closing socket
+  ws.onclose = () => {
+    console.log("Close connection");
+  };
+ 
+  // Set behavior on error
+  ws.onerror = (error) => {
+    console.error(error.msg);
+  };
+ 
+  // Set behavior on receiving message
+  ws.onmessage = (receivedData) => {
+    actionOnReceiving(receivedData);
+  };
+}
+ 
+// Call callback until the connection is made
+function waitForSocketConnection(socket, callback) {
+  setTimeout(() => {
+    try {
+      if (socket.readyState == WebSocket.OPEN) {
+        if (callback != null) {
+          callback();
+        }
+      } else {
+        console.log("Waiting for connection...");
+        waitForSocketConnection(socket, callback);
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }, 50); // wait 5 millisecond for the connection...
+}
+ 
+export default connection;
+```
+
 ## The Refined Interface
 
 <div
