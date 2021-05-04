@@ -24,10 +24,10 @@ I was majorly involved in the research stage and the final integration. To figur
 
 To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests. The result obtained is put in the table below.  
 &nbsp;  
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Syntax      | Description |  
+| ----------- | ----------- |  
+| Header      | Title       |  
+| Paragraph   | Text        |  
 &nbsp;  
 
 ## The Refined Interface
