@@ -3,9 +3,9 @@ layout: default
 title: Projects | 
 ---
 
-# Projects  git
+# Projects  
 
-## [Push-Ups: Enhancing Kinesthetic Experience with Shape-Forming Devices on the Feet Soles](pushUps.md)
+## [Push-Ups: Enhancing Kinesthetic Experience with Shape-Forming Devices on the Feet Soles](./mdFiles/pushUps.md)
 
 <div
     class = "projectBox">
@@ -25,7 +25,7 @@ title: Projects |
   </table>
 </div>
 
-## [Intelligent Pump Control System](intern.md)
+## [Intelligent Pump Control System](./mdFiles/intern.md)
 
 <div
     class = "projectBox">
@@ -45,7 +45,7 @@ title: Projects |
   </table>
 </div>
 
-## [FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays](faceWidget.md)
+## [FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays](./mdFiles/faceWidget.md)
 
 <div
     class = "projectBox">
@@ -65,7 +65,7 @@ title: Projects |
   </table>
 </div>
 
-## [NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Hunting for Khubilai Khan](hunting.md)
+## [NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Hunting for Khubilai Khan](./mdFiles/hunting.md)
 
 <div
     class = "projectBox">
@@ -85,7 +85,7 @@ title: Projects |
   </table>
 </div>
 
-## [NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Fisherman's Delight](fishing.md)
+## [NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Fisherman's Delight](./mdFiles/fishing.md)
 
 <div
     class = "projectBox">
@@ -105,7 +105,7 @@ title: Projects |
   </table>
 </div>
 
-## [Power Efficient Bicycle Signal System](bike.md)
+## [Power Efficient Bicycle Signal System](./mdFiles/bike.md)
 
 <div
     class = "projectBox">
@@ -125,7 +125,7 @@ title: Projects |
   </table>
 </div>
 
-## [Cloud-Native Sleep Data Visualization Tool](onera.md)
+## [Cloud-Native Sleep Data Visualization Tool](./mdFiles/onera.md)
 
 <div
     class = "projectBox">
