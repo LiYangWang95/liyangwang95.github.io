@@ -52,9 +52,6 @@ Using the library nvd3 I implemented functions of *a) zoom in along x axis* and 
 Upon deciding the connection method, one of the candidates is the WebSocket connection. I implemented the method and created an easy-use API for the team to incorporate with their code. Below is the code snippet.  
 
 <div style = "background-color: rgb(50, 50, 50);"><pre><code class = "language-css">
-
->
-```javascript
 class connection {
   constructor(url, actionOnReceiving) {
     // Set up connection
@@ -116,8 +113,6 @@ function waitForSocketConnection(socket, callback) {
 }
  
 export default connection;
-```
-
 </code></pre></div>
 
 ### Major Contribution 4: Integrating and Refactoring Code
