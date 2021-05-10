@@ -53,9 +53,9 @@ Using the library nvd3 I implemented functions of *a) zoom in along x axis* and 
 
 ### Major Contribution 3: Implement WebSocket API for the Team  
 
-Upon deciding the connection method, one of the candidates is the WebSocket connection. I implemented the method and created an easy-use API for the team to incorporate with their code. Below is the code snippet.  
+Upon deciding the connection method, one of the candidates is the WebSocket connection. I implemented the method and created an easy-use API for the team to incorporate with their code.  
 
-<div style = "background-color: rgb(50, 50, 50);"><pre><code class = "language-css">
+<!-- <div style = "background-color: rgb(50, 50, 50);"><pre><code class = "language-css">
 class connection {
   constructor(url, actionOnReceiving) {
     // Set up connection
@@ -117,7 +117,7 @@ function waitForSocketConnection(socket, callback) {
 }
  
 export default connection;
-</code></pre></div>
+</code></pre></div> -->
 &nbsp;  
 
 ### Major Contribution 4: Integrating and Refactoring Code
