@@ -18,7 +18,7 @@ iii) to make marks/annotations
 
 ## Personal Contributions
 
-I was majorly involved in the research stage and the final integration. To figure out the most suitable programming language and library, I conveyed tests on one of our candidates and implemented few functions derived from the feature requirements. Finally, I integrated code from other team members into the first verion of our deliverable.
+I was majorly involved in the research stage and the final integration. To figure out the most suitable programming language and library, I conveyed tests on one of our candidates and implemented few functions derived from the feature requirements. Finally, I integrated code from other team members into the first verion of our deliverable.  
 &nbsp;  
 
 ### Major Contribution 1: Functionality Test for JavaScript Library *nvd3*
@@ -145,7 +145,8 @@ c) Provide some suggestions to the back end team in regard of making and sending
 
 ## Acknowledgement  
 
-Janice Conquet, Niki Saleki, Dan Chirascu, Lkham Nyambuu, Hasan Kaplan, Christian Degott, Sedihgeh Arasteh, Abolfazl Saravani, Akash Arora, Respa Putra, Lamisha Rawshan, Ankith Bale, Shubham Rawal, Nastaran Bajalan, William Jawad, Mohammad Ibrahim
+Janice Conquet, Niki Saleki, Dan Chirascu, Lkham Nyambuu, Hasan Kaplan, Christian Degott, Sedihgeh Arasteh, Abolfazl Saravani, Akash Arora, Respa Putra, Lamisha Rawshan, Ankith Bale, Shubham Rawal, Nastaran Bajalan, William Jawad, Mohammad Ibrahim  
+&nbsp;  
 
 ## Related Links  
 
