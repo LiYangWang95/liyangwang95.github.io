@@ -92,5 +92,5 @@ Chinese (Native)
 
 ## Certificates
 
-> TOEFL iBT 108/120  
+> TOEFL iBT 110/120  
 TOEIC 960/990  
