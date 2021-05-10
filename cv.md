@@ -69,7 +69,7 @@ University of Illinois Urbana-Champaign, USA
 > **OpenHCI Workshop 2018**  
 2018/1-2018/8  
 &nbsp;  
-> \- Intro page: [OpenHCI 2018](https:www.openhci.com/2018/index.html)  
+> \- Intro page: [OpenHCI 2018](https://bit.ly/3o3D8Am)  
 
 # Skills
 
