@@ -132,7 +132,7 @@ b) First integration with the back end team
 c) Provide some suggestions to the back end team in regard of making and sending remarks on the data  
 &nbsp;  
 
-## The Interface
+<!-- ## The Interface
 
 <img
     src = "/images/onera/interface.png"
@@ -141,7 +141,7 @@ c) Provide some suggestions to the back end team in regard of making and sending
             max-height: 95%;
             vertical-align: middle;"
     >  
-&nbsp;  
+&nbsp;   -->
 
 ## Acknowledgement  
 
