@@ -5,15 +5,9 @@ title: Projects |
 
 # Cloud-Native Sleep Data Visualization Tool
 
-The project “Cloud Native Sleep Data Visualization Tool” is a training project involving the Software Technology PDEng Program of TU/e and Onera Health. The project’s goal is to develop a visualization tool for medical workers to examine the EEG signals recorded when the patients were sleeping; this tool will play a significant role in assisting analyzing  the analysis of the sleeping patterns by simplifying the EEG signals, and convert the signals into readable forms.  
+The project “Cloud Native Sleep Data Visualization Tool” is a training project involving the Software Technology PDEng Program of TU/e and Onera Health. The project’s goal is to develop a visualization tool for EEG signals.
 &nbsp;  
-Within the project I played the rols as **Engineer/ Designer** in the frontend team. The team was responsible for designing and implementing all the following features:  
-> a) Be able to receive raw data from local devices/end users  
-b) Be able to extract and convert raw data into plottable files  
-c) Be able to display a chart the user can interact with by allowing the user  
->> i) to zoom in/out  
-ii) to scroll horizontally/vertically through the chart(panning)  
-iii) to make marks/annotations  
+Within the project I played the rols as **Engineer/ Designer** in the frontend team.
 &nbsp;  
 
 ## Personal Contributions
