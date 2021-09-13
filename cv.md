@@ -3,13 +3,49 @@ layout: default
 title: CV | 
 ---
 
+# Work Experiences
+
+## Professional Doctorate of Engineer
+
+> **Software Technology, Technische Universiteit Eindhoven, Netherlands**  
+2020/10-Present  
+&nbsp;  
+>\- Industrial career training as a technological designer  
+\- Participated in 3 industrial projects
+\- Conducted a 10-month major design project  
+
+## Field Application Engineer Intern
+
+> **Delta EMEA, Eindhoven, Netherlands**  
+2019/3-2019/7  
+&nbsp;  
+>\- Industrial automation (VFD, motors, HMI, and power supplies)  
+\- Refined the end-user interface of a intelligent pumping system solution  
+\- Attended the GreenTech 2019 as exhibitor @Amsterdam RAI  
+\- Technical customer support - firmware update  
+\- Creating and translating technical documents from related fields  
+
+# Skills
+
+## Programming Languages
+
+> C, C++, C#(Unity), Python, JavaScript
+
+## Knowledge & Skills
+
+> Interaction design  
+Unity development  
+Embedded system development  
+3D modeling / printing
+Basic use of Processing  
+
+## Speaking Languages
+
+> English (Fluent)  
+Chinese (Native)  
+Dutch (Beginner)
+
 # Educational Background
-
-## EngD
-
-> **Software Technology**  
-Technische Universiteit Eindhoven, Netherlands  
-2020-Present  
 
 ## MSc
 
@@ -35,19 +71,6 @@ University of Illinois Urbana-Champaign, USA
 &nbsp;  
 > *Key Courses: Senior Design Project Lab, Logic Synthesis*  
 
-# Work Experiences
-
-## Field Application Engineer Intern
-
-> **Delta EMEA, Eindhoven, Netherlands**  
-2019/3-2019/7  
-&nbsp;  
->\- Industrial automation (VFD, motors, HMI, and power supplies)  
-\- Refined the end-user interface of a intelligent pumping system solution  
-\- Attended the GreenTech 2019 as exhibitor @Amsterdam RAI  
-\- Technical customer support - firmware update  
-\- Creating and translating technical documents from related fields  
-
 ## Teaching Assistant
 
 > **Interaction Design and Virtual Reality, Dept. of Computer Science, NCTU**  
@@ -71,26 +94,7 @@ University of Illinois Urbana-Champaign, USA
 &nbsp;  
 > \- Intro page: [OpenHCI 2018](https://bit.ly/3o3D8Am)  
 
-# Skills
-
-## Programming Languages
-
-> C, C++, Unity(C#)
-
-## Knowledge & Skills
-
-> Interaction design  
-Unity development  
-Embedded system development  
-3D modeling / printing
-Basic use of Processing  
-
-## Speaking Languages
-
-> English (Fluent)  
-Chinese (Native)  
-
-## Certificates
+## Language Certificates
 
 > TOEFL iBT 110/120  
 TOEIC 960/990  
