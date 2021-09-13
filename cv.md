@@ -11,7 +11,7 @@ title: CV |
 2020/10-Present  
 &nbsp;  
 >\- Industrial career training as a technological designer  
-\- Participated in 3 industrial projects
+\- Participated in 3 industrial projects  
 \- Conducted a 10-month major design project  
 
 ## Field Application Engineer Intern
