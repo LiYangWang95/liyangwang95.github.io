@@ -26,8 +26,6 @@ Push-Ups shoes are made with pneumatic muscles in the base, allowing users to pr
 In the second study, we evaluated the system on a ski experience, and user ratings from 12 participants showed that users perceived significantly higher enjoyment and realism with reduced motion sickness with the force feedback that Push-Ups presented.  
 &nbsp;  
 &nbsp;
-
-## Designed Poster  
 &nbsp;  
 <img
     src = "/images/pushUps/poster.png"

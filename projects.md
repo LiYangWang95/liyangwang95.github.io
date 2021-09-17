@@ -5,7 +5,7 @@ title: Projects |
 
 # Projects  
 
-## [Cloud-Native Sleep Data Visualization Tool](./projects/CloViTo.md)
+## [Sleep Data Visualization Tool](./projects/CloViTo.md)
 
 <div
     class = "projectBox">
@@ -14,12 +14,12 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/onera/oneraCover.png"
+            src = "/images/onera/Onera_Health_logo.png"
             class = "projectImg">
       </th>
       <th
         class = "textColumn">
-            “Cloud Native Sleep Data Visualization Tool” is a tool aimed to visualize sleep data and provide a user-friendly interface for data manipulation. The tool can be further used in the field of diagnosing diseases that caused sleeping disorders, and assisting medical professions to solve the patients' symptoms.
+            “Sleep Data Visualization Tool” is a tool aimed to visualize sleep data and provide a user-friendly interface for data manipulation. The tool can be further used in the field of diagnosing diseases that caused sleeping disorders, and assisting medical professions to solve the patients' symptoms.
       </th>
     </tr>
   </table>
