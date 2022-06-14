@@ -5,6 +5,26 @@ title: Projects |
 
 # Projects  
 
+## [Autonomous Classification of Mars' Terrain](./projects/ESA.md)
+
+<div
+    class = "projectBox">
+  <table>
+    <tr>
+      <th
+        class = "imageColumn">
+        <img
+            src = "/images/ESA/ESA_logo.png"
+            class = "projectImg">
+      </th>
+      <th
+        class = "textColumn">
+            The project “Autonomous Classification of Mars' Terrain” is a training project that aims to solve the problem of classifying the Mars' terrain. The solution is expected to be a machine learning model. This project is assigned to the PDEng ST trainees at TU/e by the European Space Agency (ESA).
+      </th>
+    </tr>
+  </table>
+</div>
+
 ## [TERRABITS](./projects/Terrabits.md)
 
 <div
