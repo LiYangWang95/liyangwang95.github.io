@@ -5,7 +5,25 @@ title: Projects |
 
 # Projects  
 
-## [Sleep Data Visualization Tool](./projects/CloViTo.md)
+## [TERRABITS](./projects/Terrabits.md)
+
+<div
+    class = "projectBox">
+  <table>
+    <tr>
+      <th
+        class = "imageColumn">
+        <img
+            src = "/images/airbus/Airbus.ai"
+            class = "projectImg">
+      </th>
+      <th
+        class = "textColumn">
+            The project aimed to create an network connecting aircrafts and other devices. The team as developers designed and implemented a ConOps strategy that deploys onto all the devices and stations, or, nodes, and executes actively to form optimized connections.
+      </th>
+    </tr>
+  </table>
+</div>
 
 <div
     class = "projectBox">
@@ -19,7 +37,7 @@ title: Projects |
       </th>
       <th
         class = "textColumn">
-            “Sleep Data Visualization Tool” is a tool aimed to visualize sleep data and provide a user-friendly interface for data manipulation. The tool can be further used in the field of diagnosing diseases that caused sleeping disorders, and assisting medical professions to solve the patients' symptoms.
+            “Data Visualization Tool” is a tool aimed to visualize specific data and provide a user-friendly interface for data manipulation. The tool can be further used in the related field for assisting medical professions to solve the patients' symptoms.
       </th>
     </tr>
   </table>

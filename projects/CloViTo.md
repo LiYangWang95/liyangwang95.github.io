@@ -3,11 +3,11 @@ layout: default
 title: Projects | 
 ---
 
-# Sleep Data Visualization Tool
+# Data Visualization Tool
 
-The project “Sleep Data Visualization Tool” is a training project involving the Software Technology PDEng Program of TU/e and Onera Health. The project’s goal is to develop a visualization tool for sleep data.
+The project “Data Visualization Tool” is a training project involving the Software Technology PDEng Program of TU/e and Onera Health. The project’s goal is to develop a visualization tool for desired data.
 &nbsp;  
-Within the project I played the rols as **Engineer/ Designer** in the frontend team.
+Within the project I played the role as **Engineer/ Designer** in the frontend team.
 &nbsp;  
 
 ## Personal Contributions
@@ -17,7 +17,8 @@ I was majorly involved in the research stage and the final integration. To figur
 
 ### Major Contribution 1: Functionality Test for JavaScript Library *nvd3*
 
-To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests. The result obtained is put in the table below.  
+To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests.
+<!-- The result obtained is put in the table below.  
 &nbsp;  
 
 | Functionality | Result |
@@ -36,7 +37,7 @@ To decide which library suits our visualization needs the best, the team conveye
 | Summed performance (ms) | 1299 |
 | Support for range annotations / highlighting time range | Supports specific model (lineWithFocusChart) |
 | Multiple Y values per X | Yes |
-| Support for synchronisation | - |  
+| Support for synchronisation | - |   -->
 
 &nbsp;  
 
