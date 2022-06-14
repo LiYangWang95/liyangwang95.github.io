@@ -14,7 +14,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/airbus/Airbus.ai"
+            src = "/images/airbus/Airbus_Logo_2017.svg"
             class = "projectImg">
       </th>
       <th
@@ -24,6 +24,8 @@ title: Projects |
     </tr>
   </table>
 </div>
+
+## [Data Visualization Tool](./projects/CloViTo.md)
 
 <div
     class = "projectBox">
