@@ -22,7 +22,7 @@ title: CV |
 >\- Industrial automation (VFD, motors, HMI, and power supplies)  
 \- Refined the end-user interface of a intelligent pumping system solution  
 \- Attended the GreenTech 2019 as exhibitor @Amsterdam RAI  
-\- Technical customer support - firmware update  
+\- Technical customer support: firmware update  
 \- Creating and translating technical documents from related fields  
 
 # Skills
@@ -36,8 +36,8 @@ title: CV |
 > Interaction design  
 Unity development  
 Embedded system development  
-3D modeling / printing
-Basic use of Processing  
+3D modeling / printing  
+Qlik Sense scripting (analyzing tool)  
 
 ## Speaking Languages
 
