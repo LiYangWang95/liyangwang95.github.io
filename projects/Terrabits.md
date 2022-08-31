@@ -5,7 +5,7 @@ title: Projects |
 
 # TERRABITS
 
-The project “TERRABITS” is a training project involving members of the Software Technology PDEng Program of TU/e and Airbus. The project’s goal is to establish a connection between aircrafts and other devices.
+The project “TERRABITS” is a training project involving members of the Software Technology PDEng Program of TU/e and Airbus. The project’s goal is to establish a connection between Airbus devices.
 &nbsp;  
 Within the project I played the role as **Engineer/ Software Architect** in the team.
 &nbsp;  

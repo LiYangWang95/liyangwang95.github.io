@@ -3,9 +3,9 @@ layout: default
 title: Projects | 
 ---
 
-# Autonomous Classification of Mars' Terrain
+# Autonomous Image Classification
 
-The project “Autonomous Classification of Mars' Terrain” is a training project involving the Software Technology PDEng Program of TU/e and European Space Agency(ESA). The project’s goal is to classify images of Mars' terrain.
+The project “Autonomous Image Classification” is a training project involving the Software Technology PDEng Program of TU/e and European Space Agency(ESA). The project’s goal is to classify images of upon ESA's request.
 &nbsp;  
 Within the project I played the role as **Engineer/ Configuration Manager** in the team.
 &nbsp;  

@@ -17,7 +17,8 @@ I was majorly involved in the research stage and the final integration. To figur
 
 ### Major Contribution 1: Functionality Test for JavaScript Library *nvd3*
 
-To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests.
+To decide which library suits our visualization needs the best, the team conveyed a series of research of all candidate libraries. I was assigned to the nvd3 library and completed a set of tests.  
+
 <!-- The result obtained is put in the table below.  
 &nbsp;  
 
@@ -37,7 +38,7 @@ To decide which library suits our visualization needs the best, the team conveye
 | Summed performance (ms) | 1299 |
 | Support for range annotations / highlighting time range | Supports specific model (lineWithFocusChart) |
 | Multiple Y values per X | Yes |
-| Support for synchronisation | - |   -->
+| Support for synchronisation | - |   -->  
 
 &nbsp;  
 
