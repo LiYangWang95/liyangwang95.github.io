@@ -5,6 +5,26 @@ title: Projects |
 
 # Projects  
 
+## [Carbon Emission of Philips' Road Shipments](./projects/Philips.md)
+
+<div
+    class = "projectBox">
+  <table>
+    <tr>
+      <th
+        class = "imageColumn">
+        <img
+            src = "/images/philips/Philips_logo.png"
+            class = "projectImg">
+      </th>
+      <th
+        class = "textColumn">
+            The project “Carbon Emission of Philips' Road Shipments” is a long-term training project that aims to process, analyze, and display the carbon emission of Philips' road freight shipments. The final product is an interactive dashboard that allows the user to view data from various aspects. This project is assigned to me by Royal Philips N.V.
+      </th>
+    </tr>
+  </table>
+</div>
+
 ## [Autonomous Classification of Mars' Terrain](./projects/ESA.md)
 
 <div

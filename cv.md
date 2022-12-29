@@ -5,10 +5,18 @@ title: CV |
 
 # Work Experiences
 
+## Finance Specialist - IT Interface
+
+> **Finance Team, Delta Electronics EMEA, Netherlands**  
+2022/11-Present  
+&nbsp;  
+>\- Assist in digital transformation within the team  
+\- Design and manage RPA processes created using UiPath  
+
 ## Professional Doctorate of Engineer
 
 > **Software Technology, Technische Universiteit Eindhoven, Netherlands**  
-2020/10-Present  
+2020/10-2022/10  
 &nbsp;  
 >\- Industrial career training as a technological designer  
 \- Participated in 3 industrial projects  
@@ -33,17 +41,19 @@ title: CV |
 
 ## Knowledge & Skills
 
-> Interaction design  
+> Data Analysis  
+Interaction design  
 Unity development  
 Embedded system development  
 3D modeling / printing  
 Qlik Sense scripting (analyzing tool)  
+UiPath (RPA tool)  
 
 ## Speaking Languages
 
 > English (Fluent)  
 Chinese (Native)  
-Dutch (Beginner)
+Dutch (Beginner)  
 
 # Educational Background
 
