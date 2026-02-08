@@ -5,10 +5,19 @@ title: CV |
 
 # Work Experiences
 
+## RPA Developer
+
+> **Finance Team, Prologis, Netherlands**  
+2024/12-Present  
+&nbsp;  
+>\- Help automating task in multiple departments, largely in accounting  
+\- Design and manage RPA processes created using UiPath and other relating platforms  
+
+
 ## Finance Specialist - IT Interface
 
 > **Finance Team, Delta Electronics EMEA, Netherlands**  
-2022/11-Present  
+2022/11-2024/11  
 &nbsp;  
 >\- Assist in digital transformation within the team  
 \- Design and manage RPA processes created using UiPath  
