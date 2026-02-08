@@ -9,7 +9,7 @@ title: About |
 
 ## Bio
 
-Hi, I'm LiYang, just call me Leon. Pronouciation? Well, think of **Leon**ardo DiCaprio, then you get it :) I'm currently working as a Finance Specialist - IT Interface at Delta Electronics EMEA and am responsible for the digital transformation of the team.  
+Hi, I'm LiYang, just call me Leon. I'm currently working as a RPA developer at Prologis and am responsible for developing automation processes majorly for the accounting team.  
 
 I graduated from the **PDEng Software Technology program** at Eindhoven University of Technology, the Netherlands in October 2022. During my study I participated in multiple company-collaborating projects, including a 10-month project with Royal Philips, and gained a lot of experience as software engineer/ architect.  
 

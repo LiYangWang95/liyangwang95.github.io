@@ -111,6 +111,14 @@ hr {
     vertical-align: middle;
     padding: 1%;
 }
+
+.projectBox .recipeImg{
+    max-width: 40%;
+    max-height: 40%;
+    vertical-align: middle;
+    padding: 1%;
+}
+
 .projectBox .imageColumn{
     width: 25%;
 }

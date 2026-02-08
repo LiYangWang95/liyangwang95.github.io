@@ -59,8 +59,8 @@ title: Recipes |
 <img
     src = "/images/porkCenturyEggCongee/porkCenturyEggCongee.png"
     alt = "Picture of the pork and century egg congee."
-    style = "max-width: 95%;
-            max-height: 95%;
+    style = "max-width: 45%;
+            max-height: 45%;
             vertical-align: middle;
             margin: auto;"
     >

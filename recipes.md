@@ -15,7 +15,8 @@ title: Recipes |
         class = "imageColumn">
         <img
             src = "/images/porkCenturyEggCongee/porkCenturyEggCongee_Title.png"
-            class = "projectImg">
+            class = "recipeImg"
+            >
       </th>
       <th
         class = "textColumn">
