@@ -24,3 +24,23 @@ title: Recipes |
     </tr>
   </table>
 </div>
+
+## [日式關東煮 + 燒鳥串 Oden + Yakitori](./recipes/odenAndYakitori.md)
+
+<div
+    class = "projectBox">
+  <table>
+    <tr>
+      <th
+        class = "imageColumn">
+        <img
+            src = ""
+            class = "recipeImg">
+      </th>
+      <th
+        class = "textColumn">
+            飽含清甜高湯、軟綿吸汁的極致冬日關東煮焦香滑嫩以及濃郁掛汁的居酒屋風味雞肉串
+      </th>
+    </tr>
+  </table>
+</div>
