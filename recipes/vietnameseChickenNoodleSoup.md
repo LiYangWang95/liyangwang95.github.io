@@ -59,8 +59,8 @@ title: Recipes |
 
 ### 成品
 <img
-    src = "/images/porkCenturyEggCongee/porkCenturyEggCongee.png"
-    alt = "Picture of the pork and century egg congee."
+    src = "/images/recipes/vietnameseChickenNoodleSoup.png"
+    alt = "Picture of the Vietnamese-style chicken noodle soup with turmeric."
     style = "max-width: 45%;
             max-height: 45%;
             vertical-align: middle;
