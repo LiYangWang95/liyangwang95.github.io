@@ -15,7 +15,7 @@ title: Recipes |
         class = "imageColumn">
         <img
             src = "/images/recipes/porkCenturyEggCongee_Title.png"
-            class = "projectImg">
+            class = "recipeImg">
       </th>
       <th
         class = "textColumn">
@@ -35,7 +35,7 @@ title: Recipes |
         class = "imageColumn">
         <img
             src = ""
-            class = "projectImg">
+            class = "recipeImg">
       </th>
       <th
         class = "textColumn">
@@ -55,7 +55,7 @@ title: Recipes |
         class = "imageColumn">
         <img
             src = "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
-            class = "projectImg">
+            class = "recipeImg">
       </th>
       <th
         class = "textColumn">

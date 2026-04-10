@@ -120,6 +120,14 @@ hr {
     padding: 1%;
 }
 
+.projectBox .recipeImg{
+    width: 60%;
+    height: 60%;
+    vertical-align: middle;
+    height: auto;
+    padding: 1%;
+}
+
 .projectBox .imageColumn{
     width: 25%;
 }
