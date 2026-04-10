@@ -14,11 +14,8 @@ title: Recipes |
       <th
         class = "imageColumn">
         <img
-          src = "/images/recipes/porkCenturyEggCongee_Title.png"
-          style = "max-width: 75%;
-          max-height: 75%;
-          vertical-align: middle;
-          margin: auto;">
+            src = "/images/recipes/porkCenturyEggCongee_Title.png"
+            class = "projectImg">
       </th>
       <th
         class = "textColumn">
@@ -37,13 +34,9 @@ title: Recipes |
       <th
         class = "imageColumn">
         <img
-          src = ""
-          style = "max-width: 75%;
-          max-height: 75%;
-          vertical-align: middle;
-          margin: auto;">
+            src = ""
+            class = "projectImg">
       </th>
-      >
       <th
         class = "textColumn">
             飽含清甜高湯、軟綿吸汁的極致冬日關東煮焦香滑嫩以及濃郁掛汁的居酒屋風味雞肉串
@@ -61,11 +54,8 @@ title: Recipes |
       <th
         class = "imageColumn">
         <img
-          src = "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
-          style = "max-width: 75%;
-            max-height: 75%;
-            vertical-align: middle;
-            margin: auto;">
+            src = "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
+            class = "projectImg">
       </th>
       <th
         class = "textColumn">
