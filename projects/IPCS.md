@@ -40,7 +40,7 @@ f) Run/stop button
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/intern/interface.png"
+                src = "/images/projects/intern/interface.png"
                 alt = "The refined user interface(off)."
                 style = "max-width: 95%;
                         max-height: 95%;
@@ -51,7 +51,7 @@ f) Run/stop button
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/intern/running.png"
+                src = "/images/projects/intern/running.png"
                 alt = "The refined user interface(on)."
                 style = "max-width: 95%;
                         max-height: 95%;

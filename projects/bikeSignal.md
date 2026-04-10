@@ -51,7 +51,7 @@ First of all, the mentioned features are currently not available in other soluti
                     line-height: 1.4em;
                     color: #333;">
             <img
-                src = "/images/bike/turnProbe.gif"
+                src = "/images/projects/bike/turnProbe.gif"
                 alt = "Light automatically turned off after turn and return to probe mode."
                 style = "max-width: 100%;
                         max-height: 100%;
@@ -69,7 +69,7 @@ First of all, the mentioned features are currently not available in other soluti
                     line-height: 1.4em;
                     color: #333;">
             <img
-                src = "/images/bike/turn.gif"
+                src = "/images/projects/bike/turn.gif"
                 alt = "Light automatically turned off after turn."
                 style = "max-width: 100%;
                         max-height: 100%;
@@ -87,7 +87,7 @@ First of all, the mentioned features are currently not available in other soluti
                     line-height: 1.4em;
                     color: #333;">
             <img
-                src = "/images/bike/brake.gif"
+                src = "/images/projects/bike/brake.gif"
                 alt = "Light automatically turned on when braking."
                 style = "max-width: 100%;
                         max-height: 100%;

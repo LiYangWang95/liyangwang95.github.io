@@ -34,7 +34,7 @@ The visual design of the game is also based on “Khubilai Khan Hunting”. This
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/hunting/playing.jpg"
+                src = "/images/projects/hunting/playing.jpg"
                 alt = "An user is experiencing our demonstration."
                 style = "max-width: 95%;
                         max-height: 95%;
@@ -45,7 +45,7 @@ The visual design of the game is also based on “Khubilai Khan Hunting”. This
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/hunting/horse.jpg"
+                src = "/images/projects/hunting/horse.jpg"
                 alt = "The horse device of the system."
                 style = "max-width: 95%;
                         max-height: 95%;

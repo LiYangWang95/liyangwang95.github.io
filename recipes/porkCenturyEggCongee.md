@@ -57,7 +57,7 @@ title: Recipes |
 
 ### 成品
 <img
-    src = "/images/porkCenturyEggCongee/porkCenturyEggCongee.png"
+    src = "/images/recipes/porkCenturyEggCongee.png"
     alt = "Picture of the pork and century egg congee."
     style = "max-width: 45%;
             max-height: 45%;

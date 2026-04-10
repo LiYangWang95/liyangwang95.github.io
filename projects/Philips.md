@@ -23,7 +23,7 @@ Qlik Sense is a web-based BI tool that Philips is currently using across differe
 &nbsp;  
 
 <img
-    src = "/images/philips/QlikLayer.png"
+    src = "/images/projects/philips/QlikLayer.png"
     alt = "The layered structure of Qlik Sense."
     style = "max-width: 95%;
             max-height: 95%;
@@ -36,7 +36,7 @@ Our system design adopted the 3-level architecture of Qlik Sense and coorespondi
 &nbsp;  
 
 <img
-    src = "/images/philips/systemDesign.png"
+    src = "/images/projects/philips/systemDesign.png"
     alt = "The 3-layer system design with data acqusition pictured."
     style = "max-width: 95%;
             max-height: 95%;
@@ -54,7 +54,7 @@ To allow for data manipulation and to serve users with various requests, we impl
 &nbsp;  
 
 <img
-    src = "/images/philips/dashboard.png"
+    src = "/images/projects/philips/dashboard.png"
     alt = "The interactive CO2e emission dashboard."
     style = "max-width: 95%;
             max-height: 95%;

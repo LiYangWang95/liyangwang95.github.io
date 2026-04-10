@@ -14,7 +14,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/philips/Philips_logo.png"
+            src = "/images/projects/philips/Philips_logo.png"
             class = "projectImg">
       </th>
       <th
@@ -34,7 +34,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/ESA/ESA_logo.png"
+            src = "/images/projects/ESA/ESA_logo.png"
             class = "projectImg">
       </th>
       <th
@@ -54,7 +54,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/airbus/Airbus_Logo_2017.svg"
+            src = "/images/projects/airbus/Airbus_Logo_2017.svg"
             class = "projectImg">
       </th>
       <th
@@ -74,7 +74,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/onera/Onera_Health_logo.png"
+            src = "/images/projects/onera/Onera_Health_logo.png"
             class = "projectImg">
       </th>
       <th
@@ -94,7 +94,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/pushUps/pushUpsCover.png"
+            src = "/images/projects/pushUps/pushUpsCover.png"
             class = "projectImg">
       </th>
       <th
@@ -114,7 +114,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/intern/IPCMachine.png"
+            src = "/images/projects/intern/IPCMachine.png"
             class = "projectImg">
       </th>
       <th
@@ -134,7 +134,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/faceWidgets/faceWidgetsCover.jpg"
+            src = "/images/projects/faceWidgets/faceWidgetsCover.jpg"
             class = "projectImg">
       </th>
       <th
@@ -154,7 +154,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/hunting/huntingCover.jpg"
+            src = "/images/projects/hunting/huntingCover.jpg"
             class = "projectImg">
       </th>
       <th
@@ -174,7 +174,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/fishing/fishingCover.png"
+            src = "/images/projects/fishing/fishingCover.png"
             class = "projectImg">
       </th>
       <th
@@ -194,7 +194,7 @@ title: Projects |
       <th
         class = "imageColumn">
         <img
-            src = "/images/bike/bikeCover.png"
+            src = "/images/projects/bike/bikeCover.png"
             class = "projectImg">
       </th>
       <th

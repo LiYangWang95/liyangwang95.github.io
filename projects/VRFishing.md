@@ -32,7 +32,7 @@ title: Projects |
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/fishing/fishingPlaying.jpg"
+                src = "/images/projects/fishing/fishingPlaying.jpg"
                 alt = "An user is experiencing our demonstration."
                 style = "max-width: 95%;
                         max-height: 95%;
@@ -43,7 +43,7 @@ title: Projects |
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/fishing/fishingRod.png"
+                src = "/images/projects/fishing/fishingRod.png"
                 alt = "Decomposed fishing rod."
                 style = "max-width: 95%;
                         max-height: 95%;

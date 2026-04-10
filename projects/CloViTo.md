@@ -52,69 +52,6 @@ Using the library nvd3 I implemented functions of *a) zoom in along x axis* and 
 Upon deciding the connection method, one of the candidates is the WebSocket connection. I implemented the method and created an easy-use API for the team to incorporate with their code.  
 &nbsp;  
 
-<!-- <div style = "background-color: rgb(50, 50, 50);"><pre><code class = "language-css">
-class connection {
-  constructor(url, actionOnReceiving) {
-    // Set up connection
-    try {
-      this.ws = new WebSocket(url);
-      setSocketBehavior(this.ws, actionOnReceiving);
-    } catch (exception) {
-      console.error(exception);
-    }
-  }
- 
-  // Send request to server
-  sendRequest(req) {
-    waitForSocketConnection(this.ws, () => {
-      console.log("Send request: " + req);
-      this.ws.send(req);
-    });
-  }
-}
- 
-function setSocketBehavior(ws, actionOnReceiving) {
-  // Set behavior on opening socket
-  ws.onopen = () => {
-    console.log("Start connection");
-  };
- 
-  // Set behavior on closing socket
-  ws.onclose = () => {
-    console.log("Close connection");
-  };
- 
-  // Set behavior on error
-  ws.onerror = (error) => {
-    console.error(error.msg);
-  };
- 
-  // Set behavior on receiving message
-  ws.onmessage = (receivedData) => {
-    actionOnReceiving(receivedData);
-  };
-}
- 
-// Call callback until the connection is made
-function waitForSocketConnection(socket, callback) {
-  setTimeout(() => {
-    try {
-      if (socket.readyState == WebSocket.OPEN) {
-        if (callback != null) {
-          callback();
-        }
-      } else {
-        console.log("Waiting for connection...");
-        waitForSocketConnection(socket, callback);
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  }, 50); // wait 5 millisecond for the connection...
-}
- 
-export default connection;
-</code></pre></div> -->
 
 ### Major Contribution 4: Integrating and Refactoring Code
 
@@ -128,16 +65,6 @@ b) First integration with the back end team
 c) Provide some suggestions to the back end team in regard of making and sending remarks on the data  
 &nbsp;  
 
-<!-- ## The Interface
-
-<img
-    src = "/images/onera/interface.png"
-    alt = "The screenshot of CloViTo."
-    style = "max-width: 95%;
-            max-height: 95%;
-            vertical-align: middle;"
-    >  
-&nbsp;   -->
 
 ## Acknowledgement  
 

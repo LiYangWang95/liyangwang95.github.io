@@ -14,7 +14,7 @@ title: Recipes |
       <th
         class = "imageColumn">
         <img
-            src = "/images/porkCenturyEggCongee/porkCenturyEggCongee_Title.png"
+            src = "/images/recipes/porkCenturyEggCongee_Title.png"
             class = "recipeImg">
       </th>
       <th
@@ -40,6 +40,26 @@ title: Recipes |
       <th
         class = "textColumn">
             飽含清甜高湯、軟綿吸汁的極致冬日關東煮焦香滑嫩以及濃郁掛汁的居酒屋風味雞肉串
+      </th>
+    </tr>
+  </table>
+</div>
+
+## [越式風味薑黃雞肉蔬菜湯麵 Vietnamese-style Chicken Noodle Soup with Turmeric](./recipes/vietnameseChickenNoodleSoup.md)
+
+<div
+    class = "projectBox">
+  <table>
+    <tr>
+      <th
+        class = "imageColumn">
+        <img
+            src = "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
+            class = "recipeImg">
+      </th>
+      <th
+        class = "textColumn">
+            使用薑黃粉、薑絲、蒜末等暖胃食材炒製湯底的越式風味湯麵
       </th>
     </tr>
   </table>
