@@ -14,9 +14,12 @@ title: Recipes |
       <th
         class = "imageColumn">
         <img
-            src = "/images/recipes/porkCenturyEggCongee_Title.png"
-            class = "recipeImg">
-      </th>
+          src = "/images/recipes/porkCenturyEggCongee_Title.png"
+          style = "max-width: 45%;
+          max-height: 45%;
+          vertical-align: middle;
+          margin: auto;"
+        >
       <th
         class = "textColumn">
             以砂鍋慢火熬煮經典的皮蛋瘦肉粥，額外加入油蔥酥讓濃郁綿密的粥品多一分香脆的口感
@@ -34,9 +37,12 @@ title: Recipes |
       <th
         class = "imageColumn">
         <img
-            src = ""
-            class = "recipeImg">
-      </th>
+          src = ""
+          style = "max-width: 45%;
+          max-height: 45%;
+          vertical-align: middle;
+          margin: auto;"
+        >
       <th
         class = "textColumn">
             飽含清甜高湯、軟綿吸汁的極致冬日關東煮焦香滑嫩以及濃郁掛汁的居酒屋風味雞肉串
@@ -54,8 +60,12 @@ title: Recipes |
       <th
         class = "imageColumn">
         <img
-            src = "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
-            class = "recipeImg">
+          src = "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
+          style = "max-width: 45%;
+            max-height: 45%;
+            vertical-align: middle;
+            margin: auto;"
+        >
       </th>
       <th
         class = "textColumn">
