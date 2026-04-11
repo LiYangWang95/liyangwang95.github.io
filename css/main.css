@@ -45,7 +45,10 @@ body {
 .nav-divider {
     border: none;
     border-top: 1px solid #eee;
-    margin: 10px 0;
+    /* Remove 'margin: 10px 0' and use auto to align with the 60% center content */
+    margin: 10px auto; 
+    /* The line width should be the same as the center main-content (60%) */
+    width: 60%; 
 }
 
 /* --- Main Layout Container --- */
@@ -60,13 +63,13 @@ body {
 /* --- Sidebar: Floating in the Left 20% Blank Area --- */
 .sidebar {
     width: 180px; 
-    position: absolute; /* Remove from flow to prevent squeezing main content */
-    /* Position logic: Starts at 20% line, moved back by sidebar width + gap */
+    position: fixed; /* Change to fixed for problem #3 */
+    /* Adjust left position to stay in the blank area */
     left: calc(20% - 200px); 
-    top: 20px;
+    top: 120px; /* Adjust based on your nav height */
     border-right: 1px solid #f0f0f0; 
     padding-right: 15px;
-    text-align: right; /* Align text towards the main content area */
+    text-align: left; /* Changed from right to left */
     z-index: 10;
 }
 
@@ -94,10 +97,11 @@ body {
 .sidebar-list li a:hover {
     color: #000;
     font-weight: bold;
-    /* Right border for right-aligned text */
-    border-right: 2px solid #000;
-    padding-right: 8px;
-    border-left: none;
+    /* Change border to the left side */
+    border-left: 2px solid #000;
+    padding-left: 8px;
+    border-right: none;
+    padding-right: 0;
 }
 
 /* --- Main Content: Occupying the 60% Center Space --- */
