@@ -1,9 +1,12 @@
 /* --- Global Reset and Body Styles --- */
 body {
     margin: 60px auto;
-    width: 70%; /* Default width for pages without sidebars (About, CV, Home) */
+    /* Unify body width to 90% for consistent alignment calculations across all pages */
+    width: 90%; 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #333;
+    /* Reduced font-size to 80% of original */
+    font-size: 0.8em; 
 }
 
 /* Widen layout and enable flex only when sidebar exists */
@@ -21,7 +24,7 @@ body:has(.sidebar) {
     width: 100%;
     display: flex;
     align-items: center;
-    /* Aligns Logo with Main Content start: Sidebar(200px) + Gap(50px) = 250px */
+    /* Fixed alignment point: Sidebar(200px) + Gap(50px) = 250px */
     padding-left: 250px; 
     box-sizing: border-box;
 }
@@ -29,12 +32,13 @@ body:has(.sidebar) {
 .nav-inner ul {
     width: 100%;
     display: flex;
-    justify-content: flex-end; /* Menu items aligned to the right */
+    justify-content: flex-end; 
     align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 150%;
+    /* Reduced from 150% to 120% (80% of original) */
+    font-size: 1.2em; 
 }
 
 .nav-inner ul li {
@@ -43,9 +47,9 @@ body:has(.sidebar) {
 
 /* Logo placement at the 250px alignment line */
 .nav-inner ul li:first-child {
-    margin-right: auto; /* Pushes navigation links to the far right */
+    margin-right: auto; 
     margin-left: 0;
-    padding-left: 10px; /* Small padding from the imaginary vertical line */
+    padding-left: 10px; 
 }
 
 /* --- Aligned Horizontal Divider --- */
@@ -53,7 +57,7 @@ body:has(.sidebar) {
     border: none;
     border-top: 1px solid #eee;
     margin: 0;
-    /* Starts the line from the 250px alignment point */
+    /* Starts the line from the same 250px alignment point */
     margin-left: 250px; 
     width: calc(100% - 250px);
 }
@@ -61,20 +65,21 @@ body:has(.sidebar) {
 /* --- Main Layout Container --- */
 .container {
     padding-top: 10px;
-    padding-bottom: 80px; /* Bottom space for fixed footer */
+    padding-bottom: 80px;
     word-wrap: break-word;
     min-height: 80vh;
-}
-
-/* Flexbox layout for Sidebar + Main Content */
-body:has(.sidebar) .container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 50px; /* The gap constant used in alignment calculations */
+    gap: 50px;
 }
 
-/* Sidebar with vertical separator line */
+/* If there is no sidebar (Home/About/CV), add the 250px offset to the main-content directly */
+.container:not(:has(.sidebar)) .main-content {
+    margin-left: 250px;
+}
+
+/* Sidebar Styling */
 .sidebar {
     width: 200px;
     flex-shrink: 0;
@@ -82,11 +87,11 @@ body:has(.sidebar) .container {
     top: 100px;
     border-right: 1px solid #f0f0f0; 
     padding-right: 15px;
-    text-align: left;
 }
 
 .sidebar-title {
-    font-size: 1.5em;
+    /* Reduced from 1.5em to 1.2em (80% of original) */
+    font-size: 1.2em; 
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -98,16 +103,14 @@ body:has(.sidebar) .container {
     margin: 0;
 }
 
-.sidebar-list li {
-    margin-bottom: 12px;
-}
+.sidebar-list li { margin-bottom: 12px; }
 
 .sidebar-list li a {
     display: block;
     color: #888;
-    font-size: 1.1em;
+    /* Reduced from 1.1em to 0.88em (80% of original) */
+    font-size: 0.88em; 
     text-decoration: none;
-    /* Ellipsis logic for long titles */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -125,12 +128,22 @@ body:has(.sidebar) .container {
 
 .main-content {
     flex: 1;
-    min-width: 0; /* Prevents flex children from breaking ellipsis logic */
+    min-width: 0;
 }
 
 /* --- Typography & Elements --- */
-h1 { font-size: 2.5em; }
-p { font-size: 1.2em; line-height: 1.4em; text-align: justify; }
+h1 { 
+    /* Reduced from 2.5em to 2.0em (80% of original) */
+    font-size: 2.0em; 
+}
+
+p { 
+    /* Reduced from 1.2em to 0.96em (80% of original) */
+    font-size: 0.96em; 
+    line-height: 1.4em; 
+    text-align: justify; 
+}
+
 a { color: #333; text-decoration: none; }
 a:hover { color: #999; text-decoration: underline; }
 
@@ -138,11 +151,17 @@ a:hover { color: #999; text-decoration: underline; }
 .projectBox { padding: 2%; overflow: auto; }
 .projectBox table { table-layout: fixed; width: 100%; border-collapse: collapse; }
 .projectBox .imageColumn { width: 25%; vertical-align: middle; }
-.projectBox .textColumn { width: 75%; text-align: justify; padding-left: 15px; }
+.projectBox .textColumn { 
+    width: 75%; 
+    text-align: justify; 
+    padding-left: 15px; 
+    /* Added consistent scaling for table text */
+    font-size: 0.96em; 
+}
 .projectBox .projectImg { width: 80%; height: auto; display: block; margin: 0 auto; }
 .projectBox .recipeImg { width: 60%; height: auto; display: block; margin: 0 auto; }
 
-/* --- Fixed Footer Section --- */
+/* --- Footer Section --- */
 #footer {
     border-top: 1px solid #999;
     box-shadow: inset 0 15px 3px -16px #999;
@@ -153,7 +172,7 @@ a:hover { color: #999; text-decoration: underline; }
     left: 0;
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr auto 1fr; /* Left empty, Center icons, Right text */
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 0 30px;
     box-sizing: border-box;
@@ -175,7 +194,8 @@ a:hover { color: #999; text-decoration: underline; }
     grid-column: 3;
     justify-self: end;
     color: #999;
-    font-size: 11px;
+    /* Reduced from 11px to 9px (approx 80% of original) */
+    font-size: 9px; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -191,6 +211,7 @@ html { overflow-y: overlay; }
 /* --- Mobile Responsiveness --- */
 @media (max-width: 900px) {
     .nav-inner, .nav-divider { padding-left: 20px; margin-left: 0; width: 100%; }
-    body:has(.sidebar) .container { flex-direction: column; }
+    .container { flex-direction: column; }
+    .container:not(:has(.sidebar)) .main-content { margin-left: 0; }
     .sidebar { width: 100%; position: static; border-right: none; border-bottom: 1px solid #eee; }
 }
