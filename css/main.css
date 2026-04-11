@@ -169,40 +169,54 @@ hr {
     border-color: #999 !important;
 }
 
-/* --- Footer Layout & Fixed Positioning --- */
+/* --- Footer Container with Correct Flexbox Alignment --- */
 #footer {
     border-top: 1px solid #999;
     box-shadow: inset 0 15px 3px -16px #999;
     width: 100%;
     font-size: 70%;
-    position: fixed; /* Keeps the footer at the bottom of the viewport */
-    height: 40px;
+    position: fixed;
+    height: 60px;          /* Increased height to provide enough vertical space */
     bottom: 0px;
     left: 0px;
-    text-align: center;
     background-color: black;
     font-weight: bold;
-    padding-bottom: 25px;
     
-    /* Flexbox used to vertically center icons and update text */
+    /* Using Flexbox for perfect center alignment */
     display: flex;
-    align-items: center;    /* Vertical alignment */
-    justify-content: center; /* Horizontal alignment for central content */
+    align-items: center;    /* Vertically centers all children */
+    justify-content: center; /* Horizontally centers the UL icons */
+    padding: 0;             /* Removed padding-bottom to prevent pushing content up */
 }
 
 #footer ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;          /* Ensures the icons inside are also flex-aligned */
+    align-items: center;
+}
+
+#footer ul li {
+    margin: 0 10px;        /* Consistent spacing between icons */
+    display: flex;
+    align-items: center;
+}
+
+#footer ul li img {
+    display: block;        /* Removes inline-block whitespace gaps */
 }
 
 /* --- Last Update Timestamp Style --- */
 .last-update {
-    position: absolute;      /* Detaches from the normal flow to stick to the side */
-    right: 30px;             /* Acts as padding-right from the viewport edge */
+    position: absolute;
+    right: 30px;
     color: #999;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: normal;
-    text-transform: uppercase; /* Standard professional formatting for timestamps */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    /* No need for top/margin, absolute positioning inside flex-align:center 
+       will naturally center it if the parent is high enough */
 }
