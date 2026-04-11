@@ -7,9 +7,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+    sort_by: date
   recipes:
     output: true
     permalink: /recipes/:name
+    sort_by: date
 
 plugins:
   - jekyll-sitemap

@@ -40,8 +40,8 @@
                 {{ page.collection | capitalize }}
             </div>
             <ul class="sidebar-list">
-                {% assign collection_items = site[page.collection] %}
-                {% assign sorted_items = collection_items | sort: 'date' | reversed %}
+                {% assign my_items = site[page.collection] | where_exp: "item", "item.date" %}
+                {% assign sorted_items = my_items | sort: "date" | reversed %}
                 
                 {% for item in sorted_items %}
                 <li class="{% if item.url == page.url %}active{% endif %}">
