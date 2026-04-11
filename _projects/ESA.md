@@ -19,7 +19,7 @@ Within the project I played the role as **Engineer/ Configuration Manager** in t
 I was majorly involved in the research stage. I analyzed the images provided by ESA pixel by pixel and reported analysis to the charateristic of these images. In addition, I also suggested various methods to utilize these features.  
 &nbsp;  
 
-### Major Contribution 1: : Exploratory Data Analysis (EDA)
+### Major Contribution 1: Exploratory Data Analysis (EDA)
 
 Understanding the data is a key part in the project; only if we have a proper learning of the data can we deliver a suitable technique. Taking this in consideration, the team decided to contribute to Exploratory Data Analysis(EDA) first. I analyzed the images based on their grayscale values and class labels.  
 &nbsp;  

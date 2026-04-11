@@ -224,10 +224,28 @@ hr {
     white-space: nowrap;   /* Prevents the timestamp from wrapping */
 }
 
-/* --- Global Scrollbar Stability --- */
+/* --- Global Scrollbar Styling --- */
 html {
-    /* Ensures that the layout doesn't "jump" when a scrollbar appears.
-       It reserves space for the scrollbar even if the content is short.
-    */
-    scrollbar-gutter: stable;
+    /* Use overlay if supported (primarily Webkit browsers like Chrome/Safari) */
+    overflow-y: overlay; 
+    /* Standard property for modern browsers */
+    scrollbar-gutter: auto; 
+}
+
+/* Custom styling to make the scrollbar look professional and subtle */
+::-webkit-scrollbar {
+    width: 8px; /* Slimmer scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* No background track to avoid white blocks */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(153, 153, 153, 0.4); /* Subtle grey thumb */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(153, 153, 153, 0.8);
 }
