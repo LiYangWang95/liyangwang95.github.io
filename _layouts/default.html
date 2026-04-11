@@ -40,7 +40,13 @@
                 {{ page.collection | capitalize }}
             </div>
             <ul class="sidebar-list">
-                {% for item in site[page.collection] %}
+                {% comment %} 
+                    1. 使用 sort: 'date' 依照日期排序
+                    2. 使用 reversed 讓最新的日期排在最前面
+                {% endcomment %}
+                {% assign sorted_items = site[page.collection] | sort: 'date' | reversed %}
+                
+                {% for item in sorted_items %}
                 <li class="{% if item.url == page.url %}active{% endif %}">
                     <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
                         {{ item.recipe_title | default: item.project_title }}
