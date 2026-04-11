@@ -26,8 +26,27 @@
         </nav>
               <hr>
         <div class="container">
-              {{ content }}
-        </div><!-- /.container -->
+            {% if page.collection == 'projects' or page.collection == 'recipes' %}
+            <aside class="sidebar">
+                <div class="sidebar-title">
+                    {{ page.collection | capitalize }}
+                </div>
+                <ul class="sidebar-list">
+                    {% for item in site[page.collection] %}
+                    <li class="{% if item.url == page.url %}active{% endif %}">
+                        <a href="{{ item.url }}" title="{{ item.title }}">
+                            {{ item.recipe_title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </aside>
+            {% endif %}
+
+            <main class="main-content">
+                {{ content }}
+            </main>
+        </div>
         <footer id="footer">
             <ul>
                 <li><a href="mailto:liyangwang95@gmail.com">

@@ -249,3 +249,43 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(153, 153, 153, 0.8);
 }
+
+/* --- Sidebar Container Refinement --- */
+.sidebar {
+    width: 200px;            /* Fixed width ensures a consistent "right wall" */
+    flex-shrink: 0;
+    position: sticky;
+    top: 100px;
+    /* Optional: Add a very faint right border to visually define the list area */
+    border-right: 1px solid #f0f0f0; 
+    padding-right: 15px;     /* Space between text/ellipsis and the main content */
+}
+
+.sidebar-list li a {
+    display: block;
+    text-decoration: none;
+    color: #888;
+    font-size: 0.9em;
+    
+    /* Ellipsis Logic */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    /* Force the anchor to take the full width of the sidebar */
+    width: 100%;             
+    
+    transition: all 0.2s ease;
+    /* Ensure the text aligns to the left */
+    text-align: left;        
+}
+
+/* --- Hover and Active States --- */
+.sidebar-list li a:hover, 
+.sidebar-list li.active a {
+    color: #000;
+    font-weight: bold;
+    /* Avoid using padding-left here as it will push the ellipsis further right */
+    border-left: 2px solid #000; 
+    padding-left: 8px;
+}
