@@ -139,3 +139,28 @@ hr {
     font-weight: normal;
     padding-left: 10px;
 }
+
+/* Recipe Search Bar Styles */
+#recipe-search {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    box-sizing: border-box; /* Crucial: Prevents padding from breaking layout width */
+    transition: border-color 0.3s;
+}
+
+#recipe-search:focus {
+    outline: none;
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Pagination Button Hover Effect */
+#recipe-pagination button:hover {
+    background-color: #f0f0f0 !important;
+    border-color: #999 !important;
+}
