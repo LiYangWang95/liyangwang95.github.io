@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "From Data to Insights to Drive Sustainable Change in Philips’ Global Road Freight CO2e Emissions"
-project_image: "/images/projects/philips/Philips_logo.png"
+project_image: "/_images/projects/philips/Philips_logo.png"
 description: "The project “Carbon Emission of Philips' Road Shipments” is a long-term training project that aims to process, analyze, and display the carbon emission of Philips' road freight shipments. The final product is an interactive dashboard that allows the user to view data from various aspects. This project is assigned to me by Royal Philips N.V."
 date: 2022-01-11
 ---
@@ -27,7 +27,7 @@ Qlik Sense is a web-based BI tool that Philips is currently using across differe
 &nbsp;  
 
 <img
-    src = "/images/projects/philips/QlikLayer.png"
+    src = "/_images/projects/philips/QlikLayer.png"
     alt = "The layered structure of Qlik Sense."
     style = "max-width: 95%;
             max-height: 95%;
@@ -40,7 +40,7 @@ Our system design adopted the 3-level architecture of Qlik Sense and coorespondi
 &nbsp;  
 
 <img
-    src = "/images/projects/philips/systemDesign.png"
+    src = "/_images/projects/philips/systemDesign.png"
     alt = "The 3-layer system design with data acqusition pictured."
     style = "max-width: 95%;
             max-height: 95%;
@@ -58,7 +58,7 @@ To allow for data manipulation and to serve users with various requests, we impl
 &nbsp;  
 
 <img
-    src = "/images/projects/philips/dashboard.png"
+    src = "/_images/projects/philips/dashboard.png"
     alt = "The interactive CO2e emission dashboard."
     style = "max-width: 95%;
             max-height: 95%;

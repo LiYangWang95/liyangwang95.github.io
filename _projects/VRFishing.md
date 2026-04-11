@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Fisherman's Delight"
-project_image: "/images/projects/fishing/fishingCover.png"
+project_image: "/_images/projects/fishing/fishingCover.png"
 description: "This creation takes place at the Jinming Pool in the Song Dynasty. Back then it was a huge pool in the royal garden of Kaifeng; the royal family used to enjoy the beauty and fish by the pool bank. In our showcase the player becomes a member of the imperial family, and fish leisurely with actually feeling of the fish's struggle."
 date: 2018-05-08
 ---
@@ -36,7 +36,7 @@ date: 2018-05-08
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/projects/fishing/fishingPlaying.jpg"
+                src = "/_images/projects/fishing/fishingPlaying.jpg"
                 alt = "An user is experiencing our demonstration."
                 style = "max-width: 95%;
                         max-height: 95%;
@@ -47,7 +47,7 @@ date: 2018-05-08
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/images/projects/fishing/fishingRod.png"
+                src = "/_images/projects/fishing/fishingRod.png"
                 alt = "Decomposed fishing rod."
                 style = "max-width: 95%;
                         max-height: 95%;

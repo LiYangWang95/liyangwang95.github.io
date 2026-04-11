@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays"
-project_image: "/images/projects/faceWidgets/faceWidgetsCover.jpg"
+project_image: "/_images/projects/faceWidgets/faceWidgetsCover.jpg"
 description: "[UIST '19 @ New Orleans] FaceWidgets is a novel HMD that integrates physical controls with a lift extender on the backside allowing for the direct manipulation for the VR interaction. We designed two novel interactions to enhance direct manipulation and conducted three user studies to inform the design on the HMD backside."
 date: 2019-10-17
 ---
