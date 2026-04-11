@@ -40,16 +40,24 @@
                 {{ page.collection | capitalize }}
             </div>
             <ul class="sidebar-list">
-                {% assign my_items = site[page.collection] | where_exp: "item", "item.date" %}
-                {% assign sorted_items = my_items | sort: "date" | reversed %}
+                {% comment %} 
+                    1. Group items by date to force the underlying Liquid engine to index them
+                    2. Sort the groups (this is often more reliable than sorting objects)
+                    3. Reverse the sorted groups
+                {% endcomment %}
+                {% assign grouped_items = site[page.collection] | group_by: "date" | sort: "name" | reversed %}
                 
-                {% for item in sorted_items %}
-                    <li class="{% if item.url == page.url %}active{% endif %}">
-                        <span>{{ item.date | date: "%Y-%m-%d" }}</span>
-                        <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
-                            {{ item.recipe_title | default: item.project_title }}
-                        </a>
-                    </li>
+                {% for group in grouped_items %}
+                    {% for item in group.items %}
+                        <li class="{% if item.url == page.url %}active{% endif %}">
+                            <span style="display:block; font-size: 0.8em; color: #999;">
+                                {{ item.date | date: "%Y-%m-%d" }}
+                            </span>
+                            <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
+                                {{ item.recipe_title | default: item.project_title }}
+                            </a>
+                        </li>
+                    {% endfor %}
                 {% endfor %}
             </ul>
         </aside>
