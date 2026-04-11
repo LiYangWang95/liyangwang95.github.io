@@ -128,6 +128,7 @@ a:hover { color: #999; text-decoration: underline; }
     text-align: justify; 
     padding-left: 25px; 
     font-size: 0.96em;
+    font-weight: normal !important;
 }
 .projectBox .projectImg, 
 .projectBox .recipeImg { 

@@ -44,11 +44,12 @@
                 {% assign sorted_items = my_items | sort: "date" | reversed %}
                 
                 {% for item in sorted_items %}
-                <li class="{% if item.url == page.url %}active{% endif %}">
-                    <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
-                        {{ item.recipe_title | default: item.project_title }}
-                    </a>
-                </li>
+                    <li class="{% if item.url == page.url %}active{% endif %}">
+                        <span>{{ item.date | date: "%Y-%m-%d" }}</span>
+                        <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
+                            {{ item.recipe_title | default: item.project_title }}
+                        </a>
+                    </li>
                 {% endfor %}
             </ul>
         </aside>
