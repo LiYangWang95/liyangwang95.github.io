@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "TERRABITS"
-project_image: "/_images/projects/airbus/Airbus_Logo_2017.svg"
+project_image: "/images/projects/airbus/Airbus_Logo_2017.svg"
 description: "The project aimed to create an network connecting aircrafts and other devices. The team as developers designed and implemented a ConOps strategy that deploys onto all the devices and stations, or, nodes, and executes actively to form optimized connections."
 date: 2021-04-28
 ---

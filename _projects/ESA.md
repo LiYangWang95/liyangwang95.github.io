@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "Autonomous Image Classification"
-project_image: "/_images/projects/ESA/ESA_logo.png"
+project_image: "/images/projects/ESA/ESA_logo.png"
 description: "The project “Autonomous Classification of Mars' Terrain” is a training project that aims to solve the problem of classifying the Mars' terrain. The solution is expected to be a machine learning model. This project is assigned to the PDEng ST trainees at TU/e by the European Space Agency (ESA)."
 date: 2021-12-07
 ---

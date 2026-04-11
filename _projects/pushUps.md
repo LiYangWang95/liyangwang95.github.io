@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "Push-Ups: Enhancing Kinesthetic Experience with Shape-Forming Devices on the Feet Soles"
-project_image: "/_images/projects/pushUps/pushUpsCover.png"
+project_image: "/images/projects/pushUps/pushUpsCover.png"
 description: "[TEI '22 @ Daejeon] Push-Ups is an active haptic device installed beneath feet soles that provides feedback to the wearer's feet. The device targets to enhance the realism and immersion of stand-pose virtual reality experiences, and change the wearer's perception of ground surface."
 date: 2020-06-10
 ---
@@ -32,7 +32,7 @@ In the second study, we evaluated the system on a ski experience, and user ratin
 &nbsp;
 &nbsp;  
 <img
-    src = "/_images/projects/pushUps/poster.png"
+    src = "/images/projects/pushUps/poster.png"
     alt = "An user is experiencing our demonstration."
     style = "max-width: 95%;
             max-height: 95%;

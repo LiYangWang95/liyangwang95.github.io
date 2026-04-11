@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Hunting for Khubilai Khan"
-project_image: "/_images/projects/hunting/huntingCover.jpg"
+project_image: "/images/projects/hunting/huntingCover.jpg"
 description: "The VR showcase “Hunting for Khubilai Khan“ allows the audience to dive into the boundless desert, and hunt down the preys. The player plays as the Khubilai Khan, and experience the intense and fun of hunting by sitting on the horse-riding machine, and a bow-simulating hand-held device."
 date: 2018-05-08
 ---
@@ -38,7 +38,7 @@ The visual design of the game is also based on “Khubilai Khan Hunting”. This
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/_images/projects/hunting/playing.jpg"
+                src = "/images/projects/hunting/playing.jpg"
                 alt = "An user is experiencing our demonstration."
                 style = "max-width: 95%;
                         max-height: 95%;
@@ -49,7 +49,7 @@ The visual design of the game is also based on “Khubilai Khan Hunting”. This
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/_images/projects/hunting/horse.jpg"
+                src = "/images/projects/hunting/horse.jpg"
                 alt = "The horse device of the system."
                 style = "max-width: 95%;
                         max-height: 95%;

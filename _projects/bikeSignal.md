@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "Power Efficient Bicycle Signal System"
-project_image: "/_images/projects/bike/bikeCover.png"
+project_image: "/images/projects/bike/bikeCover.png"
 description: "When bikers are cycling on road, it is often there's no bycycle lanes on the side. This forces the bikers to face a huge risk of getting struck by the vehicles rushing by. To reduce the amount of fatal accidents those bikers may encounter, we developed a power efficient bicycle signal system that shows various lighting patterns when bikers make turns and brakes."
 date: 2016-11-04
 ---
@@ -55,7 +55,7 @@ First of all, the mentioned features are currently not available in other soluti
                     line-height: 1.4em;
                     color: #333;">
             <img
-                src = "/_images/projects/bike/turnProbe.gif"
+                src = "/images/projects/bike/turnProbe.gif"
                 alt = "Light automatically turned off after turn and return to probe mode."
                 style = "max-width: 100%;
                         max-height: 100%;
@@ -73,7 +73,7 @@ First of all, the mentioned features are currently not available in other soluti
                     line-height: 1.4em;
                     color: #333;">
             <img
-                src = "/_images/projects/bike/turn.gif"
+                src = "/images/projects/bike/turn.gif"
                 alt = "Light automatically turned off after turn."
                 style = "max-width: 100%;
                         max-height: 100%;
@@ -91,7 +91,7 @@ First of all, the mentioned features are currently not available in other soluti
                     line-height: 1.4em;
                     color: #333;">
             <img
-                src = "/_images/projects/bike/brake.gif"
+                src = "/images/projects/bike/brake.gif"
                 alt = "Light automatically turned on when braking."
                 style = "max-width: 100%;
                         max-height: 100%;

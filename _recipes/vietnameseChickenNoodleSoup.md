@@ -2,7 +2,7 @@
 layout: default
 title: Recipes
 recipe_title: "越式風味薑黃雞肉蔬菜湯麵 Vietnamese-style Chicken Noodle Soup with Turmeric"
-recipe_image: "/_images/recipes/vietnameseChickenNoodleSoup_Title.png"
+recipe_image: "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
 description: "使用薑黃粉、薑絲、蒜末等暖胃食材炒製湯底的越式風味湯麵"
 date: 2026-04-10
 ---
@@ -63,7 +63,7 @@ date: 2026-04-10
 
 ### 成品
 <img
-    src = "/_images/recipes/vietnameseChickenNoodleSoup.png"
+    src = "/images/recipes/vietnameseChickenNoodleSoup.png"
     alt = "Picture of the Vietnamese-style chicken noodle soup with turmeric."
     style = "max-width: 45%;
             max-height: 45%;

@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 project_title: "Intelligent Pump Control System"
-project_image: "/_images/projects/intern/IPCMachine.png"
+project_image: "/images/projects/intern/IPCMachine.png"
 description: "The project aims to solve the problem of controlling the input/output flow of a pumping system. It utilizes PID control to achieve a precise and automatic adjustment during operation, and includes an user-friendly HMI allow for monitoring and parameter changing."
 date: 2019-08-12
 ---
@@ -44,7 +44,7 @@ f) Run/stop button
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/_images/projects/intern/interface.png"
+                src = "/images/projects/intern/interface.png"
                 alt = "The refined user interface(off)."
                 style = "max-width: 95%;
                         max-height: 95%;
@@ -55,7 +55,7 @@ f) Run/stop button
             style = "width: 50%;
                     height: 50%">
             <img
-                src = "/_images/projects/intern/running.png"
+                src = "/images/projects/intern/running.png"
                 alt = "The refined user interface(on)."
                 style = "max-width: 95%;
                         max-height: 95%;
