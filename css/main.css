@@ -1,28 +1,33 @@
 /* --- Global Reset and Body Styles --- */
 body {
-    margin: 60px auto;
-    width: 90%; 
+    margin: 60px 0; /* Vertical margin only */
+    width: 100%; 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #333;
-    /* Font size scaled to ~80% of standard */
+    /* Font size scaled down to 90% */
     font-size: 0.9em; 
 }
 
-/* --- Navigation & Precise Alignment --- */
-.nav-container {
-    width: 100%;
-    padding: 0;
+/* --- Layout Grid (20-60-20 Rule) --- */
+/* Set horizontal white space to 20% on each side, leaving 60% for center content */
+.nav-inner, 
+.nav-divider, 
+.container, 
+#footer {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+    box-sizing: border-box;
 }
 
+/* --- Navigation --- */
+.nav-container { 
+    width: 100%; 
+}
 .nav-inner {
     width: 100%;
     display: flex;
     align-items: center;
-    /* Match the content margin for symmetry */
-    padding: 0 50px; 
-    box-sizing: border-box;
 }
-
 .nav-inner ul {
     width: 100%;
     display: flex;
@@ -33,42 +38,36 @@ body {
     padding: 0;
     font-size: 1.2em; 
 }
-
 .nav-inner ul li { margin-left: 20px; }
-
-/* Logo pushed to the left */
-.nav-inner ul li:first-child {
-    margin-right: auto; 
-    margin-left: 0;
-}
+.nav-inner ul li:first-child { margin-right: auto; margin-left: 0; }
 
 /* --- Horizontal Divider --- */
 .nav-divider {
     border: none;
     border-top: 1px solid #eee;
-    margin: 10px 50px; /* Symmetrical side margins */
+    margin: 10px 0;
 }
 
 /* --- Main Layout Container --- */
 .container {
-    padding: 10px 50px 100px 50px; /* Symmetrical padding: Top, Right, Bottom, Left */
-    word-wrap: break-word;
+    position: relative; /* Essential for absolute positioning of the sidebar */
+    padding-top: 10px;
+    padding-bottom: 100px;
     min-height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 50px;
-    box-sizing: border-box;
+    display: flex; 
 }
 
-/* Sidebar Styling */
+/* --- Sidebar: Floating in the Left 20% Blank Area --- */
 .sidebar {
-    width: 200px;
-    flex-shrink: 0;
-    position: sticky;
-    top: 100px;
+    width: 180px; 
+    position: absolute; /* Remove from flow to prevent squeezing main content */
+    /* Position logic: Starts at 20% line, moved back by sidebar width + gap */
+    left: calc(20% - 200px); 
+    top: 20px;
     border-right: 1px solid #f0f0f0; 
     padding-right: 15px;
+    text-align: right; /* Align text towards the main content area */
+    z-index: 10;
 }
 
 .sidebar-title {
@@ -80,7 +79,6 @@ body {
 
 .sidebar-list { list-style: none; padding: 0; margin: 0; }
 .sidebar-list li { margin-bottom: 12px; }
-
 .sidebar-list li a {
     display: block;
     color: #888;
@@ -89,58 +87,54 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 100%;
 }
 
+/* Active and Hover States */
 .sidebar-list li.active a,
 .sidebar-list li a:hover {
     color: #000;
     font-weight: bold;
-    border-left: 2px solid #000;
-    padding-left: 8px;
+    /* Right border for right-aligned text */
+    border-right: 2px solid #000;
+    padding-right: 8px;
+    border-left: none;
 }
 
+/* --- Main Content: Occupying the 60% Center Space --- */
 .main-content { 
     flex: 1; 
     min-width: 0; 
+    width: 100%;
 }
 
-/* --- Typography & Link Color Fix --- */
+/* --- Typography & Links --- */
 h1 { font-size: 2.0em; margin-top: 0; } 
 p { font-size: 0.96em; line-height: 1.6em; text-align: justify; }
 
-/* Prevent purple links and force consistency */
-a, a:visited { 
-    color: #333; 
-    text-decoration: none; 
-}
-a:hover { 
-    color: #999; 
-    text-decoration: underline; 
-}
+/* Link Colors: Prevent purple visited state */
+a, a:visited { color: #333; text-decoration: none; }
+a:hover { color: #999; text-decoration: underline; }
 
-/* --- Project & Recipe Grid List (Image Fix) --- */
+/* --- Project & Recipe Grid List --- */
 .projectBox { padding: 2% 0; overflow: auto; }
 .projectBox table { table-layout: fixed; width: 100%; border-collapse: collapse; }
-.projectBox .imageColumn { width: 200px; vertical-align: middle; }
+.projectBox .imageColumn { width: 180px; vertical-align: middle; }
 .projectBox .textColumn { 
     text-align: justify; 
     padding-left: 25px; 
     font-size: 0.96em;
 }
-
-/* Strictly constrain project and recipe images */
 .projectBox .projectImg, 
 .projectBox .recipeImg { 
-    width: 70%; 
-    max-width: 180px; 
+    width: 100%; 
+    max-width: 150px; 
     height: auto; 
     display: block; 
     margin: 0 auto;
     border-radius: 4px;
 }
 
-/* --- Footer Fix (Icon Spacing) --- */
+/* --- Footer Section --- */
 #footer {
     border-top: 1px solid #999;
     width: 100%;
@@ -152,31 +146,22 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr auto 1fr; 
     align-items: center;
-    padding: 0 50px; /* Symmetrical padding */
-    box-sizing: border-box;
     z-index: 1000;
 }
-
 #footer ul {
     grid-column: 2;
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
-    gap: 25px; /* Comfortable icon spacing */
+    gap: 25px;
 }
-
 #footer ul li a img {
     display: block;
-    width: 24px; /* Force consistent small icon size */
+    width: 24px; 
     height: 24px;
     transition: opacity 0.2s;
 }
-
-#footer ul li a:hover img {
-    opacity: 0.7;
-}
-
 .last-update {
     grid-column: 3;
     justify-self: end;
@@ -186,11 +171,28 @@ a:hover {
 }
 
 /* --- Mobile Responsiveness --- */
+@media (max-width: 1200px) {
+    /* Reduce margins on smaller laptop screens to 10% */
+    .nav-inner, .nav-divider, .container, #footer { padding-left: 10% !important; padding-right: 10% !important; }
+    .sidebar { left: calc(10% - 195px); }
+}
+
 @media (max-width: 900px) {
-    .nav-inner, .nav-divider, .container { padding-left: 20px; padding-right: 20px; margin-left: 0; margin-right: 0; }
+    /* Mobile Mode: Revert to standard flow and 5% padding */
+    .nav-inner, .nav-divider, .container, #footer { padding-left: 5% !important; padding-right: 5% !important; }
     .container { flex-direction: column; }
-    .sidebar { width: 100%; position: static; border-right: none; border-bottom: 1px solid #eee; padding-bottom: 15px; }
-    #footer { grid-template-columns: 1fr; height: auto; padding: 15px; }
-    #footer ul { grid-column: 1; justify-content: center; margin-bottom: 10px; }
-    .last-update { grid-column: 1; justify-self: center; }
+    .sidebar { 
+        position: static; 
+        width: 100%; 
+        text-align: left; 
+        border-right: none; 
+        border-bottom: 1px solid #eee; 
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+    .sidebar-list li.active a, .sidebar-list li a:hover {
+        border-right: none;
+        border-left: 2px solid #000;
+        padding-left: 8px;
+    }
 }
