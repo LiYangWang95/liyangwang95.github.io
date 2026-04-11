@@ -1,206 +1,53 @@
 ---
 layout: default
-title: Projects | 
+title: Projects
 ---
+# Projects
 
-# Projects  
-
-## [Carbon Emission of Philips' Road Shipments](./projects/Philips.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/philips/Philips_logo.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            The project “Carbon Emission of Philips' Road Shipments” is a long-term training project that aims to process, analyze, and display the carbon emission of Philips' road freight shipments. The final product is an interactive dashboard that allows the user to view data from various aspects. This project is assigned to me by Royal Philips N.V.
-      </th>
-    </tr>
-  </table>
+<div id="projects-container">
+{% assign sorted_projects = site.projects | reverse %}
+{% for project in sorted_projects %}
+  <div class="project-item" style="margin-bottom: 40px;">
+    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    <div class="projectBox">
+      <table>
+        <tr>
+          <th class="imageColumn"><img src="{{ project.project_image }}" class="projectImg"></th>
+          <th class="textColumn">{{ project.description }}</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+{% endfor %}
 </div>
 
-## [Autonomous Classification of Mars' Terrain](./projects/ESA.md)
+<div id="project-pagination" style="text-align: center; margin-top: 20px;"></div>
 
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/ESA/ESA_logo.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            The project “Autonomous Classification of Mars' Terrain” is a training project that aims to solve the problem of classifying the Mars' terrain. The solution is expected to be a machine learning model. This project is assigned to the PDEng ST trainees at TU/e by the European Space Agency (ESA).
-      </th>
-    </tr>
-  </table>
-</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const itemsPerPage = 5;
+    const items = document.querySelectorAll('.project-item');
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+    const nav = document.getElementById('project-pagination');
 
-## [TERRABITS](./projects/Terrabits.md)
+    function showPage(p) {
+        items.forEach((item, i) => {
+            item.style.display = (i >= (p-1)*itemsPerPage && i < p*itemsPerPage) ? 'block' : 'none';
+        });
+        renderButtons(p);
+    }
 
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/airbus/Airbus_Logo_2017.svg"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            The project aimed to create an network connecting aircrafts and other devices. The team as developers designed and implemented a ConOps strategy that deploys onto all the devices and stations, or, nodes, and executes actively to form optimized connections.
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [Data Visualization Tool](./projects/CloViTo.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/onera/Onera_Health_logo.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            “Data Visualization Tool” is a tool aimed to visualize specific data and provide a user-friendly interface for data manipulation. The tool can be further used in the related field for assisting medical professions to solve the patients' symptoms.
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [Push-Ups: Enhancing Kinesthetic Experience with Shape-Forming Devices on the Feet Soles](./projects/pushUps.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/pushUps/pushUpsCover.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            Push-Ups is an active haptic device installed beneath feet soles that provides feedback to the wearer's feet. The device targets to enhance the realism and immersion of stand-pose virtual reality experiences, and change the wearer's perception of ground surface.  
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [Intelligent Pump Control System](./projects/IPCS.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/intern/IPCMachine.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            The project aims to solve the problem of controlling the input/output flow of a pumping system. It utilizes PID control to achieve a precise and automatic adjustment during operation, and includes an user-friendly HMI allow for monitoring and parameter changing.  
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [FaceWidgets: Exploring Tangible Interaction on Face with Head-Mounted Displays](./projects/faceWidget.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/faceWidgets/faceWidgetsCover.jpg"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            [UIST '19 @ New Orleans] FaceWidgets is a novel HMD that integrates physical controls with a lift extender on the backside allowing for the direct manipulation for the VR interaction. We designed two novel interactions to enhance direct manipulation and conducted three user studies to inform the design on the HMD backside.  
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Hunting for Khubilai Khan](./projects/VRHunting.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/hunting/huntingCover.jpg"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            The VR showcase "Hunting for Khubilai Khan" allows the audience to dive into the boundless desert, and hunt down the preys. The player plays as the Khubilai Khan, and experience the intense and fun of hunting by sitting on the horse-riding machine, and a bow-simulating hand-held device.  
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Fisherman's Delight](./projects/VRFishing.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/fishing/fishingCover.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            This creation takes place at the Jinming Pool in the Song Dynasty. Back then it was a huge pool in the royal garden of Kaifeng; the royal family used to enjoy the beauty and fish by the pool bank. In our showcase the player becomes a member of the imperial family, and fish leisurely with actually feeling of the fish's struggle.  
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [Power Efficient Bicycle Signal System](./projects/bikeSignal.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/projects/bike/bikeCover.png"
-            class = "projectImg">
-      </th>
-      <th
-        class = "textColumn">
-            When bikers are cycling on road, it is often there's no bycycle lanes on the side. This forces the bikers to face a huge risk of getting struck by the vehicles rushing by. To reduce the amount of fatal accidents those bikers may encounter, we developed a power efficient bicycle signal system that shows various lighting patterns when bikers make turns and brakes.
-      </th>
-    </tr>
-  </table>
-</div>
+    function renderButtons(activePage) {
+        if (totalPages <= 1) return;
+        nav.innerHTML = '';
+        for (let i = 1; i <= totalPages; i++) {
+            let btn = document.createElement('button');
+            btn.innerHTML = i;
+            btn.style.cssText = "margin: 0 5px; padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; background: " + (i === activePage ? "#333" : "#fff") + "; color: " + (i === activePage ? "#fff" : "#333") + ";";
+            btn.onclick = () => { showPage(i); window.scrollTo(0,0); };
+            nav.appendChild(btn);
+        }
+    }
+    showPage(1);
+});
+</script>

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Projects | 
+project_image: "/images/projects/philips/Philips_logo.png"
+description: "The project “Carbon Emission of Philips' Road Shipments” is a long-term training project that aims to process, analyze, and display the carbon emission of Philips' road freight shipments. The final product is an interactive dashboard that allows the user to view data from various aspects. This project is assigned to me by Royal Philips N.V."
 ---
 
 # From Data to Insights to Drive Sustainable Change in Philips’ Global Road Freight CO2e Emissions

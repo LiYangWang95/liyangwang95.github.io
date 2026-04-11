@@ -1,0 +1,19 @@
+title: Li-Yang Wang
+baseurl: ""
+url: "https://liyangwang95.github.io"
+
+# Define Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  recipes:
+    output: true
+    permalink: /recipes/:name
+
+# Pagination settings (Assigned to Recipes for frequent updates)
+paginate: 5
+paginate_path: "/recipes/page:num/"
+
+plugins:
+  - jekyll-paginate

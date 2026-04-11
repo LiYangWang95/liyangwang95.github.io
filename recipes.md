@@ -1,66 +1,27 @@
 ---
 layout: default
-title: Recipes | 
+title: Recipes
 ---
+# Recipes
 
-# Recipes  
+{% for item in paginator.documents %}
+  <div class="projectBox" style="margin-bottom: 40px;">
+    <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    <table>
+      <tr>
+        <th class="imageColumn"><img src="{{ item.recipe_image }}" class="recipeImg"></th>
+        <th class="textColumn">{{ item.description }}</th>
+      </tr>
+    </table>
+  </div>
+{% endfor %}
 
-## [皮蛋瘦肉粥 Pork and Century Egg Congee](./recipes/porkCenturyEggCongee.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/recipes/porkCenturyEggCongee_Title.png"
-            class = "recipeImg">
-      </th>
-      <th
-        class = "textColumn">
-            以砂鍋慢火熬煮經典的皮蛋瘦肉粥，額外加入油蔥酥讓濃郁綿密的粥品多一分香脆的口感
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [日式關東煮 + 燒鳥串 Oden + Yakitori](./recipes/odenAndYakitori.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = ""
-            class = "recipeImg">
-      </th>
-      <th
-        class = "textColumn">
-            飽含清甜高湯、軟綿吸汁的極致冬日關東煮焦香滑嫩以及濃郁掛汁的居酒屋風味雞肉串
-      </th>
-    </tr>
-  </table>
-</div>
-
-## [越式風味薑黃雞肉蔬菜湯麵 Vietnamese-style Chicken Noodle Soup with Turmeric](./recipes/vietnameseChickenNoodleSoup.md)
-
-<div
-    class = "projectBox">
-  <table>
-    <tr>
-      <th
-        class = "imageColumn">
-        <img
-            src = "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
-            class = "recipeImg">
-      </th>
-      <th
-        class = "textColumn">
-            使用薑黃粉、薑絲、蒜末等暖胃食材炒製湯底的越式風味湯麵
-      </th>
-    </tr>
-  </table>
+<div class="pagination" style="text-align: center; margin-top: 30px;">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" style="padding: 8px 12px; border: 1px solid #ddd;">&laquo; Prev</a>
+  {% endif %}
+  <span style="margin: 0 15px;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" style="padding: 8px 12px; border: 1px solid #ddd;">Next &raquo;</a>
+  {% endif %}
 </div>
