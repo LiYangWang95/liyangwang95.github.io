@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects | 
+title: Projects
 project_title: "NCTU Museum-School Collaboration Showcase - VR Creative Exhibition: Hunting for Khubilai Khan"
 project_image: "/images/projects/hunting/huntingCover.jpg"
 description: "The VR showcase “Hunting for Khubilai Khan“ allows the audience to dive into the boundless desert, and hunt down the preys. The player plays as the Khubilai Khan, and experience the intense and fun of hunting by sitting on the horse-riding machine, and a bow-simulating hand-held device."

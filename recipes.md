@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Recipes | 
+title: Recipes
 ---
 # Recipes
 
@@ -24,7 +24,7 @@ title: Recipes |
 <div id="recipe-pagination" style="text-align: center; margin-top: 20px;"></div>
 
 <script>
-// 使用與 Projects 相同的邏輯
+
 document.addEventListener("DOMContentLoaded", function() {
     const itemsPerPage = 5;
     const items = document.querySelectorAll('.recipe-item');

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Recipes | 
+title: Recipes
 recipe_title: "越式風味薑黃雞肉蔬菜湯麵 Vietnamese-style Chicken Noodle Soup with Turmeric"
 recipe_image: "/images/recipes/vietnameseChickenNoodleSoup_Title.png"
 description: "使用薑黃粉、薑絲、蒜末等暖胃食材炒製湯底的越式風味湯麵"

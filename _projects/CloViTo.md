@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects | 
+title: Projects
 project_title: "Data Visualization Tool"
 project_image: "/images/projects/onera/Onera_Health_logo.png"
 description: "“Data Visualization Tool” is a tool aimed to visualize specific data and provide a user-friendly interface for data manipulation. The tool can be further used in the related field for assisting medical professions to solve the patients' symptoms."

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Recipes | 
+title: Recipes
 recipe_title: "日式關東煮 + 燒鳥串 Oden + Yakitori"
 recipe_image: ""
 description: "飽含清甜高湯、軟綿吸汁的極致冬日關東煮焦香滑嫩以及濃郁掛汁的居酒屋風味雞肉串"
