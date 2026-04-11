@@ -35,32 +35,34 @@
 
     <div class="container">
         {% if page.collection == 'projects' or page.collection == 'recipes' %}
-        <aside class="sidebar">
-            <div class="sidebar-title">
-                {{ page.collection | capitalize }}
-            </div>
-            <ul class="sidebar-list">
-                {% comment %} 
-                    1. Group items by date to force the underlying Liquid engine to index them
-                    2. Sort the groups (this is often more reliable than sorting objects)
-                    3. Reverse the sorted groups
-                {% endcomment %}
-                {% assign grouped_items = site[page.collection] | group_by: "date" | sort: "name" | reversed %}
-                
-                {% for group in grouped_items %}
-                    {% for item in group.items %}
-                        <li class="{% if item.url == page.url %}active{% endif %}">
-                            <span style="display:block; font-size: 0.4em; color: #999;">
-                                {{ item.date | date: "%Y-%m-%d" }}
-                            </span>
-                            <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
-                                {{ item.recipe_title | default: item.project_title }}
-                            </a>
-                        </li>
+            <aside class="sidebar">
+                <div class="sidebar-title">
+                    {{ page.collection | capitalize }}
+                </div>
+                <ul class="sidebar-list">
+                    {% comment %} 
+                        1. Group items by date to force the underlying Liquid engine to index them
+                        2. Sort the groups (this is often more reliable than sorting objects)
+                        3. Reverse the sorted groups
+                    {% endcomment %}
+                    {% assign grouped_items = site[page.collection] | group_by: "date" | sort: "name" | reversed %}
+                    
+                    {% for group in grouped_items %}
+                        {% for item in group.items %}
+                            <li class="{% if item.url == page.url %}active{% endif %}">
+                                {% if page.collection == 'projects' %}
+                                    <span style="display:block; font-size: 0.6em; color: #999;">
+                                        {{ item.date | date: "%Y" }}
+                                    </span>
+                                {% endif %}
+                                <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
+                                    {{ item.recipe_title | default: item.project_title }}
+                                </a>
+                            </li>
+                        {% endfor %}
                     {% endfor %}
-                {% endfor %}
-            </ul>
-        </aside>
+                </ul>
+            </aside>
         {% endif %}
 
         <main class="main-content">
