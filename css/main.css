@@ -140,7 +140,7 @@ hr {
     padding-left: 10px;
 }
 
-/* Recipe Search Bar Styles */
+/* Search Input Style */
 #recipe-search {
     width: 100%;
     padding: 12px 15px;
@@ -149,7 +149,7 @@ hr {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-family: inherit;
-    box-sizing: border-box; /* Crucial: Prevents padding from breaking layout width */
+    box-sizing: border-box; /* Crucial for keeping width within container */
     transition: border-color 0.3s;
 }
 
@@ -159,7 +159,11 @@ hr {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-/* Pagination Button Hover Effect */
+/* Hover effect for buttons */
+#recipe-pagination button, #project-pagination button {
+    transition: all 0.2s ease;
+}
+
 #recipe-pagination button:hover {
     background-color: #f0f0f0 !important;
     border-color: #999 !important;
