@@ -5,7 +5,7 @@ title: Recipes
 # Recipes
 
 <div style="margin-bottom: 30px;">
-  <input type="text" id="recipe-search" placeholder="Search by title or ingredients (e.g., pork, egg, potato)..." 
+  <input type="text" id="recipe-search" placeholder="使用食譜名/食材搜尋 Search by title or ingredients (e.g., pork, egg, potato)..." 
          style="width: 100%; padding: 12px; font-size: 16px; border: 1px solid #ddd; border-radius: 4px;">
 </div>
 
@@ -17,7 +17,7 @@ title: Recipes
        data-content="{{ item.content | strip_html | strip_newlines | downcase }}"
        style="margin-bottom: 40px;">
     
-    <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
     <div class="projectBox">
       <table>
         <tr>
