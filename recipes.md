@@ -6,7 +6,7 @@ title: Recipes
 
 {% for item in paginator.documents %}
   <div class="projectBox" style="margin-bottom: 40px;">
-    <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
     <table>
       <tr>
         <th class="imageColumn"><img src="{{ item.recipe_image }}" class="recipeImg"></th>

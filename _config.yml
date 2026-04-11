@@ -10,6 +10,7 @@ collections:
   recipes:
     output: true
     permalink: /recipes/:name
+    sort_by: date
 
 # Pagination settings (Assigned to Recipes for frequent updates)
 paginate: 5

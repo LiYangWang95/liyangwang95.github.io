@@ -5,10 +5,10 @@ title: Projects
 # Projects
 
 <div id="projects-container">
-{% assign sorted_projects = site.projects | reverse %}
+{% assign sorted_projects = site.projects | sort: "date" | reverse %}
 {% for project in sorted_projects %}
   <div class="project-item" style="margin-bottom: 40px;">
-    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    <h2><a href="{{ project.url }}">{{ project.project_title }}</a></h2>
     <div class="projectBox">
       <table>
         <tr>
