@@ -1,83 +1,80 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.title %}
+        <title>{{ page.title }} | Li-Yang Wang</title>
+    {% else %}
+        <title>Li-Yang Wang</title>
+    {% endif %}
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {% if page.title %}
-            <title>{{ page.title }} | Li-Yang Wang</title>
-        {% else %}
-            <title>Li-Yang Wang</title>
+    <meta name="google-site-verification" content="mRWIjlEkKUVWU0bII7o-3ArH-0iFs07GQ8aNfYH1Kh8" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    
+    <nav class="nav-container">
+        <div class="nav-inner">
+            <ul>
+                <li>
+                    <a class="nav-logo" href="/">
+                        <img src="/images/layout/mark.png" style="width: 40px; height: 40px" alt="Logo">                   
+                    </a>
+                </li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/cv">CV</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/recipes">Recipes</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <hr class="nav-divider">
+
+    <div class="container">
+        {% if page.collection == 'projects' or page.collection == 'recipes' %}
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                {{ page.collection | capitalize }}
+            </div>
+            <ul class="sidebar-list">
+                {% for item in site[page.collection] %}
+                <li class="{% if item.url == page.url %}active{% endif %}">
+                    <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
+                        {{ item.recipe_title | default: item.project_title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </aside>
         {% endif %}
 
-        <meta name="google-site-verification" content="mRWIjlEkKUVWU0bII7o-3ArH-0iFs07GQ8aNfYH1Kh8" />
-        
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
-    </head>
+        <main class="main-content">
+            {{ content }}
+        </main>
+    </div>
 
-    <body>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-        
-        <nav class="nav-container">
-            <div class="nav-inner">
-                <ul>
-                    <li>
-                        <a class="nav-logo" href="/">
-                            <img src="/images/layout/mark.png" style="width: 40px; height: 40px" alt="Logo">                   
-                        </a>
-                    </li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/cv">CV</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/recipes">Recipes</a></li>
-                </ul>
-            </div>
-        </nav>
-    
-        <hr class="nav-divider">
+    <footer id="footer">
+        <ul>
+            <li><a href="mailto:liyangwang95@gmail.com">
+                <img src="/images/layout/Email.png" style="width:30px; height:30px" alt="Email">
+            </a></li>
+            <li><a href="https://www.instagram.com/italytomatosoup/">
+                <img src="/images/layout/instagram_icon.png" style="width:30px; height:30px" alt="Instagram">
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/liyangwang95">
+                <img src="/images/layout/linkedInLogo.png" style="width:30px; height:30px" alt="LinkedIn">
+            </a></li>
+            <li><a href="https://liyangwang95.github.io">
+                <img src="/images/layout/mark_reversed.png" style="width:30px; height:30px" alt="Home">
+            </a></li>
+        </ul>
 
-        <div class="container">
-            {% if page.collection == 'projects' or page.collection == 'recipes' %}
-            <aside class="sidebar">
-                <div class="sidebar-title">
-                    {{ page.collection | capitalize }}
-                </div>
-                <ul class="sidebar-list">
-                    {% for item in site[page.collection] %}
-                    <li class="{% if item.url == page.url %}active{% endif %}">
-                        <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
-                            {{ item.recipe_title | default: item.project_title }}
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </aside>
-            {% endif %}
-
-            <main class="main-content">
-                {{ content }}
-            </main>
+        <div class="last-update">
+            Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }} CET
         </div>
-
-        <footer id="footer">
-            <ul>
-                <li><a href="mailto:liyangwang95@gmail.com">
-                    <img src="/images/layout/Email.png" style="width:30px; height:30px" alt="Email">
-                </a></li>
-                <li><a href="https://www.instagram.com/italytomatosoup/">
-                    <img src="/images/layout/instagram_icon.png" style="width:30px; height:30px" alt="Instagram">
-                </a></li>
-                <li><a href="https://www.linkedin.com/in/liyangwang95">
-                    <img src="/images/layout/linkedInLogo.png" style="width:30px; height:30px" alt="LinkedIn">
-                </a></li>
-                <li><a href="https://liyangwang95.github.io">
-                    <img src="/images/layout/mark_reversed.png" style="width:30px; height:30px" alt="Home">
-                </a></li>
-            </ul>
-
-            <div class="last-update">
-                Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }} CET
-            </div>
-        </footer>
-    </body>
+    </footer>
+</body>
 </html>
