@@ -1,85 +1,88 @@
-/* --- Global Styles --- */
+/* --- Global Reset and Body Styles --- */
 body {
     margin: 60px auto;
-    width: 70%; /* Default width for pages without sidebars */
+    width: 70%; /* Default width for pages without sidebars (About, CV, Home) */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
 }
 
-/* Conditional layout: When a sidebar is present, widen the body and enable flex */
+/* Widen layout and enable flex only when sidebar exists */
 body:has(.sidebar) {
-    width: 85%;
+    width: 90%; 
 }
 
-nav ul, footer ul {
-    font-family: inherit;
-    padding: 0px;
+/* --- Navigation & Precise Logo Alignment --- */
+.nav-container {
+    width: 100%;
+    padding: 0;
+}
+
+.nav-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* Aligns Logo with Main Content start: Sidebar(200px) + Gap(50px) = 250px */
+    padding-left: 250px; 
+    box-sizing: border-box;
+}
+
+.nav-inner ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Menu items aligned to the right */
+    align-items: center;
     list-style: none;
-    font-weight: normal;
+    margin: 0;
+    padding: 0;
     font-size: 150%;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+.nav-inner ul li {
+    margin-left: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.2s;
+/* Logo placement at the 250px alignment line */
+.nav-inner ul li:first-child {
+    margin-right: auto; /* Pushes navigation links to the far right */
+    margin-left: 0;
+    padding-left: 10px; /* Small padding from the imaginary vertical line */
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #999;
+/* --- Aligned Horizontal Divider --- */
+.nav-divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 0;
+    /* Starts the line from the 250px alignment point */
+    margin-left: 250px; 
+    width: calc(100% - 250px);
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.4em;
-    text-align: justify;
-    color: #333;
-}
-
-hr {
-    color: grey;
-    border: 0.5px solid #eee;
-}
-
-/* --- Container & Sidebar Layout --- */
+/* --- Main Layout Container --- */
 .container {
-    color: #333;
-    font-size: .8em;
     padding-top: 10px;
-    padding-bottom: 80px; /* Space for fixed footer */
+    padding-bottom: 80px; /* Bottom space for fixed footer */
     word-wrap: break-word;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
-/* Apply Flexbox only when sidebar exists */
+/* Flexbox layout for Sidebar + Main Content */
 body:has(.sidebar) .container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 50px;
+    gap: 50px; /* The gap constant used in alignment calculations */
 }
 
-.main-content {
-    flex: 1;
-    min-width: 0; /* Critical for text-overflow to work in flex children */
-}
-
+/* Sidebar with vertical separator line */
 .sidebar {
     width: 200px;
     flex-shrink: 0;
     position: sticky;
     top: 100px;
-    border-right: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0; 
     padding-right: 15px;
+    text-align: left;
 }
 
 .sidebar-title {
@@ -103,10 +106,13 @@ body:has(.sidebar) .container {
     display: block;
     color: #888;
     font-size: 1.1em;
-    white-space: nowrap;     /* Ellipsis logic */
+    text-decoration: none;
+    /* Ellipsis logic for long titles */
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     width: 100%;
+    transition: all 0.2s ease;
 }
 
 .sidebar-list li.active a,
@@ -117,107 +123,53 @@ body:has(.sidebar) .container {
     padding-left: 8px;
 }
 
-/* --- Project & Recipe Grid List (Index Pages) --- */
-.projectBox {
-    padding: 2%;
-    overflow: auto;
+.main-content {
+    flex: 1;
+    min-width: 0; /* Prevents flex children from breaking ellipsis logic */
 }
 
-.projectBox table {
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-}
+/* --- Typography & Elements --- */
+h1 { font-size: 2.5em; }
+p { font-size: 1.2em; line-height: 1.4em; text-align: justify; }
+a { color: #333; text-decoration: none; }
+a:hover { color: #999; text-decoration: underline; }
 
-.projectBox .imageColumn {
-    width: 25%;
-    vertical-align: middle;
-}
+/* --- Project & Recipe Grid List --- */
+.projectBox { padding: 2%; overflow: auto; }
+.projectBox table { table-layout: fixed; width: 100%; border-collapse: collapse; }
+.projectBox .imageColumn { width: 25%; vertical-align: middle; }
+.projectBox .textColumn { width: 75%; text-align: justify; padding-left: 15px; }
+.projectBox .projectImg { width: 80%; height: auto; display: block; margin: 0 auto; }
+.projectBox .recipeImg { width: 60%; height: auto; display: block; margin: 0 auto; }
 
-.projectBox .textColumn {
-    width: 75%;
-    text-align: justify;
-    font-size: 1.2em;
-    line-height: 1.4em;
-    padding-left: 15px;
-}
-
-.projectBox .projectImg {
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.projectBox .recipeImg {
-    width: 60%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* --- Search & Pagination --- */
-#recipe-search {
-    width: 100%;
-    padding: 12px 15px;
-    margin-bottom: 30px;
-    font-size: 1.1em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-#recipe-pagination button, #project-pagination button {
-    transition: all 0.2s ease;
-}
-
-/* --- Video Responsiveness --- */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 ratio */
-    height: 0; 
-    overflow: hidden;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-}
-
-/* --- Fixed Footer with Grid Alignment --- */
+/* --- Fixed Footer Section --- */
 #footer {
     border-top: 1px solid #999;
     box-shadow: inset 0 15px 3px -16px #999;
     width: 100%;
     position: fixed;
     height: 60px;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr; /* Left empty, Center icons, Right text */
     align-items: center;
     padding: 0 30px;
     box-sizing: border-box;
-    z-index: 9999;
+    z-index: 1000;
 }
 
 #footer ul {
     grid-column: 2;
     margin: 0;
     padding: 0;
+    list-style: none;
     display: flex;
-    justify-content: center;
 }
 
-#footer ul li {
-    margin: 0 10px;
-}
-
-#footer ul li img {
-    display: block;
-}
+#footer ul li { margin: 0 10px; }
+#footer ul li img { display: block; }
 
 .last-update {
     grid-column: 3;
@@ -228,14 +180,9 @@ body:has(.sidebar) .container {
     letter-spacing: 0.5px;
 }
 
-/* --- Global Scrollbar Styling (Overlay) --- */
-html {
-    overflow-y: overlay;
-    scrollbar-gutter: auto;
-}
-
+/* --- Scrollbar Customization --- */
+html { overflow-y: overlay; }
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
     background: rgba(153, 153, 153, 0.4);
     border-radius: 10px;
@@ -243,64 +190,7 @@ html {
 
 /* --- Mobile Responsiveness --- */
 @media (max-width: 900px) {
-    body, body:has(.sidebar) { width: 95%; }
+    .nav-inner, .nav-divider { padding-left: 20px; margin-left: 0; width: 100%; }
     body:has(.sidebar) .container { flex-direction: column; }
-    .sidebar { width: 100%; position: static; border-right: none; border-bottom: 1px solid #eee; margin-bottom: 20px; }
-}
-
-/* --- Navigation Alignment Fix --- */
-.nav-container {
-    width: 100%;
-    background-color: #fff;
-}
-
-.nav-inner {
-    /* This width should match your body width or container max-width */
-    width: 70%; 
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end; /* Pushes menu items to the right */
-    align-items: center;
-    padding: 10px 0;
-}
-
-/* Specific logic for when sidebar exists: adjust nav width to match */
-body:has(.sidebar) .nav-inner {
-    width: 85%;
-}
-
-.nav-inner ul {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end; /* Menu items on the right */
-    align-items: center;
-    margin: 0;
-}
-
-/* The Logo: Remove float and use margin-right: auto to push it to the far left of the inner container */
-.nav-inner ul li:first-child {
-    margin-right: auto; 
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-}
-
-/* Ensure the horizontal line also aligns with the container width */
-.nav-divider {
-    width: 70%;
-    margin: 0 auto;
-    border: 0.5px solid #eee;
-}
-
-body:has(.sidebar) .nav-divider {
-    width: 85%;
-}
-
-/* --- Adjust Sidebar and Main Content alignment --- */
-.container {
-    /* Ensure the padding/margin doesn't push the content further than the nav */
-    padding-left: 0;
-    padding-right: 0;
+    .sidebar { width: 100%; position: static; border-right: none; border-bottom: 1px solid #eee; }
 }
