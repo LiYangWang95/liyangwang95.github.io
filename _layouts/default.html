@@ -28,7 +28,7 @@
         <div class="container">
               {{ content }}
         </div><!-- /.container -->
-        <footer id = "footer">
+        <footer id="footer">
             <ul>
                 <li><a href="mailto:liyangwang95@gmail.com">
                     <img src="/images/layout/Email.png" style="width:30px; height:30px">
@@ -42,7 +42,11 @@
                 <li><a href="https://liyangwang95.github.io">
                     <img src="/images/layout/mark_reversed.png" style="width:30px; height:30px">
                 </a></li>
-          </ul>
+            </ul>
+
+            <div class="last-update">
+                Last updated: {{ site.time | date: "%Y-%m-%d %H:%M" }} CET
+            </div>
         </footer>
       </body>
     </html>

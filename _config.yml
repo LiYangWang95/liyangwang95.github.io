@@ -10,3 +10,8 @@ collections:
   recipes:
     output: true
     permalink: /recipes/:name
+
+plugins:
+  - jekyll-sitemap
+
+timezone: Europe/Amsterdam  # CET/CEST
