@@ -1,27 +1,54 @@
 ---
 layout: default
-title: Recipes
+title: Recipes | 
 ---
 # Recipes
 
-{% for item in paginator.documents %}
-  <div class="projectBox" style="margin-bottom: 40px;">
+<div id="recipes-container">
+{% assign sorted_recipes = site.recipes | sort: "date" | reverse %}
+{% for item in sorted_recipes %}
+  <div class="recipe-item" style="margin-bottom: 40px;">
     <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
-    <table>
-      <tr>
-        <th class="imageColumn"><img src="{{ item.recipe_image }}" class="recipeImg"></th>
-        <th class="textColumn">{{ item.description }}</th>
-      </tr>
-    </table>
+    <div class="projectBox">
+      <table>
+        <tr>
+          <th class="imageColumn"><img src="{{ item.recipe_image }}" class="recipeImg"></th>
+          <th class="textColumn">{{ item.description }}</th>
+        </tr>
+      </table>
+    </div>
   </div>
 {% endfor %}
-
-<div class="pagination" style="text-align: center; margin-top: 30px;">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" style="padding: 8px 12px; border: 1px solid #ddd;">&laquo; Prev</a>
-  {% endif %}
-  <span style="margin: 0 15px;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" style="padding: 8px 12px; border: 1px solid #ddd;">Next &raquo;</a>
-  {% endif %}
 </div>
+
+<div id="recipe-pagination" style="text-align: center; margin-top: 20px;"></div>
+
+<script>
+// 使用與 Projects 相同的邏輯
+document.addEventListener("DOMContentLoaded", function() {
+    const itemsPerPage = 5;
+    const items = document.querySelectorAll('.recipe-item');
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+    const nav = document.getElementById('recipe-pagination');
+
+    function showPage(p) {
+        items.forEach((item, i) => {
+            item.style.display = (i >= (p-1)*itemsPerPage && i < p*itemsPerPage) ? 'block' : 'none';
+        });
+        renderButtons(p);
+    }
+
+    function renderButtons(activePage) {
+        if (totalPages <= 1) return;
+        nav.innerHTML = '';
+        for (let i = 1; i <= totalPages; i++) {
+            let btn = document.createElement('button');
+            btn.innerHTML = i;
+            btn.style.cssText = "margin: 0 5px; padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; background: " + (i === activePage ? "#333" : "#fff") + "; color: " + (i === activePage ? "#fff" : "#333") + ";";
+            btn.onclick = () => { showPage(i); window.scrollTo(0,0); };
+            nav.appendChild(btn);
+        }
+    }
+    showPage(1);
+});
+</script>
