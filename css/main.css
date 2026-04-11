@@ -247,3 +247,60 @@ html {
     body:has(.sidebar) .container { flex-direction: column; }
     .sidebar { width: 100%; position: static; border-right: none; border-bottom: 1px solid #eee; margin-bottom: 20px; }
 }
+
+/* --- Navigation Alignment Fix --- */
+.nav-container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.nav-inner {
+    /* This width should match your body width or container max-width */
+    width: 70%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end; /* Pushes menu items to the right */
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Specific logic for when sidebar exists: adjust nav width to match */
+body:has(.sidebar) .nav-inner {
+    width: 85%;
+}
+
+.nav-inner ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Menu items on the right */
+    align-items: center;
+    margin: 0;
+}
+
+/* The Logo: Remove float and use margin-right: auto to push it to the far left of the inner container */
+.nav-inner ul li:first-child {
+    margin-right: auto; 
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure the horizontal line also aligns with the container width */
+.nav-divider {
+    width: 70%;
+    margin: 0 auto;
+    border: 0.5px solid #eee;
+}
+
+body:has(.sidebar) .nav-divider {
+    width: 85%;
+}
+
+/* --- Adjust Sidebar and Main Content alignment --- */
+.container {
+    /* Ensure the padding/margin doesn't push the content further than the nav */
+    padding-left: 0;
+    padding-right: 0;
+}
