@@ -16,4 +16,4 @@ collections:
 plugins:
   - jekyll-sitemap
 
-timezone: Europe/Amsterdam  # CET/CEST
+timezone: Europe/Amsterdam  # CET/CEST timezone

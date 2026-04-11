@@ -50,7 +50,7 @@
                 {% for group in grouped_items %}
                     {% for item in group.items %}
                         <li class="{% if item.url == page.url %}active{% endif %}">
-                            <span style="display:block; font-size: 0.8em; color: #999;">
+                            <span style="display:block; font-size: 0.4em; color: #999;">
                                 {{ item.date | date: "%Y-%m-%d" }}
                             </span>
                             <a href="{{ item.url }}" title="{{ item.recipe_title | default: item.project_title }}">
