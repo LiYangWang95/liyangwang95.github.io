@@ -1,11 +1,17 @@
 /* --- Global Styles --- */
 body {
     margin: 60px auto;
-    width: 85%; /* Slightly wider to accommodate sidebar */
+    width: 70%; /* Default width for pages without sidebars */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Conditional layout: When a sidebar is present, widen the body and enable flex */
+body:has(.sidebar) {
+    width: 85%;
 }
 
 nav ul, footer ul {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: inherit;
     padding: 0px;
     list-style: none;
     font-weight: normal;
@@ -17,19 +23,19 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+
 a:hover {
     text-decoration: underline;
     color: #999;
 }
 
-a {
-    text-decoration: none;
-    color: #333;
-}
-
 h1 {
     font-size: 2.5em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 p {
@@ -39,43 +45,48 @@ p {
     color: #333;
 }
 
-/* --- Content Layout with Sidebar --- */
+hr {
+    color: grey;
+    border: 0.5px solid #eee;
+}
+
+/* --- Container & Sidebar Layout --- */
 .container {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #333;
     font-size: .8em;
     padding-top: 10px;
-    padding-bottom: 80px; /* Space for the fixed footer */
+    padding-bottom: 80px; /* Space for fixed footer */
     word-wrap: break-word;
     min-height: 100vh;
-    
-    /* Layout Logic */
+}
+
+/* Apply Flexbox only when sidebar exists */
+body:has(.sidebar) .container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 40px; /* Space between sidebar and main content */
+    gap: 50px;
 }
 
 .main-content {
     flex: 1;
-    min-width: 0; /* Ensures ellipsis in sidebar doesn't break layout */
+    min-width: 0; /* Critical for text-overflow to work in flex children */
 }
 
-/* --- Sidebar Styling --- */
 .sidebar {
-    width: 220px;
+    width: 200px;
     flex-shrink: 0;
     position: sticky;
     top: 100px;
-    border-right: 1px solid #eee;
-    padding-right: 20px;
+    border-right: 1px solid #f0f0f0;
+    padding-right: 15px;
 }
 
 .sidebar-title {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #000;
+    text-transform: capitalize;
 }
 
 .sidebar-list {
@@ -85,18 +96,17 @@ p {
 }
 
 .sidebar-list li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .sidebar-list li a {
     display: block;
-    text-decoration: none;
     color: #888;
     font-size: 1.1em;
-    white-space: nowrap;
+    white-space: nowrap;     /* Ellipsis logic */
     overflow: hidden;
     text-overflow: ellipsis;
-    transition: all 0.2s ease;
+    width: 100%;
 }
 
 .sidebar-list li.active a,
@@ -104,10 +114,78 @@ p {
     color: #000;
     font-weight: bold;
     border-left: 2px solid #000;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
-/* --- Footer & Scrollbar Logic (Keep as requested) --- */
+/* --- Project & Recipe Grid List (Index Pages) --- */
+.projectBox {
+    padding: 2%;
+    overflow: auto;
+}
+
+.projectBox table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projectBox .imageColumn {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.projectBox .textColumn {
+    width: 75%;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding-left: 15px;
+}
+
+.projectBox .projectImg {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.projectBox .recipeImg {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* --- Search & Pagination --- */
+#recipe-search {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#recipe-pagination button, #project-pagination button {
+    transition: all 0.2s ease;
+}
+
+/* --- Video Responsiveness --- */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0; 
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+}
+
+/* --- Fixed Footer with Grid Alignment --- */
 #footer {
     border-top: 1px solid #999;
     box-shadow: inset 0 15px 3px -16px #999;
@@ -122,14 +200,13 @@ p {
     align-items: center;
     padding: 0 30px;
     box-sizing: border-box;
-    z-index: 1000;
+    z-index: 9999;
 }
 
 #footer ul {
     grid-column: 2;
     margin: 0;
     padding: 0;
-    list-style: none;
     display: flex;
     justify-content: center;
 }
@@ -138,7 +215,9 @@ p {
     margin: 0 10px;
 }
 
-#footer ul li img { display: block; }
+#footer ul li img {
+    display: block;
+}
 
 .last-update {
     grid-column: 3;
@@ -146,9 +225,10 @@ p {
     color: #999;
     font-size: 11px;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-/* --- Global Scrollbar Styling --- */
+/* --- Global Scrollbar Styling (Overlay) --- */
 html {
     overflow-y: overlay;
     scrollbar-gutter: auto;
@@ -161,18 +241,9 @@ html {
     border-radius: 10px;
 }
 
-/* --- Responsive Design --- */
+/* --- Mobile Responsiveness --- */
 @media (max-width: 900px) {
-    .container {
-        flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sidebar {
-        width: 100%;
-        position: static;
-        border-right: none;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 20px;
-    }
+    body, body:has(.sidebar) { width: 95%; }
+    body:has(.sidebar) .container { flex-direction: column; }
+    .sidebar { width: 100%; position: static; border-right: none; border-bottom: 1px solid #eee; margin-bottom: 20px; }
 }
