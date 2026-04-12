@@ -43,22 +43,34 @@ First of all, the mentioned features are currently not available in other soluti
 ## Operating Footage  
 
 <div class="projectBox">
-        <table style="width: 100%; border-collapse: collapse;">
-                <tr>
-                        <th class="project-gif-container">
-                                <img src="/images/projects/bike/turnProbe.gif" class="project-gif" alt="...">
-                                Light automatically turns off and return to probe mode.
-                        </th>
-                        <th class="project-gif-container">
-                                <img src="/images/projects/bike/turn.gif" class="project-gif" alt="...">
-                                Light automatically turns off after completing the turn.
-                        </th>
-                        <th class="project-gif-container">
-                                <img src="/images/projects/bike/brake.gif" class="project-gif" alt="...">
-                                Light turns on when braking.
-                        </th>
-                </tr>
-        </table>
+    <table class="project-gif-table">
+        <tr>
+            <th class="project-gif-container">
+                <img src="/images/projects/bike/turnProbe.gif" 
+                     class="project-gif-item" 
+                     alt="Turn probe mode">
+                <p class="project-gif-caption">
+                    Light automatically turns off<br>and return to probe mode.
+                </p>
+            </th>
+            <th class="project-gif-container">
+                <img src="/images/projects/bike/turn.gif" 
+                     class="project-gif-item" 
+                     alt="Turn complete">
+                <p class="project-gif-caption">
+                    Light automatically turns off<br>after completing the turn.
+                </p>
+            </th>
+            <th class="project-gif-container">
+                <img src="/images/projects/bike/brake.gif" 
+                     class="project-gif-item" 
+                     alt="Braking mode">
+                <p class="project-gif-caption">
+                    Light turns on<br>when braking.
+                </p>
+            </th>
+        </tr>
+    </table>
 </div>
 &nbsp;  
 &nbsp;  

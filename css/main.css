@@ -139,20 +139,36 @@ a:hover { color: #999; text-decoration: underline; }
     margin: 0 auto;
     border-radius: 4px;
 }
+/* --- Project GIF Grid Layout --- */
+.project-gif-table {
+    width: auto;
+    border-collapse: collapse;
+    margin: 20px auto;
+    table-layout: auto;
+}
+
 .project-gif-container {
+    width: 1%;
     font-weight: normal;
-    padding: 10px;
-    font-size: 0.9em;
-    line-height: 1.4em;
-    color: #666;
+    padding: 0 8px;
     vertical-align: top;
     text-align: center;
 }
-.project-gif {
-    height: 300px;
+
+.project-gif-item {
+    height: 200px;
     width: auto;
     display: block;
     margin: 0 auto 10px;
+}
+
+.project-gif-caption {
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #555;
+    margin: 0;
+    max-width: 250px;         
+    word-wrap: break-word;
 }
 
 /* --- Footer Section --- */
