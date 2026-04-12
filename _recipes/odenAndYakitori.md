@@ -20,7 +20,7 @@ date: 2026-02-08
 ### 份量: 4人份 Portion: 4 Person
 
 &nbsp;  
-''
+{% comment %}start_ingredients{% endcomment %}
 ### 材料清單: 關東煮 List of Ingredients: Oden
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
@@ -38,7 +38,7 @@ date: 2026-02-08
 | 水 Water | 3 | L |
 | (可選用)魚漿製品等 (Optional)Fish balls | 適量 To taste |  |  
 {: .recipe-table}
-  
+
 &nbsp;  
 
 ### 調味料清單: 關東煮 List of Seasoning: Oden
@@ -60,9 +60,9 @@ date: 2026-02-08
 | :--- | --: | :--- |
 | 雞腿肉 Chicken thigh | 1000 | g |  
 {: .recipe-table}
-  
+{% comment %}end_ingredients{% endcomment %}
 &nbsp;  
-''
+
 ### 調味料清單: 燒鳥  List of Seasoning: Yakitori
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
