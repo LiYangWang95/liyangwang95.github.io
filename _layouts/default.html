@@ -51,7 +51,7 @@
                         {% for item in group.items %}
                             <li class="{% if item.url == page.url %}active{% endif %}">
                                 <a href="{{ item.url }}" title="{{ item.project_title }}">
-                                    {{ item.recipe_title | default: item.sidebar_title }}
+                                    {{ item.sidebar_title }}
                                 </a>
                             </li>
                         {% endfor %}

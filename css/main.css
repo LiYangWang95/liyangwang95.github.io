@@ -156,7 +156,7 @@ a:hover { color: #999; text-decoration: underline; }
 }
 
 .project-gif-item {
-    height: 200px;
+    height: 50%;
     width: auto;
     display: block;
     margin: 0 auto 10px;
