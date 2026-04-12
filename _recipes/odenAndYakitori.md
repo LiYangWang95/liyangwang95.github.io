@@ -21,8 +21,6 @@ date: 2026-02-08
 
 ### 材料清單: 關東煮 
 
-<div class="recipe-table-container">
-
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
 | 雞腿肉 Chicken Thigh | 1000 | g |
@@ -41,14 +39,11 @@ date: 2026-02-08
 | 味醂 | 120 | g |
 | 米酒/紹興酒 | 45 | g |
 | (可選用)魚漿製品等 | 適量 To taste |  |  
-
-</div>
+{: .recipe-table}
   
 &nbsp;  
 
 ### 材料清單: 燒鳥 Yakitori
-
-<div class="recipe-table-container">
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
@@ -57,8 +52,7 @@ date: 2026-02-08
 | 醬油 Soy sauce | 50 | g |
 | 味醂 Mirin | 60 | g |
 | 米酒/紹興酒 Rice wine/Shaoxing wine | 15 | g |  
-
-</div>
+{: .recipe-table}
   
 &nbsp;  
 
