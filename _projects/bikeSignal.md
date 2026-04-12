@@ -3,6 +3,7 @@ layout: default
 title: Projects
 project_title: "Power Efficient Bicycle Signal System"
 project_image: "/images/projects/bike/bikeCover.png"
+sidebar_title: "Bicycle Signal System"
 description: "When bikers are cycling on road, it is often there's no bycycle lanes on the side. This forces the bikers to face a huge risk of getting struck by the vehicles rushing by. To reduce the amount of fatal accidents those bikers may encounter, we developed a power efficient bicycle signal system that shows various lighting patterns when bikers make turns and brakes."
 date: 2016-11-04
 ---
@@ -39,7 +40,7 @@ Our proposed design will be different from current available designs in several 
 First of all, the mentioned features are currently not available in other solutions on the market. Secondly, the cost of all the components used in our design must be low. This low production cost combined with our unique features will make our design extremely marketable.  
 &nbsp;  
 
-## Operaing Footage  
+## Operating Footage  
 
 <div class="projectBox">
         <table style="width: 100%; border-collapse: collapse;">

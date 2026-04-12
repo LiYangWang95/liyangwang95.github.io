@@ -3,6 +3,7 @@ layout: default
 title: Recipes
 recipe_title: "皮蛋瘦肉粥 Pork and Century Egg Congee"
 recipe_image: "/images/recipes/porkCenturyEggCongee_Title.png"
+sidebar_title: "皮蛋瘦肉粥"
 description: "以砂鍋慢火熬煮經典的皮蛋瘦肉粥，額外加入油蔥酥讓濃郁綿密的粥品多一分香脆的口感"
 date: 2026-02-08
 ---

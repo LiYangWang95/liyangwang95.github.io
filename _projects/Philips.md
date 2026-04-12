@@ -3,6 +3,7 @@ layout: default
 title: Projects
 project_title: "From Data to Insights to Drive Sustainable Change in Philips’ Global Road Freight CO2e Emissions"
 project_image: "/images/projects/philips/Philips_logo.png"
+sidebar_title: "Freight CO2e Emissions"
 description: "The project “Carbon Emission of Philips' Road Shipments” is a long-term training project that aims to process, analyze, and display the carbon emission of Philips' road freight shipments. The final product is an interactive dashboard that allows the user to view data from various aspects. This project is assigned to me by Royal Philips N.V."
 date: 2022-01-11
 ---

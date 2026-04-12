@@ -3,6 +3,7 @@ layout: default
 title: Projects
 project_title: "Intelligent Pump Control System"
 project_image: "/images/projects/intern/IPCMachine.png"
+sidebar_title: "Pump Control System"
 description: "The project aims to solve the problem of controlling the input/output flow of a pumping system. It utilizes PID control to achieve a precise and automatic adjustment during operation, and includes an user-friendly HMI allow for monitoring and parameter changing."
 date: 2019-08-12
 ---
