@@ -15,11 +15,11 @@ date: 2026-02-08
 這是一道非常經典的粥品；甫從台灣回到荷蘭的我沒能在台灣時喝到皮蛋瘦肉粥，卻在荷蘭因為感冒而興起了自己熬粥的念頭。這份食譜使用砂鍋緩慢熬煮成濃郁的米粥底，再加入提前醃製的豬肉絲以及皮蛋碎，最後撒上些許油炸紅蔥酥加強口感。此食譜參照Google Gemini建議寫下並實作成功。  
 &nbsp;  
 
-## 食材
+## 食材 Ingredients
 
-### 份量：1人份
+### 份量: 1人份 Portion: 1 Person
 
-### 材料清單
+### 材料清單 List of Ingredients
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
@@ -29,19 +29,27 @@ date: 2026-02-08
 | 水/高湯 Water/broth | 640 | g |
 | 生薑 Ginger | 2-3 | 片 slice |
 | 蔥 Spring onion | 1-2 | 支 pcs |
-| 鹽 Salt| 適量 To taste |  |
-| 胡椒粉 White pepper | 適量 To taste |  |
-| 太白粉 Potato starch | 適量 To taste |  |
-| 米酒/紹興酒 Rice wine/Shaoxing wine | 適量 To taste |  |
-| 食用油 Oil | 適量 To taste |  |
 | 油炸紅蔥酥 Shallot crisps | 適量 To taste |  |  
 {: .recipe-table}
   
 &nbsp;  
 
-## 食譜
+### 調味料清單 List of Seasoning
 
-### 食材前處理
+| 調味料 Seasoning | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 鹽 Salt| 適量 To taste |  |
+| 胡椒粉 White pepper | 適量 To taste |  |
+| 太白粉 Potato starch | 適量 To taste |  |
+| 米酒/紹興酒 Rice wine/Shaoxing wine | 適量 To taste |  |
+| 食用油 Oil | 適量 To taste |  |  
+{: .recipe-table}
+  
+&nbsp;  
+
+## 食譜 Recipe
+
+### 食材前處理 Ingredient Pre-processes
 
 - 米洗淨後，拌入少許食用油以及鹽靜置15分鐘以給予底味以及幫助米粒開花  
 - 豬肉切絲後拌入些許鹽、胡椒、太白粉、米酒/紹興酒、食用油醃製約15分鐘  
@@ -50,7 +58,7 @@ date: 2026-02-08
 - 皮蛋剝殼後切小塊  
 &nbsp;  
 
-### 料理步驟
+### 料理步驟 Steps
 
 - 醃製完成的米放入砂鍋，加入8-10倍的水量開大火煮開。期間需不斷攪拌以避免米粒沾鍋底  
 - 煮開後轉小火蓋上蓋子，繼續燉煮20-25分鐘  
@@ -61,7 +69,7 @@ date: 2026-02-08
 - 灑上油炸紅蔥酥及胡椒粉即可上桌  
 &nbsp;  
 
-### 成品
+### 成品 Final Product
 <img
     src = "/images/recipes/porkCenturyEggCongee.png"
     alt = "Picture of the pork and century egg congee."
@@ -72,7 +80,7 @@ date: 2026-02-08
     >
 &nbsp;  
 
-## 參考資料  
+## 參考資料 References
 
 Google Gemini  
 [Cantonese Congee 101 - Shunde Style](https://www.youtube.com/watch?v=gUlkwSHOT7Q)  

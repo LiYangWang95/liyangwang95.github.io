@@ -13,8 +13,8 @@ title: Recipes
 {% assign sorted_recipes = site.recipes | sort: "date" | reverse %}
   {% for item in sorted_recipes %}
     <div class="recipe-item" 
-      data-title="{{ item.title | downcase }}"
-      data-content="{{ item.content | strip_html | strip_newlines | downcase }}"
+      data-title="{{ item.recipe_title | downcase }}"
+      data-ingredients="{% if item.content contains 'Ingredients' %}{{ item.content | split: '## Ingredients' | last | split: '## List of Seasoning' | first | strip_html | strip_newlines | downcase }}{% endif %}"
       style="margin-bottom: 40px;">
       <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
       <div class="projectBox">
@@ -90,9 +90,11 @@ document.addEventListener("DOMContentLoaded", function() {
             filteredItems = allItems;
         } else {
             filteredItems = allItems.filter(item => {
-                const title = item.getAttribute('data-title');
-                const content = item.getAttribute('data-content');
-                const searchableText = title + " " + content;
+                const title = item.getAttribute('data-title') || "";
+                const ingredients = item.getAttribute('data-ingredients') || "";
+                
+                // Merge searching text
+                const searchableText = title + " " + ingredients;
 
                 // AND search logic
                 return keywords.every(kw => searchableText.includes(kw));

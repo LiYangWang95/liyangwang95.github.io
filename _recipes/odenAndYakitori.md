@@ -15,11 +15,11 @@ date: 2026-02-08
 我一直以來都有想煮關東煮的想法，卻認為自己缺乏鍋具與材料而不了了之。去年買了一個5公升的深湯鍋之後，才終於下定決心查詢食譜動手烹調。這份食譜中使用了荷蘭當地能夠買到的蔬菜以及雞腿肉，希望能給同在海外的台灣人做為參考。水量請大家斟酌調整，以能夠沒過食材燉煮的水量為準。  
 &nbsp;  
 
-## 食材
+## 食材 Ingredients
 
-### 份量：4人份
+### 份量: 4人份 Portion: 4 Person
 
-### 材料清單: 關東煮 
+### 材料清單: 關東煮 List of Ingredients: Oden
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
@@ -34,20 +34,37 @@ date: 2026-02-08
 | 蒟蒻 Konjac knot | 500 | g |
 | 馬鈴薯 Potato | 500 | g |
 | 水 Water | 3 | L |
-| 昆布高湯粉 Kombu stock powder | 25 | g |
-| 醬油 Soy sauce | 110 | g |
-| 味醂 Mirin | 120 | g |
-| 米酒/紹興酒 Rice wine/Shaoxing wine | 45 | g |
 | (可選用)魚漿製品等 (Optional)Fish balls | 適量 To taste |  |  
 {: .recipe-table}
   
 &nbsp;  
 
-### 材料清單: 燒鳥 Yakitori
+### 調味料清單: 關東煮 List of Seasoning: Oden
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
-| 雞腿肉 Chicken thigh | 1000 | g |
+| 昆布高湯粉 Kombu stock powder | 25 | g |
+| 醬油 Soy sauce | 110 | g |
+| 味醂 Mirin | 120 | g |
+| 米酒/紹興酒 Rice wine/Shaoxing wine | 45 | g |  
+{: .recipe-table}
+  
+&nbsp;  
+
+
+### 材料清單: 燒鳥  List of Ingredients: Yakitori
+
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 雞腿肉 Chicken thigh | 1000 | g |  
+{: .recipe-table}
+  
+&nbsp;  
+
+### 調味料清單: 燒鳥  List of Seasoning: Yakitori
+
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
 | 糖 Sugar | 15 | g |
 | 醬油 Soy sauce | 50 | g |
 | 味醂 Mirin | 60 | g |
@@ -56,9 +73,9 @@ date: 2026-02-08
   
 &nbsp;  
 
-## 食譜: 關東煮 Oden
+## 食譜: 關東煮 Recipe: Oden
 
-### 食材前處理
+### 食材前處理 Ingredient Pre-processes
 
 - 雞腿肉切塊後，拌入少許鹽與酒抓醃15分鐘後入鍋煎至8-9分熟 
 - 板豆腐切片後，放入剛剛煎熟雞腿肉的鍋子中稍微煎上色  
@@ -73,7 +90,7 @@ date: 2026-02-08
 - 魚漿製品清洗或川燙去除多餘油份  
 &nbsp;  
 
-### 料理步驟
+### 料理步驟 Steps
 
 - 冷水起鍋，放入白蘿蔔與高湯粉後燉煮25-30分鐘  
 - 加入蒟蒻、蛋、玉米以及醬油、味醂、米酒/紹興酒。此時先開蓋煮5分鐘散去酒氣後，再燉煮20分鐘  
@@ -83,17 +100,21 @@ date: 2026-02-08
 
 &nbsp;  
 
-## 食譜: 燒鳥 Yakitori
+## 食譜: 燒鳥 Recipe: Yakitori
 
-### 料理步驟
+### 食材前處理 Ingredient Pre-processes
 
-- 雞腿肉切塊後，拌入少許鹽與酒抓醃15分鐘後串成串  
+- 雞腿肉切塊後，拌入少許鹽與酒抓醃15分鐘  
+- 將醃漬好的雞肉串成串  
+
+### 料理步驟 Steps
+  
 - 雞肉串入鍋煎至8分熟  
 - 醬汁入鍋，轉小火熬製濃稠可掛汁即可出鍋  
 
 &nbsp;  
 
-### 成品
+### 成品 Final Product
 <img
     src = ""
     alt = "Picture of oden and yakitori."
@@ -104,7 +125,7 @@ date: 2026-02-08
     >
 &nbsp;  
 
-## 參考資料  
+## 參考資料 References
 
 Google Gemini  
 [Just One Cookbook (Oden Recipe)](https://www.justonecookbook.com/oden/)  

@@ -15,11 +15,11 @@ date: 2026-04-10
 從台灣返回荷蘭之後，不知是因為氣溫驟降還是恰逢感冒時節，整個二月我都在咳嗽以及流鼻水中度過。症狀最嚴重時我甚至一度失去味覺，吃甚麼食物都嚐不太到味道。為了在調養的過程中攝取足夠的營養並緩和症狀，我便為自己煮了這份薑黃湯麵。雖然幾乎與越式料理沒有關聯，但使用了薑黃以及最後點綴的檸檬汁依然帶來了經典的東南亞風味。此食譜參照Google Gemini建議寫下並實作成功。  
 &nbsp;  
 
-## 食材
+## 食材 Ingredients
 
-### 份量：1人份
+### 份量: 1人份 Portion: 1 person
 
-### 材料清單
+### 材料清單 List of Ingredients
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
@@ -29,21 +29,29 @@ date: 2026-04-10
 | 嫩菠菜 Baby spinach | 70 | g |
 | 麵條/河粉 Noodle/pho | 80 | g |
 | 水/高湯 Water/broth | 300 | ml |
-| 薑黃粉 Turmeric powder | 1 | 茶匙 tsp |
-| 魚露 Fish sauce | 2 | 茶匙 tsp |
 | 檸檬 Lemon | 0.5 | 顆 pcs |
 | 生薑 Ginger | 2-3 | 片 slice |
 | 蔥 Spring onion | 1-2 | 支 pcs |
 | 蒜頭 Garlic | 適量 To taste |  |
-| 鹽 Salt | 適量 To taste |  |
 | 香菜 Coriander | 適量 To taste |  |  
 {: .recipe-table}
 
 &nbsp;  
 
-## 食譜
+### 調味料清單 List of Seasoning
 
-### 食材前處理
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 薑黃粉 Turmeric powder | 1 | 茶匙 tsp |
+| 魚露 Fish sauce | 2 | 茶匙 tsp |
+| 鹽 Salt | 適量 To taste |  |  
+{: .recipe-table}
+
+&nbsp;  
+
+## 食譜 Recipe
+
+### 食材前處理 Ingredient Pre-processes
 
 - 雞腿肉切小塊/絲後用些許鹽抓醃  
 - 生薑切絲  
@@ -53,7 +61,7 @@ date: 2026-04-10
 - 香菜隨意切碎  
 &nbsp;  
 
-### 料理步驟
+### 料理步驟 Steps
 
 - 起鍋熱油，放入蒜末、薑絲、薑黃粉爆香，炒至鍋內油呈薑黃色 
 - 加入雞腿肉塊，煎至表面微焦。紅蘿蔔片也可以在這步加入鍋中一併稍微拌炒
@@ -63,7 +71,7 @@ date: 2026-04-10
 - 關火前加入魚露、檸檬汁，最後關火後灑上蔥花及香菜便可上桌
 &nbsp;  
 
-### 成品
+### 成品 Final Product
 <img
     src = "/images/recipes/vietnameseChickenNoodleSoup.png"
     alt = "Picture of the Vietnamese-style chicken noodle soup with turmeric."
@@ -74,7 +82,7 @@ date: 2026-04-10
     >
 &nbsp;  
 
-## 參考資料  
+## 參考資料 References  
 
 Google Gemini  
 [immune boosting turmeric ginger chicken soup](https://crunchyradish.com/thecrunchyradish/turmeric-ginger-chicken-soup)  
