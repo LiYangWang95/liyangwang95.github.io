@@ -21,10 +21,8 @@ date: 2026-02-08
 
 &nbsp;  
 
-[//]: # (start_ingredients)
-
 ### 材料清單 List of Ingredients
-
+<search-ing-start>
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
 | 米 Rice | 80 | g |
@@ -35,10 +33,8 @@ date: 2026-02-08
 | 蔥 Spring onion | 1-2 | 支 pcs |
 | 油炸紅蔥酥 Shallot crisps | 適量 To taste |  |  
 {: .recipe-table}
-  
+<search-ing-end>
 &nbsp;  
-
-[//]: # (end_ingredients)
 
 ### 調味料清單 List of Seasoning
 
