@@ -20,7 +20,7 @@ date: 2026-02-08
 ### 份量: 4人份 Portion: 4 Person
 
 &nbsp;  
-
+''
 ### 材料清單: 關東煮 List of Ingredients: Oden
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
@@ -62,7 +62,7 @@ date: 2026-02-08
 {: .recipe-table}
   
 &nbsp;  
-
+''
 ### 調味料清單: 燒鳥  List of Seasoning: Yakitori
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |

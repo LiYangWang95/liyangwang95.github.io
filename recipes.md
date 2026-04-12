@@ -14,7 +14,7 @@ title: Recipes
   {% for item in sorted_recipes %}
     <div class="recipe-item" 
       data-title="{{ item.recipe_title | downcase }}"
-      data-ingredients="{% if item.content contains 'Ingredients' %}{{ item.content | split: '## Ingredients' | last | split: '## List of Seasoning' | first | strip_html | strip_newlines | downcase }}{% endif %}"
+      data-ingredients="{% if item.content contains '' %}{{ item.content | split: '' | last | split: '' | first | strip_html | strip_newlines | downcase }}{% endif %}"
       style="margin-bottom: 40px;">
       <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
       <div class="projectBox">
