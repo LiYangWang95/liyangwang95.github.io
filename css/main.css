@@ -67,6 +67,20 @@ body {
     /* Adjust left position to stay in the blank area */
     left: calc(20% - 200px); 
     top: 120px; /* Adjust based on your nav height */
+
+    /* --- Longlist adjustment --- */
+    
+    /* Ensure length is within viewport */
+    max-height: calc(100vh - 140px); 
+    
+    /* Show scrollbars when content overflows */
+    overflow-y: auto; 
+    
+    /* Hide default thick scrollbars for a more elegant look */
+    scrollbar-width: thin; 
+    
+    /* -------------------------- */
+
     border-right: 1px solid #f0f0f0; 
     padding-right: 15px;
     text-align: left; /* Changed from right to left */
@@ -102,6 +116,15 @@ body {
     padding-left: 8px;
     border-right: none;
     padding-right: 0;
+}
+
+/* Detailed Scrollbar Styling for Chrome/Safari */
+.sidebar::-webkit-scrollbar {
+    width: 4px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #eee;
+    border-radius: 10px;
 }
 
 /* --- Main Content: Occupying the 60% Center Space --- */
