@@ -19,6 +19,8 @@ date: 2026-02-08
 
 ### 份量: 4人份 Portion: 4 Person
 
+&nbsp;  
+
 ### 材料清單: 關東煮 List of Ingredients: Oden
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
@@ -88,6 +90,7 @@ date: 2026-02-08
 - 蒟蒻清洗或川燙過後切塊，也可選擇小火乾炒  
 - 馬鈴薯切適口大小後，浸泡冷水10分鐘洗去表面澱粉  
 - 魚漿製品清洗或川燙去除多餘油份  
+
 &nbsp;  
 
 ### 料理步驟 Steps
@@ -123,6 +126,7 @@ date: 2026-02-08
             vertical-align: middle;
             margin: auto;"
     >
+    
 &nbsp;  
 
 ## 參考資料 References

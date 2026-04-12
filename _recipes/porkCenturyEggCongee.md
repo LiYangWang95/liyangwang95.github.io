@@ -19,6 +19,8 @@ date: 2026-02-08
 
 ### 份量: 1人份 Portion: 1 Person
 
+&nbsp;  
+
 ### 材料清單 List of Ingredients
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
@@ -67,6 +69,7 @@ date: 2026-02-08
 - 轉大火，放入肉絲並撥散。肉絲變色後關火  
 - 放入蔥花及剩餘皮蛋，利用砂鍋餘溫悶熟  
 - 灑上油炸紅蔥酥及胡椒粉即可上桌  
+
 &nbsp;  
 
 ### 成品 Final Product
@@ -78,6 +81,7 @@ date: 2026-02-08
             vertical-align: middle;
             margin: auto;"
     >
+
 &nbsp;  
 
 ## 參考資料 References
