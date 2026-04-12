@@ -19,9 +19,9 @@ date: 2026-02-08
 
 ### 份量：4人份
 
-<div class="recipe-table-container">
+### 材料清單: 關東煮 
 
-### 材料清單: 關東煮 Oden
+<div class="recipe-table-container">
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
@@ -46,9 +46,9 @@ date: 2026-02-08
   
 &nbsp;  
 
-<div class="recipe-table-container">
-
 ### 材料清單: 燒鳥 Yakitori
+
+<div class="recipe-table-container">
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |

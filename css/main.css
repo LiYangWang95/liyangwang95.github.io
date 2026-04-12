@@ -238,22 +238,33 @@ a:hover { color: #999; text-decoration: underline; }
 /* Recipe table container */
 .recipe-table-container table {
     table-layout: fixed;
-    width: 100%;
+    width: 75%;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin-bottom: 20px 0;
+}
+
+.recipe-table-container td {
+    padding: 10px 0;
+    line-height: 1.5;
+    word-wrap: break-word;
+    vertical-align: top;
 }
 
 .recipe-table-container th:nth-child(1),
 .recipe-table-container td:nth-child(1) {
     width: 50%;
+    text-align: left;
 }
 
 .recipe-table-container th:nth-child(2),
 .recipe-table-container td:nth-child(2) {
     width: 25%;
+    text-align: right;
 }
 
 .recipe-table-container th:nth-child(3),
 .recipe-table-container td:nth-child(3) {
     width: 25%;
+    text-align: left;
+    padding-left: 15px;
 }
