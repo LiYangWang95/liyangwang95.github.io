@@ -29,14 +29,14 @@ date: 2026-04-10
 | 嫩菠菜 Baby spinach | 70 | g |
 | 麵條/河粉 Noodle/pho | 80 | g |
 | 水/高湯 Water/broth | 300 | ml |
-| 薑黃粉 Tumeric powder | 1 | 茶匙 tsp |
+| 薑黃粉 Turmeric powder | 1 | 茶匙 tsp |
 | 魚露 Fish sauce | 2 | 茶匙 tsp |
 | 檸檬 Lemon | 0.5 | 顆 pcs |
 | 生薑 Ginger | 2-3 | 片 slice |
 | 蔥 Spring onion | 1-2 | 支 pcs |
 | 蒜頭 Garlic | 適量 To taste |  |
-| 鹽 | 適量 To taste |  |
-| 香菜 | 適量 To taste |  |  
+| 鹽 Salt | 適量 To taste |  |
+| 香菜 Coriander | 適量 To taste |  |  
 {: .recipe-table}
 
 &nbsp;  
