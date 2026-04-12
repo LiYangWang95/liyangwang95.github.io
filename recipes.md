@@ -11,27 +11,26 @@ title: Recipes
 
 <div id="recipes-container">
 {% assign sorted_recipes = site.recipes | sort: "date" | reverse %}
-{% for item in sorted_recipes %}
-  <div class="recipe-item" 
-       data-title="{{ item.title | downcase }}"
-       data-content="{{ item.content | strip_html | strip_newlines | downcase }}"
-       style="margin-bottom: 40px;">
-    
-    <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
-    <div class="projectBox">
-      <table>
-        <tr>
-          <th class="imageColumn">
-            <img src="{{ item.recipe_image }}" class="recipeImg">
-          </th>
-          <th class="textColumn">
-            {{ item.description }}
-          </th>
-        </tr>
-      </table>
+  {% for item in sorted_recipes %}
+    <div class="recipe-item" 
+      data-title="{{ item.title | downcase }}"
+      data-content="{{ item.content | strip_html | strip_newlines | downcase }}"
+      style="margin-bottom: 40px;">
+      <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
+      <div class="projectBox">
+        <table>
+          <tr>
+            <th class="imageColumn">
+              <img src="{{ item.recipe_image }}" class="recipeImg">
+            </th>
+            <th class="textColumn">
+              {{ item.description }}
+            </th>
+          </tr>
+        </table>
+      </div>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
 </div>
 
 <div id="recipe-pagination" style="text-align: center; margin-top: 20px;"></div>
@@ -81,15 +80,24 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Search logic: Filter by Title OR Content
+    // Search logic: multi-keyword search (AND Logic)
     searchInput.addEventListener('input', function(e) {
+        // Split search string into array
         const query = e.target.value.toLowerCase().trim();
+        const keywords = query.split(/[ ,，、;；\s]+/).filter(k => k.length > 0);
         
-        filteredItems = allItems.filter(item => {
-            const title = item.getAttribute('data-title');
-            const content = item.getAttribute('data-content');
-            return title.includes(query) || content.includes(query);
-        });
+        if (keywords.length === 0) {
+            filteredItems = allItems;
+        } else {
+            filteredItems = allItems.filter(item => {
+                const title = item.getAttribute('data-title');
+                const content = item.getAttribute('data-content');
+                const searchableText = title + " " + content;
+
+                // AND search logic
+                return keywords.every(kw => searchableText.includes(kw));
+            });
+        }
 
         updateDisplay(1); 
     });
