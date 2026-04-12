@@ -139,6 +139,21 @@ a:hover { color: #999; text-decoration: underline; }
     margin: 0 auto;
     border-radius: 4px;
 }
+.project-gif-container {
+    font-weight: normal;
+    padding: 10px;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    color: #666;
+    vertical-align: top;
+    text-align: center;
+}
+.project-gif {
+    height: 220px;
+    width: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
 
 /* --- Footer Section --- */
 #footer {

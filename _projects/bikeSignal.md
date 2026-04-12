@@ -41,67 +41,23 @@ First of all, the mentioned features are currently not available in other soluti
 
 ## Operaing Footage  
 
-<div
-    class = "projectBox"
-    >
-    <table>
-        <tr>
-        <th
-            style = "width: auto;
-                    height: 33.34%;
-                    font-weight: normal;
-                    padding-top: 3px;
-                    font-size: 1.2em;
-                    line-height: 1.4em;
-                    color: #333;">
-            <img
-                src = "/images/projects/bike/turnProbe.gif"
-                alt = "Light automatically turned off after turn and return to probe mode."
-                style = "max-width: 100%;
-                        max-height: 100%;
-                        vertical-align: middle;"
-                >
-                &nbsp;  
-                Light automatically turns off and return to probe mode.  
-        </th>
-        <th
-            style = "width: auto;
-                    height: 33.34%;
-                    font-weight: normal;
-                    padding-top: 3px;
-                    font-size: 1.2em;
-                    line-height: 1.4em;
-                    color: #333;">
-            <img
-                src = "/images/projects/bike/turn.gif"
-                alt = "Light automatically turned off after turn."
-                style = "max-width: 100%;
-                        max-height: 100%;
-                        vertical-align: middle;"
-                >
-                &nbsp;  
-                Light automatically turns off after completing the turn.  
-        </th>
-        <th
-            style = "width: auto;
-                    height: 34.5%;
-                    font-weight: normal;
-                    padding-top: 3px;
-                    font-size: 1.2em;
-                    line-height: 1.4em;
-                    color: #333;">
-            <img
-                src = "/images/projects/bike/brake.gif"
-                alt = "Light automatically turned on when braking."
-                style = "max-width: 100%;
-                        max-height: 100%;
-                        vertical-align: middle;"
-                >
-                &nbsp;  
-                Light turns on when braking.  
-        </th>
-        </tr>
-    </table>
+<div class="projectBox">
+        <table style="width: 100%; border-collapse: collapse;">
+                <tr>
+                        <th class="project-gif-container">
+                                <img src="/images/projects/bike/turnProbe.gif" class="project-gif" alt="...">
+                                Light automatically turns off and return to probe mode.
+                        </th>
+                        <th class="project-gif-container">
+                                <img src="/images/projects/bike/turn.gif" class="project-gif" alt="...">
+                                Light automatically turns off after completing the turn.
+                        </th>
+                        <th class="project-gif-container">
+                                <img src="/images/projects/bike/brake.gif" class="project-gif" alt="...">
+                                Light turns on when braking.
+                        </th>
+                </tr>
+        </table>
 </div>
 &nbsp;  
 &nbsp;  
