@@ -238,7 +238,7 @@ a:hover { color: #999; text-decoration: underline; }
 /* Recipe table container */
 table.recipe-table {
     table-layout: fixed;
-    width: 60%;
+    width: 50%;
     border-collapse: collapse;
     margin: 20px 0;
 }
