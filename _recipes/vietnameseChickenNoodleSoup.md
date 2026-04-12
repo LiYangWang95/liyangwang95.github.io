@@ -22,7 +22,7 @@ date: 2026-04-10
 &nbsp;  
 
 ### 材料清單 List of Ingredients
-<search-ing-start>
+
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
 | 雞腿肉 Chicken thigh | 200 | g |
@@ -37,7 +37,7 @@ date: 2026-04-10
 | 蒜頭 Garlic | 適量 To taste |  |
 | 香菜 Coriander | 適量 To taste |  |  
 {: .recipe-table}
-<search-ing-end>
+
 &nbsp;  
 
 ### 調味料清單 List of Seasoning
