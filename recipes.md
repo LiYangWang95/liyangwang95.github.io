@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const content = item.getAttribute('data-content');
                 
                 // Merge searching text
-                const searchableText = title + " " + ingredients;
+                const searchableText = title + " " + content;
 
                 // AND search logic
                 return keywords.every(kw => searchableText.includes(kw));
