@@ -35,7 +35,9 @@ In the second study, we evaluated the system on a ski experience, and user ratin
 <img
     src = "/images/projects/pushUps/poster.png"
     alt = "An user is experiencing our demonstration."
-    style = "max-width: 95%;
+    style = "display: block;
+            margin: 0 auto;
             max-height: 95%;
+            height: auto;
             vertical-align: middle;"
     >

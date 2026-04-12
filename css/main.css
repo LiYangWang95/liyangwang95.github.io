@@ -150,13 +150,13 @@ a:hover { color: #999; text-decoration: underline; }
 .project-gif-container {
     width: 1%;
     font-weight: normal;
-    padding: 0 15px;
+    padding: 0 10px;
     vertical-align: top;
     text-align: left;
 }
 
 .project-gif-item {
-    height: 250px;
+    height: 280px;
     width: auto;
     display: block; 
     margin: 0 0 10px 0;
