@@ -21,6 +21,8 @@ date: 2026-02-08
 
 &nbsp;  
 
+[//]: # (start_ingredients)
+
 ### 材料清單 List of Ingredients
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
@@ -35,6 +37,8 @@ date: 2026-02-08
 {: .recipe-table}
   
 &nbsp;  
+
+[//]: # (end_ingredients)
 
 ### 調味料清單 List of Seasoning
 
