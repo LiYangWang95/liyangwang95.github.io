@@ -139,7 +139,7 @@ a:hover { color: #999; text-decoration: underline; }
     margin: 0 auto;
     border-radius: 4px;
 }
-/* --- Project GIF Grid Layout --- */
+/* --- Project GIF Grid Layout (Updated) --- */
 .project-gif-table {
     width: auto;
     border-collapse: collapse;
@@ -150,16 +150,16 @@ a:hover { color: #999; text-decoration: underline; }
 .project-gif-container {
     width: 1%;
     font-weight: normal;
-    padding: 0 8px;
+    padding: 0 15px;
     vertical-align: top;
-    text-align: center;
+    text-align: left;
 }
 
 .project-gif-item {
-    height: 50%;
+    height: 250px;
     width: auto;
-    display: block;
-    margin: 0 auto 10px;
+    display: block; 
+    margin: 0 0 10px 0;
 }
 
 .project-gif-caption {
@@ -167,8 +167,9 @@ a:hover { color: #999; text-decoration: underline; }
     line-height: 1.4;
     color: #555;
     margin: 0;
-    max-width: 250px;         
+    text-align: left;
     word-wrap: break-word;
+    display: block;
 }
 
 /* --- Footer Section --- */

@@ -5,7 +5,7 @@ title: About
 
 # About
 
-## Keywords: Computer Science / Data Analysis / HCI / Software Engineering / Embedded / Foodie
+## Computer Science / Data Analysis / HCI / Software Engineering / Embedded / Foodie
 
 Hi, I'm LiYang, just call me Leon. I'm currently working as a **RPA developer** at **Prologis** and am responsible for developing automation processes majorly for the accounting team.  
 
