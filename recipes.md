@@ -14,7 +14,7 @@ title: Recipes
   {% for item in sorted_recipes %}
     <div class="recipe-item" 
       data-title="{{ item.recipe_title | downcase }}"
-      data-ingredients="{% if item.content contains {% comment %}start_ingredients{% endcomment %} %}{{ item.content | split: '{% comment %}start_ingredients{% endcomment %}' | last | split: '{% comment %}end_ingredients{% endcomment %}' | first | strip_html | strip_newlines | downcase }}{% endif %}"
+      data-ingredients="{% if item.content contains '[//]: # (start_ingredients)' %}{{ item.content | split: '[//]: # (start_ingredients)' | last | split: '[//]: # (end_ingredients)' | first | strip_html | strip_newlines | downcase }}{% endif %}"
       style="margin-bottom: 40px;">
       <h2><a href="{{ item.url }}">{{ item.recipe_title }}</a></h2>
       <div class="projectBox">

@@ -18,9 +18,9 @@ date: 2026-02-08
 ## 食材 Ingredients
 
 ### 份量: 4人份 Portion: 4 Person
-{% comment %}start_ingredients{% endcomment %}
-&nbsp;  
 
+&nbsp;  
+[//]: # (start_ingredients)
 ### 材料清單: 關東煮 List of Ingredients: Oden
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
@@ -60,9 +60,9 @@ date: 2026-02-08
 | :--- | --: | :--- |
 | 雞腿肉 Chicken thigh | 1000 | g |  
 {: .recipe-table}
-
+[//]: # (end_ingredients)
 &nbsp;  
-{% comment %}end_ingredients{% endcomment %}
+
 ### 調味料清單: 燒鳥  List of Seasoning: Yakitori
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
