@@ -234,3 +234,26 @@ a:hover { color: #999; text-decoration: underline; }
         padding-left: 8px;
     }
 }
+
+/* Recipe table container */
+.recipe-table-container table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.recipe-table-container th:nth-child(1),
+.recipe-table-container td:nth-child(1) {
+    width: 50%;
+}
+
+.recipe-table-container th:nth-child(2),
+.recipe-table-container td:nth-child(2) {
+    width: 25%;
+}
+
+.recipe-table-container th:nth-child(3),
+.recipe-table-container td:nth-child(3) {
+    width: 25%;
+}
