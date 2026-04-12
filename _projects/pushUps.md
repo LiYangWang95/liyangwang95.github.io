@@ -37,7 +37,7 @@ In the second study, we evaluated the system on a ski experience, and user ratin
     alt = "An user is experiencing our demonstration."
     style = "display: block;
             margin: 0 auto;
-            max-height: 95%;
+            max-width: 95%;
             height: auto;
             vertical-align: middle;"
     >
