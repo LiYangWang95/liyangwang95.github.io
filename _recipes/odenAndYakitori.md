@@ -23,22 +23,22 @@ date: 2026-02-08
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
-| 雞腿肉 Chicken Thigh | 1000 | g |
+| 雞腿肉 Chicken thigh | 1000 | g |
 | 雞蛋 Egg | 8 | 顆 pcs |
-| 板豆腐 Firm Tofu | 750 | g |
-| 玉米 Sweet Corn | 1 | 支 ear |
-| 白蘿蔔 | 1 | 根 pcs |
-| 牛心甘藍 | 1 | 顆 pcs |
-| 杏鮑菇 | 2-3 | 根 pcs |
-| 香菇 | 6-8 | 朵 pcs |
-| 蒟蒻 | 500 | g |
-| 馬鈴薯 | 500 | g |
-| 水 | 3 | L |
-| 昆布高湯粉 | 25 | g |
-| 醬油 | 110 | g |
-| 味醂 | 120 | g |
-| 米酒/紹興酒 | 45 | g |
-| (可選用)魚漿製品等 | 適量 To taste |  |  
+| 板豆腐 Firm tofu | 750 | g |
+| 玉米 Sweet corn | 1 | 支 ear |
+| 白蘿蔔 Daikon radish | 1 | 根 pcs |
+| 牛心甘藍 Pointed cabbage | 1 | 顆 pcs |
+| 杏鮑菇 King oyster mushroom | 2-3 | 根 pcs |
+| 香菇 Shitake mushroom | 6-8 | 朵 pcs |
+| 蒟蒻 Konjac knot | 500 | g |
+| 馬鈴薯 Potato | 500 | g |
+| 水 Water | 3 | L |
+| 昆布高湯粉 Kombu stock powder | 25 | g |
+| 醬油 Soy sauce | 110 | g |
+| 味醂 Mirin | 120 | g |
+| 米酒/紹興酒 Rice wine/Shaoxing wine | 45 | g |
+| (可選用)魚漿製品等 (Optional)Fish balls | 適量 To taste |  |  
 {: .recipe-table}
   
 &nbsp;  
@@ -47,7 +47,7 @@ date: 2026-02-08
 
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
-| 雞腿肉 Chicken Thigh | 1000 | g |
+| 雞腿肉 Chicken thigh | 1000 | g |
 | 糖 Sugar | 15 | g |
 | 醬油 Soy sauce | 50 | g |
 | 味醂 Mirin | 60 | g |

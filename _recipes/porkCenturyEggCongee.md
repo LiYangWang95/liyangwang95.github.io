@@ -21,20 +21,21 @@ date: 2026-02-08
 
 ### 材料清單
 
-| 材料 | 份量 | 單位 |
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
-| 米 | 80 | g |
-| 皮蛋 | 1 | 顆 |
-| 豬瘦肉 | 80 | g |
-| 水/高湯 | 640 | g |
-| 生薑 | 2-3 | 片 |
-| 蔥 | 1-2 | 支 |
-| 鹽 |  | 適量 |
-| 胡椒粉 |  | 適量 |
-| 太白粉 |  | 適量 |
-| 米酒/紹興酒 |  | 適量 |
-| 食用油 |  | 適量 |
-| 油炸紅蔥酥 |  | 適量 |  
+| 米 Rice | 80 | g |
+| 皮蛋 Century egg | 1 | 顆 pcs |
+| 豬瘦肉 Lean pork | 80 | g |
+| 水/高湯 Water/broth | 640 | g |
+| 生薑 Ginger | 2-3 | 片 slice |
+| 蔥 Spring onion | 1-2 | 支 pcs |
+| 鹽 Salt| 適量 To taste |  |
+| 胡椒粉 White pepper | 適量 To taste |  |
+| 太白粉 Potato starch | 適量 To taste |  |
+| 米酒/紹興酒 Rice wine/Shaoxing wine | 適量 To taste |  |
+| 食用油 Oil | 適量 To taste |  |
+| 油炸紅蔥酥 Shallot crisps | 適量 To taste |  |  
+{: .recipe-table}
   
 &nbsp;  
 

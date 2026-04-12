@@ -21,23 +21,24 @@ date: 2026-04-10
 
 ### 材料清單
 
-| 材料 | 份量 | 單位 |
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
-| 雞腿肉 | 200 | g |
-| 紅蘿蔔 | 0.5 | 根 |
-| 玉米筍 | 5-6 | 根 |
-| 嫩菠菜 | 70 | g |
-| 麵條/河粉 | 80 | g |
-| 水/高湯 | 300 | ml |
-| 薑黃粉 | 1 | 茶匙 |
-| 魚露 | 2 | 茶匙 |
-| 檸檬 | 0.5 | 顆 |
-| 生薑 | 2-3 | 片 |
-| 蔥 | 1-2 | 支 |
-| 蒜頭 |  | 適量 |
-| 鹽 |  | 適量 |
-| 香菜 |  | 適量 |  
-  
+| 雞腿肉 Chicken thigh | 200 | g |
+| 紅蘿蔔 Carrot | 0.5 | 根 pcs |
+| 玉米筍 Baby corn | 5-6 | 根 pcs |
+| 嫩菠菜 Baby spinach | 70 | g |
+| 麵條/河粉 Noodle/pho | 80 | g |
+| 水/高湯 Water/broth | 300 | ml |
+| 薑黃粉 Tumeric powder | 1 | 茶匙 tsp |
+| 魚露 Fish sauce | 2 | 茶匙 tsp |
+| 檸檬 Lemon | 0.5 | 顆 pcs |
+| 生薑 Ginger | 2-3 | 片 slice |
+| 蔥 Spring onion | 1-2 | 支 pcs |
+| 蒜頭 Garlic | 適量 To taste |  |
+| 鹽 | 適量 To taste |  |
+| 香菜 | 適量 To taste |  |  
+{: .recipe-table}
+
 &nbsp;  
 
 ## 食譜
