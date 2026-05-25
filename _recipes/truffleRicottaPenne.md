@@ -8,7 +8,7 @@ description: "這是一道結合松露優雅香氣與瑞可塔起司清爽奶香
 date: 2026-05-25
 ---
 
-# 露起司綠蘆筍雞肉筆管麵 Truffle Ricotta Penne with Chicken, Asparagus, and Mushrooms
+# 松露起司綠蘆筍雞肉筆管麵 Truffle Ricotta Penne with Chicken, Asparagus, and Mushrooms
 
 ### 2026/5/25
 
