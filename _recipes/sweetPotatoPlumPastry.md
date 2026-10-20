@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Recipes
-recipe_title: "地瓜梅子酥 sweetPotatoPlumPastry"
+recipe_title: "地瓜梅子酥 Sweet Potato Plum Pastry"
 recipe_image: "/images/recipes/sweetPotatoPlumPastry_Title.png"
 sidebar_title: "地瓜梅子酥"
 description: "以香甜地瓜包裹酒漬紫蘇梅餡，搭配紫白雙色螺旋酥皮，酸甜交織、酥香細緻"
