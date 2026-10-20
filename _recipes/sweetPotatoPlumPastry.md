@@ -26,10 +26,10 @@ date: 2026-10-04
 | 材料 Ingredient | 份量 Amount | 單位 Unit |
 | :--- | --: | :--- |
 | 橘地瓜 Orange Sweet Potato | 400 | g |
-| 酒漬梅子餡 Wine-marinated Shiso Plum | 50 | g |
+| 酒漬梅子 Wine-marinated Shiso Plum | 50 | g |
 | 低筋麵粉 Cake Flour | 210 | g |
 | 全脂奶粉 Full-fat Milk Powder | 12 | g |
-| 紫薯粉 Purple Sweet Potato Powder | 2 | g |
+| 紫薯粉 Ube Powder | 2 | g |
 | 澄清奶油 Clarified Butter | 107 | g |
 | 水 Water | 58-64 | g |
 | 牛奶 Milk | 0-15 | g |  
@@ -50,11 +50,20 @@ date: 2026-10-04
 
 ## 食譜 Recipe
 
-### 1. 橘色地瓜餡｜Sweet Potato Filling
-
+### 1. 橘色地瓜餡｜Sweet Potato Filling  
+  
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 橘地瓜 Orange Sweet Potato | 400 | g |
+| 白砂糖 Sugar | 20 | g |
+| 全脂奶粉 Full-fat Milk Powder | 12 | g |
+| 鹽 Salt | 0.5 | g |
+| 澄清奶油 Clarified Butter | 20 | g |
+| 牛奶 Milk | 0-15 | g |  
+{: .recipe-table}
+  
 - 地瓜去皮，切成約 3–4cm 小塊  
 - 蒸約 20–25 分鐘，直到完全軟透  
-- 洋蔥去皮後切絲或是切塊，依照自己的喜好決定  
 - 趁熱壓成細泥。如果有明顯纖維時，可用調理機打細。如果調理機打不動，可以適當加少量牛奶輔助  
 - 加入 20g 白砂糖、12g 全脂奶粉、0.5g 鹽及 20g 澄清奶油攪拌均勻  
 - 用中小火炒製，不斷翻拌、壓散，直到地瓜泥能聚成一團  
@@ -65,6 +74,13 @@ date: 2026-10-04
 ### 2. 酒漬紫蘇梅子餡｜Wine-marinated Shiso Plum Filling
 
 本次使用的梅子為Choya紫蘇梅酒中的酒漬紫蘇梅。若是沒有梅子亦可省略做成地瓜酥  
+  
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 酒漬梅子 Wine-marinated Shiso Plum | 50 | g |
+| 白砂糖 Sugar | 15 | g |
+| 浸漬酒液/清水 | 適量 To taste |  |  
+{: .recipe-table}
   
 - 將酒漬梅子取出，瀝掉多餘酒液  
 - 去除果核，將果肉切碎或壓成泥  
@@ -77,8 +93,16 @@ date: 2026-10-04
 
 &nbsp;  
 
-### 3. 原色油皮｜Plain Pastry Dough
-
+### 3. 原色油皮｜Plain Pastry Dough  
+  
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 低筋麵粉 Cake Flour | 120 | g |
+| 糖粉 Powdered Sugar | 18 | g |
+| 澄清奶油 Clarified Butter | 42 | g |
+| 水 Water | 58-64 | g |  
+{: .recipe-table}
+  
 - 將 120g 麵粉與 18g 糖粉混合  
 - 42g 澄清奶油放室溫稍微軟化後，加入拌勻  
 - 分批加入 58g 冰水，慢慢揉至成團  
@@ -89,22 +113,37 @@ date: 2026-10-04
 
 &nbsp;  
 
-### 4. 原色油酥｜Plain Fat Dough
-
+### 4. 原色油酥｜Plain Fat Dough  
+  
+油酥應該能捏成團，不應乾到一碰就散，也不應油到表面滲油。若過於鬆散，先充分壓揉；只有確實無法成團時，才考慮每次加入極少量中性植物油作為補救  
+  
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 低筋麵粉 Cake Flour | 45 | g |
+| 澄清奶油 Clarified Butter | 22.5 | g |  
+{: .recipe-table}
+  
 - 將 45g 麵粉與 22.5g 澄清奶油混合  
 - 用手指搓勻，再壓揉成均勻、可聚合的油酥  
 - 分成 6 份，每份約 11g  
-- 油酥應該能捏成團，不應乾到一碰就散，也不應油到表面滲油。若過於鬆散，先充分壓揉；只有確實無法成團時，才考慮每次加入極少量中性植物油作為補救  
 
 &nbsp;
 
-### 5. 紫薯油酥｜Purple Fat Dough
+### 5. 紫薯油酥｜Purple Fat Dough  
+  
+油酥應該能捏成團，不應乾到一碰就散，也不應油到表面滲油。若過於鬆散，先充分壓揉；只有確實無法成團時，才考慮每次加入極少量中性植物油作為補救  
+  
+| 材料 Ingredient | 份量 Amount | 單位 Unit |
+| :--- | --: | :--- |
+| 低筋麵粉 Cake Flour | 45 | g |
+| 澄清奶油 Clarified Butter | 22.5 | g |
+| 紫薯粉 Ube Powder | 2 | g |  
+{: .recipe-table}
 
 - 將 45g 麵粉與 1.5g 紫薯粉混合均勻  
 - 加入 22.5g 澄清奶油，壓揉成均勻油酥  
 - 若顏色不足，可將紫薯粉增加至 2g  
-- 分成 6 份，每份約 11–11.5g  
-- 油酥應該能捏成團，不應乾到一碰就散，也不應油到表面滲油。若過於鬆散，先充分壓揉；只有確實無法成團時，才考慮每次加入極少量中性植物油作為補救  
+- 分成 6 份，每份約 11–11.5g    
 
 &nbsp;
 
@@ -118,7 +157,7 @@ date: 2026-10-04
   - 包起來，捏緊封口  
   - 輕輕壓扁  
   
-  
+
 - 第一次擀卷  
   - 擀成約 18–20cm 長、7–8cm 寬  
   - 從短邊捲起，捲成圓柱  
