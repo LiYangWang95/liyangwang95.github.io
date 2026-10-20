@@ -29,7 +29,7 @@ date: 2026-10-04
 | 酒漬梅子餡 Wine-marinated Shiso Plum | 50 | g |
 | 低筋麵粉 Cake Flour | 210 | g |
 | 全脂奶粉 Full-fat Milk Powder | 12 | g |
-| 紫薯粉 Purple sweet potato powder | 2 | g |
+| 紫薯粉 Purple Sweet Potato Powder | 2 | g |
 | 澄清奶油 Clarified Butter | 107 | g |
 | 水 Water | 58-64 | g |
 | 牛奶 Milk | 0-15 | g |  
@@ -50,7 +50,7 @@ date: 2026-10-04
 
 ## 食譜 Recipe
 
-### 橘色地瓜餡｜Sweet Potato Filling
+### 1. 橘色地瓜餡｜Sweet Potato Filling
 
 - 地瓜去皮，切成約 3–4cm 小塊  
 - 蒸約 20–25 分鐘，直到完全軟透  
@@ -62,7 +62,7 @@ date: 2026-10-04
 - 完全冷卻後，平均分成 12 份。本食譜在實作時約製成 244g的地瓜餡，故分成了約 20g/份  
 &nbsp;  
 
-### 酒漬紫蘇梅子餡｜Wine-marinated Shiso Plum Filling
+### 2. 酒漬紫蘇梅子餡｜Wine-marinated Shiso Plum Filling
 
 本次使用的梅子為Choya紫蘇梅酒中的酒漬紫蘇梅。若是沒有梅子亦可省略做成地瓜酥  
   
@@ -77,7 +77,7 @@ date: 2026-10-04
 
 &nbsp;  
 
-### 原色油皮｜Plain Pastry Dough
+### 3. 原色油皮｜Plain Pastry Dough
 
 - 將 120g 麵粉與 18g 糖粉混合  
 - 42g 澄清奶油放室溫稍微軟化後，加入拌勻  
@@ -89,7 +89,7 @@ date: 2026-10-04
 
 &nbsp;  
 
-### 原色油酥｜Plain Fat Dough
+### 4. 原色油酥｜Plain Fat Dough
 
 - 將 45g 麵粉與 22.5g 澄清奶油混合  
 - 用手指搓勻，再壓揉成均勻、可聚合的油酥  
@@ -98,7 +98,7 @@ date: 2026-10-04
 
 &nbsp;
 
-### 紫薯油酥｜Purple Fat Dough
+### 5. 紫薯油酥｜Purple Fat Dough
 
 - 將 45g 麵粉與 1.5g 紫薯粉混合均勻  
 - 加入 22.5g 澄清奶油，壓揉成均勻油酥  
@@ -108,7 +108,7 @@ date: 2026-10-04
 
 &nbsp;
 
-### 製作紫白雙色螺旋酥皮｜Purple-and-White Spiral Pastry
+### 6. 製作紫白雙色螺旋酥皮｜Purple-and-White Spiral Pastry
 
 此部分可以參考[**這個影片**](https://youtu.be/AdTYX6wzNYo?si=fHM82ePGjv0aarQE)操作。若製作的是單色油酥，手法可以搜尋「小開酥」以做參考。共製作 6 組，每組使用 **40g 原色油皮、11g 原色油酥，和 11g 紫薯油酥**  
   
@@ -118,10 +118,12 @@ date: 2026-10-04
   - 包起來，捏緊封口  
   - 輕輕壓扁  
   
+  
 - 第一次擀卷  
   - 擀成約 18–20cm 長、7–8cm 寬  
   - 從短邊捲起，捲成圓柱  
   - 鬆弛 10–15 分鐘  
+  
   
 - 第二次擀卷  
   - 將麵卷轉 90°  
@@ -129,12 +131,13 @@ date: 2026-10-04
   - 從短邊捲起  
   - 再鬆弛 10–15 分鐘  
   
+
 - 切半  
 每條麵卷從正中央用切刀或鋒利的刀切成兩半，不要來回鋸切。 6 條麵卷切半後，共得到 12 個酥皮。切面朝上，應能看見紫白螺旋  
 
 &nbsp;
 
-### 包餡｜Assembly
+### 7. 包餡｜Assembly
 
 - 將酥皮切面朝上，輕輕壓平  
 - 擀成約 8–9cm，中心稍厚、邊緣稍薄  
@@ -144,7 +147,7 @@ date: 2026-10-04
 
 &nbsp;
 
-### 烘烤｜Baking
+### 8. 烘烤｜Baking
 
 - 烤箱預熱至 170°C，上下火  
 - 將酥餅放在烤盤上，螺旋面朝上  
