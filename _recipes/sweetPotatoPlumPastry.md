@@ -79,7 +79,7 @@ date: 2026-10-04
 | :--- | --: | :--- |
 | 酒漬梅子 Wine-marinated Shiso Plum | 50 | g |
 | 白砂糖 Sugar | 15 | g |
-| 浸漬酒液/清水 | 適量 To taste |  |  
+| 浸漬酒液/清水 Wine/Water | 15 | g |  
 {: .recipe-table}
   
 - 將酒漬梅子取出，瀝掉多餘酒液  
