@@ -5,7 +5,7 @@ recipe_title: "日式馬鈴薯燉肉 Nikujaga"
 recipe_image: "/images/recipes/nikujaga_Title.png"
 sidebar_title: "日式馬鈴薯燉肉"
 description: "以牛肉、馬鈴薯、豆腐及蔬菜燉煮入味的日式家庭料理"
-date: 2026-02-08
+date: 2026-09-10
 ---
 
 # 日式馬鈴薯燉肉 Nikujaga
