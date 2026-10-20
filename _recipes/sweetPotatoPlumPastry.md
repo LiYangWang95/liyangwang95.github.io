@@ -109,7 +109,7 @@ date: 2026-10-04
 
 ### 製作紫白雙色螺旋酥皮｜Purple-and-White Spiral Pastry
 
-此部分可以參考[這個影片](https://youtu.be/AdTYX6wzNYo?si=fHM82ePGjv0aarQE)操作。若製作的是單色油酥，手法可以搜尋「小開酥」以做參考。每組使用：  
+此部分可以參考[**這個影片**](https://youtu.be/AdTYX6wzNYo?si=fHM82ePGjv0aarQE)操作。若製作的是單色油酥，手法可以搜尋「小開酥」以做參考。每組使用：  
   
 - 原色油皮：40g  
 - 原色油酥：約 11g  
@@ -161,7 +161,7 @@ date: 2026-10-04
 
 ### 成品 Final Product
 <img
-    src = "/images/recipes/sweetPotatoPlumPastry_0.png"
+    src = "/images/recipes/sweetPotatoPlumPastry_0.jpg"
     alt = "Picture of sweet potato plum pastry."
     style = "max-width: 45%;
             max-height: 45%;
@@ -169,7 +169,7 @@ date: 2026-10-04
             margin: auto;"
     >
 <img
-    src = "/images/recipes/sweetPotatoPlumPastry_1.png"
+    src = "/images/recipes/sweetPotatoPlumPastry_1.jpg"
     alt = "Picture of sweet potato plum pastry."
     style = "max-width: 45%;
             max-height: 45%;
